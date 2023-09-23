@@ -1,0 +1,46 @@
+# ItemsPerson
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **int** |  | [optional] 
+**status** | **string** |  | [optional] 
+**sort** | **int** |  | [optional] 
+**user_created** | [**OneOfItemsPersonUserCreated**](OneOfItemsPersonUserCreated.md) |  | [optional] 
+**date_created** | **string** |  | [optional] 
+**user_updated** | [**OneOfItemsPersonUserUpdated**](OneOfItemsPersonUserUpdated.md) |  | [optional] 
+**date_updated** | **string** |  | [optional] 
+**person_type** | **string** |  | [optional] 
+**national_code** | **string** |  | [optional] 
+**first_name_last_name** | **string** |  | [optional] 
+**birthday_year** | **int** |  | [optional] 
+**birthday_month** | **int** |  | [optional] 
+**day** | **int** |  | [optional] 
+**id_number** | **string** |  | [optional] 
+**mobile** | **string** |  | [optional] 
+**phone** | **string** |  | [optional] 
+**tax_tracking_code** | **string** |  | [optional] 
+**postal_code** | **string** |  | [optional] 
+**province** | [**OneOfItemsPersonProvince**](OneOfItemsPersonProvince.md) |  | [optional] 
+**city** | [**OneOfItemsPersonCity**](OneOfItemsPersonCity.md) |  | [optional] 
+**address** | **string** |  | [optional] 
+**national_card_photo** | [**OneOfItemsPersonNationalCardPhoto**](OneOfItemsPersonNationalCardPhoto.md) |  | [optional] 
+**national_id_photo** | [**OneOfItemsPersonNationalIdPhoto**](OneOfItemsPersonNationalIdPhoto.md) |  | [optional] 
+**other_doc_photo** | [**OneOfItemsPersonOtherDocPhoto**](OneOfItemsPersonOtherDocPhoto.md) |  | [optional] 
+**company_name** | **string** |  | [optional] 
+**company_national_code** | **string** |  | [optional] 
+**register_number** | **string** |  | [optional] 
+**regiser_year** | **int** |  | [optional] 
+**register_month** | **int** |  | [optional] 
+**registerday** | **int** |  | [optional] 
+**tax_tracking_code** | **string** |  | [optional] 
+**economic_code** | **string** |  | [optional] 
+**company_postal_code** | **string** |  | [optional] 
+**company_address** | **string** |  | [optional] 
+**company_phone** | **string** |  | [optional] 
+**company_docs** | [**OneOfItemsPersonCompanyDocs**](OneOfItemsPersonCompanyDocs.md) | تصاویر روزنامه رسمی ثبت شخصیت حقوقی و نیز آخرین تغییرات چاپ شده را آپلود نمایید. | [optional] 
+**real_panel** | **string** |  | [optional] 
+**legal_person** | **string** |  | [optional] 
+
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
+
