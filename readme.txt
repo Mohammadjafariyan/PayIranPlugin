@@ -113,3 +113,6 @@ Markdown uses email style notation for blockquotes and I've been told:
 > Asterisks for *emphasis*. Double it up  for **strong**.
 
 `<?php code(); // goes in backticks ?>`
+
+
+java -jar swagger-codegen-cli.jar generate -i directus-data.json -l typescript-fetch -o c:\temp\typescript_api
