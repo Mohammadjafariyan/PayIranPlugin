@@ -83,11 +83,4 @@ class InlineResponse20069Test extends TestCase
     public function testPropertyData()
     {
     }
-
-    /**
-     * Test attribute "meta"
-     */
-    public function testPropertyMeta()
-    {
-    }
 }

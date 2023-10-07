@@ -95,7 +95,7 @@ class FilesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20059
+     * @return \Swagger\Client\Model\InlineResponse20065
      */
     public function createFile($body = null)
     {
@@ -112,11 +112,11 @@ class FilesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20059, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20065, HTTP status code, HTTP response headers (array of strings)
      */
     public function createFileWithHttpInfo($body = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20059';
+        $returnType = '\Swagger\Client\Model\InlineResponse20065';
         $request = $this->createFileRequest($body);
 
         try {
@@ -168,7 +168,7 @@ class FilesApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20059',
+                        '\Swagger\Client\Model\InlineResponse20065',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -218,7 +218,7 @@ class FilesApi
      */
     public function createFileAsyncWithHttpInfo($body = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20059';
+        $returnType = '\Swagger\Client\Model\InlineResponse20065';
         $request = $this->createFileRequest($body);
 
         return $this->client
@@ -589,7 +589,7 @@ class FilesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20059
+     * @return \Swagger\Client\Model\InlineResponse20065
      */
     public function getFile($id, $fields = null, $meta = null)
     {
@@ -608,11 +608,11 @@ class FilesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20059, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20065, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFileWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20059';
+        $returnType = '\Swagger\Client\Model\InlineResponse20065';
         $request = $this->getFileRequest($id, $fields, $meta);
 
         try {
@@ -664,7 +664,7 @@ class FilesApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20059',
+                        '\Swagger\Client\Model\InlineResponse20065',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -718,7 +718,7 @@ class FilesApi
      */
     public function getFileAsyncWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20059';
+        $returnType = '\Swagger\Client\Model\InlineResponse20065';
         $request = $this->getFileRequest($id, $fields, $meta);
 
         return $this->client
@@ -884,7 +884,7 @@ class FilesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20058
+     * @return \Swagger\Client\Model\InlineResponse20064
      */
     public function getFiles($fields = null, $limit = null, $offset = null, $sort = null, $filter = null, $search = null, $meta = null)
     {
@@ -907,11 +907,11 @@ class FilesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20058, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20064, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFilesWithHttpInfo($fields = null, $limit = null, $offset = null, $sort = null, $filter = null, $search = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20058';
+        $returnType = '\Swagger\Client\Model\InlineResponse20064';
         $request = $this->getFilesRequest($fields, $limit, $offset, $sort, $filter, $search, $meta);
 
         try {
@@ -963,7 +963,7 @@ class FilesApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20058',
+                        '\Swagger\Client\Model\InlineResponse20064',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1025,7 +1025,7 @@ class FilesApi
      */
     public function getFilesAsyncWithHttpInfo($fields = null, $limit = null, $offset = null, $sort = null, $filter = null, $search = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20058';
+        $returnType = '\Swagger\Client\Model\InlineResponse20064';
         $request = $this->getFilesRequest($fields, $limit, $offset, $sort, $filter, $search, $meta);
 
         return $this->client
@@ -1204,7 +1204,7 @@ class FilesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20059
+     * @return \Swagger\Client\Model\InlineResponse20065
      */
     public function updateFile($id, $body = null, $fields = null, $meta = null)
     {
@@ -1224,11 +1224,11 @@ class FilesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20059, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20065, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateFileWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20059';
+        $returnType = '\Swagger\Client\Model\InlineResponse20065';
         $request = $this->updateFileRequest($id, $body, $fields, $meta);
 
         try {
@@ -1280,7 +1280,7 @@ class FilesApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20059',
+                        '\Swagger\Client\Model\InlineResponse20065',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1336,7 +1336,7 @@ class FilesApi
      */
     public function updateFileAsyncWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20059';
+        $returnType = '\Swagger\Client\Model\InlineResponse20065';
         $request = $this->updateFileRequest($id, $body, $fields, $meta);
 
         return $this->client
@@ -1503,7 +1503,7 @@ class FilesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20059
+     * @return \Swagger\Client\Model\InlineResponse20065
      */
     public function updateFile($id, $body = null, $fields = null, $meta = null)
     {
@@ -1523,11 +1523,11 @@ class FilesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20059, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20065, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateFileWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20059';
+        $returnType = '\Swagger\Client\Model\InlineResponse20065';
         $request = $this->updateFileRequest($id, $body, $fields, $meta);
 
         try {
@@ -1579,7 +1579,7 @@ class FilesApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20059',
+                        '\Swagger\Client\Model\InlineResponse20065',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1635,7 +1635,7 @@ class FilesApi
      */
     public function updateFileAsyncWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20059';
+        $returnType = '\Swagger\Client\Model\InlineResponse20065';
         $request = $this->updateFileRequest($id, $body, $fields, $meta);
 
         return $this->client

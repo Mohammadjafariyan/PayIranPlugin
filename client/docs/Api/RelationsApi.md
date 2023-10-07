@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateRelation**](RelationsApi.md#updaterelation) | **PATCH** /relations/{id} | Update a Relation
 
 # **createRelation**
-> \Swagger\Client\Model\InlineResponse20068 createRelation($body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20074 createRelation($body, $fields, $meta)
 
 Create a Relation
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20068**](../Model/InlineResponse20068.md)
+[**\Swagger\Client\Model\InlineResponse20074**](../Model/InlineResponse20074.md)
 
 ### Authorization
 
@@ -112,7 +112,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRelation**
-> \Swagger\Client\Model\InlineResponse20068 getRelation($id, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20074 getRelation($id, $fields, $meta)
 
 Retrieve a Relation
 
@@ -151,7 +151,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20068**](../Model/InlineResponse20068.md)
+[**\Swagger\Client\Model\InlineResponse20074**](../Model/InlineResponse20074.md)
 
 ### Authorization
 
@@ -165,7 +165,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRelations**
-> \Swagger\Client\Model\InlineResponse20067 getRelations($fields, $limit, $offset, $meta, $sort, $filter, $search, $page)
+> \Swagger\Client\Model\InlineResponse20073 getRelations($fields, $limit, $offset, $meta, $sort, $filter, $search, $page)
 
 List Relations
 
@@ -214,7 +214,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20067**](../Model/InlineResponse20067.md)
+[**\Swagger\Client\Model\InlineResponse20073**](../Model/InlineResponse20073.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateRelation**
-> \Swagger\Client\Model\InlineResponse20068 updateRelation($id, $body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20074 updateRelation($id, $body, $fields, $meta)
 
 Update a Relation
 
@@ -269,7 +269,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20068**](../Model/InlineResponse20068.md)
+[**\Swagger\Client\Model\InlineResponse20074**](../Model/InlineResponse20074.md)
 
 ### Authorization
 

@@ -12,7 +12,7 @@ Method | HTTP request | Description
 [**updatePermission**](PermissionsApi.md#updatepermission) | **PATCH** /permissions/{id} | Update a Permission
 
 # **createPermission**
-> \Swagger\Client\Model\InlineResponse20063 createPermission($body, $meta)
+> \Swagger\Client\Model\InlineResponse20069 createPermission($body, $meta)
 
 Create a Permission
 
@@ -49,7 +49,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20063**](../Model/InlineResponse20063.md)
+[**\Swagger\Client\Model\InlineResponse20069**](../Model/InlineResponse20069.md)
 
 ### Authorization
 
@@ -111,7 +111,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getMyPermissions**
-> \Swagger\Client\Model\InlineResponse20064 getMyPermissions()
+> \Swagger\Client\Model\InlineResponse20070 getMyPermissions()
 
 List My Permissions
 
@@ -142,7 +142,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20064**](../Model/InlineResponse20064.md)
+[**\Swagger\Client\Model\InlineResponse20070**](../Model/InlineResponse20070.md)
 
 ### Authorization
 
@@ -156,7 +156,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPermission**
-> \Swagger\Client\Model\InlineResponse20063 getPermission($id, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20069 getPermission($id, $fields, $meta)
 
 Retrieve a Permission
 
@@ -195,7 +195,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20063**](../Model/InlineResponse20063.md)
+[**\Swagger\Client\Model\InlineResponse20069**](../Model/InlineResponse20069.md)
 
 ### Authorization
 
@@ -209,7 +209,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPermissions**
-> \Swagger\Client\Model\InlineResponse20062 getPermissions($fields, $limit, $offset, $meta, $sort, $filter, $search, $page)
+> \Swagger\Client\Model\InlineResponse20068 getPermissions($fields, $limit, $offset, $meta, $sort, $filter, $search, $page)
 
 List Permissions
 
@@ -258,7 +258,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20062**](../Model/InlineResponse20062.md)
+[**\Swagger\Client\Model\InlineResponse20068**](../Model/InlineResponse20068.md)
 
 ### Authorization
 
@@ -272,7 +272,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updatePermission**
-> \Swagger\Client\Model\InlineResponse20063 updatePermission($id, $body, $meta)
+> \Swagger\Client\Model\InlineResponse20069 updatePermission($id, $body, $meta)
 
 Update a Permission
 
@@ -311,7 +311,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20063**](../Model/InlineResponse20063.md)
+[**\Swagger\Client\Model\InlineResponse20069**](../Model/InlineResponse20069.md)
 
 ### Authorization
 

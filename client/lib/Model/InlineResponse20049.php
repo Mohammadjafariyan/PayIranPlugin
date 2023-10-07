@@ -56,7 +56,7 @@ class InlineResponse20049 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'data' => '\Swagger\Client\Model\ItemsTicket[]',
+        'data' => '\Swagger\Client\Model\ItemsSubsidiaryAccount[]',
 'meta' => '\Swagger\Client\Model\XMetadata'    ];
 
     /**
@@ -205,7 +205,7 @@ class InlineResponse20049 implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\ItemsTicket[]
+     * @return \Swagger\Client\Model\ItemsSubsidiaryAccount[]
      */
     public function getData()
     {
@@ -215,7 +215,7 @@ class InlineResponse20049 implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\ItemsTicket[] $data data
+     * @param \Swagger\Client\Model\ItemsSubsidiaryAccount[] $data data
      *
      * @return $this
      */

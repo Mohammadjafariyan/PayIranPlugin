@@ -14,6 +14,7 @@ Name | Type | Description | Notes
 **person** | [**OneOfItemsSubsidiaryAccountPerson**](OneOfItemsSubsidiaryAccountPerson.md) |  | [optional] 
 **i_rnumber** | **string** |  | [optional] 
 **bank** | [**OneOfItemsSubsidiaryAccountBank**](OneOfItemsSubsidiaryAccountBank.md) |  | [optional] 
+**subsidiary_ledger** | [**OneOfItemsSubsidiaryAccountSubsidiaryLedger**](OneOfItemsSubsidiaryAccountSubsidiaryLedger.md) |  | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

@@ -96,7 +96,7 @@ class ItemsTicketApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20050
+     * @return \Swagger\Client\Model\InlineResponse20056
      */
     public function createItemsTicket($body = null, $meta = null)
     {
@@ -114,11 +114,11 @@ class ItemsTicketApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20050, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20056, HTTP status code, HTTP response headers (array of strings)
      */
     public function createItemsTicketWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20050';
+        $returnType = '\Swagger\Client\Model\InlineResponse20056';
         $request = $this->createItemsTicketRequest($body, $meta);
 
         try {
@@ -170,7 +170,7 @@ class ItemsTicketApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20050',
+                        '\Swagger\Client\Model\InlineResponse20056',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -222,7 +222,7 @@ class ItemsTicketApi
      */
     public function createItemsTicketAsyncWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20050';
+        $returnType = '\Swagger\Client\Model\InlineResponse20056';
         $request = $this->createItemsTicketRequest($body, $meta);
 
         return $this->client
@@ -359,7 +359,7 @@ class ItemsTicketApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id40 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id46 $id Index of the item. (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -375,7 +375,7 @@ class ItemsTicketApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id40 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id46 $id Index of the item. (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -444,7 +444,7 @@ class ItemsTicketApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id40 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id46 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -464,7 +464,7 @@ class ItemsTicketApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id40 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id46 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,7 +500,7 @@ class ItemsTicketApi
     /**
      * Create request for operation 'deleteSingleItemsTicket'
      *
-     * @param  \Swagger\Client\Model\Id40 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id46 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -610,7 +610,7 @@ class ItemsTicketApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20049
+     * @return \Swagger\Client\Model\InlineResponse20055
      */
     public function readItemsTicket($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
@@ -633,11 +633,11 @@ class ItemsTicketApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20049, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20055, HTTP status code, HTTP response headers (array of strings)
      */
     public function readItemsTicketWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20049';
+        $returnType = '\Swagger\Client\Model\InlineResponse20055';
         $request = $this->readItemsTicketRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         try {
@@ -689,7 +689,7 @@ class ItemsTicketApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20049',
+                        '\Swagger\Client\Model\InlineResponse20055',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -751,7 +751,7 @@ class ItemsTicketApi
      */
     public function readItemsTicketAsyncWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20049';
+        $returnType = '\Swagger\Client\Model\InlineResponse20055';
         $request = $this->readItemsTicketRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         return $this->client
@@ -928,13 +928,13 @@ class ItemsTicketApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id39 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id45 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20051
+     * @return \Swagger\Client\Model\InlineResponse20057
      */
     public function readSingleItemsTicket($id, $fields = null, $meta = null)
     {
@@ -947,17 +947,17 @@ class ItemsTicketApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id39 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id45 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20051, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20057, HTTP status code, HTTP response headers (array of strings)
      */
     public function readSingleItemsTicketWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20051';
+        $returnType = '\Swagger\Client\Model\InlineResponse20057';
         $request = $this->readSingleItemsTicketRequest($id, $fields, $meta);
 
         try {
@@ -1009,7 +1009,7 @@ class ItemsTicketApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20051',
+                        '\Swagger\Client\Model\InlineResponse20057',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1040,7 +1040,7 @@ class ItemsTicketApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id39 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id45 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1062,7 +1062,7 @@ class ItemsTicketApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id39 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id45 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1071,7 +1071,7 @@ class ItemsTicketApi
      */
     public function readSingleItemsTicketAsyncWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20051';
+        $returnType = '\Swagger\Client\Model\InlineResponse20057';
         $request = $this->readSingleItemsTicketRequest($id, $fields, $meta);
 
         return $this->client
@@ -1114,7 +1114,7 @@ class ItemsTicketApi
     /**
      * Create request for operation 'readSingleItemsTicket'
      *
-     * @param  \Swagger\Client\Model\Id39 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id45 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1227,14 +1227,14 @@ class ItemsTicketApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id41 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id47 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsTicket $body body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20051
+     * @return \Swagger\Client\Model\InlineResponse20057
      */
     public function updateSingleItemsTicket($id, $body = null, $fields = null, $meta = null)
     {
@@ -1247,18 +1247,18 @@ class ItemsTicketApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id41 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id47 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsTicket $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20051, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20057, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateSingleItemsTicketWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20051';
+        $returnType = '\Swagger\Client\Model\InlineResponse20057';
         $request = $this->updateSingleItemsTicketRequest($id, $body, $fields, $meta);
 
         try {
@@ -1310,7 +1310,7 @@ class ItemsTicketApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20051',
+                        '\Swagger\Client\Model\InlineResponse20057',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1341,7 +1341,7 @@ class ItemsTicketApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id41 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id47 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsTicket $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
@@ -1364,7 +1364,7 @@ class ItemsTicketApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id41 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id47 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsTicket $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
@@ -1374,7 +1374,7 @@ class ItemsTicketApi
      */
     public function updateSingleItemsTicketAsyncWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20051';
+        $returnType = '\Swagger\Client\Model\InlineResponse20057';
         $request = $this->updateSingleItemsTicketRequest($id, $body, $fields, $meta);
 
         return $this->client
@@ -1417,7 +1417,7 @@ class ItemsTicketApi
     /**
      * Create request for operation 'updateSingleItemsTicket'
      *
-     * @param  \Swagger\Client\Model\Id41 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id47 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsTicket $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)

@@ -62,7 +62,11 @@ class ItemsJournalEntry implements ModelInterface, ArrayAccess
 'user_created' => 'OneOfItemsJournalEntryUserCreated',
 'date_created' => 'string',
 'user_updated' => 'OneOfItemsJournalEntryUserUpdated',
-'date_updated' => 'string'    ];
+'date_updated' => 'string',
+'invoice' => 'OneOfItemsJournalEntryInvoice',
+'subsidiary_account' => 'OneOfItemsJournalEntrySubsidiaryAccount',
+'bank' => 'OneOfItemsJournalEntryBank',
+'ledger_account' => 'OneOfItemsJournalEntryLedgerAccount'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -76,7 +80,11 @@ class ItemsJournalEntry implements ModelInterface, ArrayAccess
 'user_created' => null,
 'date_created' => 'timestamp',
 'user_updated' => null,
-'date_updated' => 'timestamp'    ];
+'date_updated' => 'timestamp',
+'invoice' => null,
+'subsidiary_account' => null,
+'bank' => null,
+'ledger_account' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -111,7 +119,11 @@ class ItemsJournalEntry implements ModelInterface, ArrayAccess
 'user_created' => 'user_created',
 'date_created' => 'date_created',
 'user_updated' => 'user_updated',
-'date_updated' => 'date_updated'    ];
+'date_updated' => 'date_updated',
+'invoice' => 'Invoice',
+'subsidiary_account' => 'SubsidiaryAccount',
+'bank' => 'Bank',
+'ledger_account' => 'LedgerAccount'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -125,7 +137,11 @@ class ItemsJournalEntry implements ModelInterface, ArrayAccess
 'user_created' => 'setUserCreated',
 'date_created' => 'setDateCreated',
 'user_updated' => 'setUserUpdated',
-'date_updated' => 'setDateUpdated'    ];
+'date_updated' => 'setDateUpdated',
+'invoice' => 'setInvoice',
+'subsidiary_account' => 'setSubsidiaryAccount',
+'bank' => 'setBank',
+'ledger_account' => 'setLedgerAccount'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -139,7 +155,11 @@ class ItemsJournalEntry implements ModelInterface, ArrayAccess
 'user_created' => 'getUserCreated',
 'date_created' => 'getDateCreated',
 'user_updated' => 'getUserUpdated',
-'date_updated' => 'getDateUpdated'    ];
+'date_updated' => 'getDateUpdated',
+'invoice' => 'getInvoice',
+'subsidiary_account' => 'getSubsidiaryAccount',
+'bank' => 'getBank',
+'ledger_account' => 'getLedgerAccount'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -206,6 +226,10 @@ class ItemsJournalEntry implements ModelInterface, ArrayAccess
         $this->container['date_created'] = isset($data['date_created']) ? $data['date_created'] : null;
         $this->container['user_updated'] = isset($data['user_updated']) ? $data['user_updated'] : null;
         $this->container['date_updated'] = isset($data['date_updated']) ? $data['date_updated'] : null;
+        $this->container['invoice'] = isset($data['invoice']) ? $data['invoice'] : null;
+        $this->container['subsidiary_account'] = isset($data['subsidiary_account']) ? $data['subsidiary_account'] : null;
+        $this->container['bank'] = isset($data['bank']) ? $data['bank'] : null;
+        $this->container['ledger_account'] = isset($data['ledger_account']) ? $data['ledger_account'] : null;
     }
 
     /**
@@ -396,6 +420,102 @@ class ItemsJournalEntry implements ModelInterface, ArrayAccess
     public function setDateUpdated($date_updated)
     {
         $this->container['date_updated'] = $date_updated;
+
+        return $this;
+    }
+
+    /**
+     * Gets invoice
+     *
+     * @return OneOfItemsJournalEntryInvoice
+     */
+    public function getInvoice()
+    {
+        return $this->container['invoice'];
+    }
+
+    /**
+     * Sets invoice
+     *
+     * @param OneOfItemsJournalEntryInvoice $invoice invoice
+     *
+     * @return $this
+     */
+    public function setInvoice($invoice)
+    {
+        $this->container['invoice'] = $invoice;
+
+        return $this;
+    }
+
+    /**
+     * Gets subsidiary_account
+     *
+     * @return OneOfItemsJournalEntrySubsidiaryAccount
+     */
+    public function getSubsidiaryAccount()
+    {
+        return $this->container['subsidiary_account'];
+    }
+
+    /**
+     * Sets subsidiary_account
+     *
+     * @param OneOfItemsJournalEntrySubsidiaryAccount $subsidiary_account subsidiary_account
+     *
+     * @return $this
+     */
+    public function setSubsidiaryAccount($subsidiary_account)
+    {
+        $this->container['subsidiary_account'] = $subsidiary_account;
+
+        return $this;
+    }
+
+    /**
+     * Gets bank
+     *
+     * @return OneOfItemsJournalEntryBank
+     */
+    public function getBank()
+    {
+        return $this->container['bank'];
+    }
+
+    /**
+     * Sets bank
+     *
+     * @param OneOfItemsJournalEntryBank $bank bank
+     *
+     * @return $this
+     */
+    public function setBank($bank)
+    {
+        $this->container['bank'] = $bank;
+
+        return $this;
+    }
+
+    /**
+     * Gets ledger_account
+     *
+     * @return OneOfItemsJournalEntryLedgerAccount
+     */
+    public function getLedgerAccount()
+    {
+        return $this->container['ledger_account'];
+    }
+
+    /**
+     * Sets ledger_account
+     *
+     * @param OneOfItemsJournalEntryLedgerAccount $ledger_account ledger_account
+     *
+     * @return $this
+     */
+    public function setLedgerAccount($ledger_account)
+    {
+        $this->container['ledger_account'] = $ledger_account;
 
         return $this;
     }

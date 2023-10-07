@@ -96,7 +96,7 @@ class PermissionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20063
+     * @return \Swagger\Client\Model\InlineResponse20069
      */
     public function createPermission($body = null, $meta = null)
     {
@@ -114,11 +114,11 @@ class PermissionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20063, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20069, HTTP status code, HTTP response headers (array of strings)
      */
     public function createPermissionWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20063';
+        $returnType = '\Swagger\Client\Model\InlineResponse20069';
         $request = $this->createPermissionRequest($body, $meta);
 
         try {
@@ -170,7 +170,7 @@ class PermissionsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20063',
+                        '\Swagger\Client\Model\InlineResponse20069',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -230,7 +230,7 @@ class PermissionsApi
      */
     public function createPermissionAsyncWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20063';
+        $returnType = '\Swagger\Client\Model\InlineResponse20069';
         $request = $this->createPermissionRequest($body, $meta);
 
         return $this->client
@@ -611,7 +611,7 @@ class PermissionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20064
+     * @return \Swagger\Client\Model\InlineResponse20070
      */
     public function getMyPermissions()
     {
@@ -627,11 +627,11 @@ class PermissionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20064, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20070, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMyPermissionsWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20064';
+        $returnType = '\Swagger\Client\Model\InlineResponse20070';
         $request = $this->getMyPermissionsRequest();
 
         try {
@@ -683,7 +683,7 @@ class PermissionsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20064',
+                        '\Swagger\Client\Model\InlineResponse20070',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -739,7 +739,7 @@ class PermissionsApi
      */
     public function getMyPermissionsAsyncWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20064';
+        $returnType = '\Swagger\Client\Model\InlineResponse20070';
         $request = $this->getMyPermissionsRequest();
 
         return $this->client
@@ -873,7 +873,7 @@ class PermissionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20063
+     * @return \Swagger\Client\Model\InlineResponse20069
      */
     public function getPermission($id, $fields = null, $meta = null)
     {
@@ -892,11 +892,11 @@ class PermissionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20063, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20069, HTTP status code, HTTP response headers (array of strings)
      */
     public function getPermissionWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20063';
+        $returnType = '\Swagger\Client\Model\InlineResponse20069';
         $request = $this->getPermissionRequest($id, $fields, $meta);
 
         try {
@@ -948,7 +948,7 @@ class PermissionsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20063',
+                        '\Swagger\Client\Model\InlineResponse20069',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1010,7 +1010,7 @@ class PermissionsApi
      */
     public function getPermissionAsyncWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20063';
+        $returnType = '\Swagger\Client\Model\InlineResponse20069';
         $request = $this->getPermissionRequest($id, $fields, $meta);
 
         return $this->client
@@ -1177,7 +1177,7 @@ class PermissionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20062
+     * @return \Swagger\Client\Model\InlineResponse20068
      */
     public function getPermissions($fields = null, $limit = null, $offset = null, $meta = null, $sort = null, $filter = null, $search = null, $page = null)
     {
@@ -1201,11 +1201,11 @@ class PermissionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20062, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20068, HTTP status code, HTTP response headers (array of strings)
      */
     public function getPermissionsWithHttpInfo($fields = null, $limit = null, $offset = null, $meta = null, $sort = null, $filter = null, $search = null, $page = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20062';
+        $returnType = '\Swagger\Client\Model\InlineResponse20068';
         $request = $this->getPermissionsRequest($fields, $limit, $offset, $meta, $sort, $filter, $search, $page);
 
         try {
@@ -1257,7 +1257,7 @@ class PermissionsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20062',
+                        '\Swagger\Client\Model\InlineResponse20068',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1329,7 +1329,7 @@ class PermissionsApi
      */
     public function getPermissionsAsyncWithHttpInfo($fields = null, $limit = null, $offset = null, $meta = null, $sort = null, $filter = null, $search = null, $page = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20062';
+        $returnType = '\Swagger\Client\Model\InlineResponse20068';
         $request = $this->getPermissionsRequest($fields, $limit, $offset, $meta, $sort, $filter, $search, $page);
 
         return $this->client
@@ -1512,7 +1512,7 @@ class PermissionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20063
+     * @return \Swagger\Client\Model\InlineResponse20069
      */
     public function updatePermission($id, $body = null, $meta = null)
     {
@@ -1531,11 +1531,11 @@ class PermissionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20063, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20069, HTTP status code, HTTP response headers (array of strings)
      */
     public function updatePermissionWithHttpInfo($id, $body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20063';
+        $returnType = '\Swagger\Client\Model\InlineResponse20069';
         $request = $this->updatePermissionRequest($id, $body, $meta);
 
         try {
@@ -1587,7 +1587,7 @@ class PermissionsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20063',
+                        '\Swagger\Client\Model\InlineResponse20069',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1649,7 +1649,7 @@ class PermissionsApi
      */
     public function updatePermissionAsyncWithHttpInfo($id, $body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20063';
+        $returnType = '\Swagger\Client\Model\InlineResponse20069';
         $request = $this->updatePermissionRequest($id, $body, $meta);
 
         return $this->client

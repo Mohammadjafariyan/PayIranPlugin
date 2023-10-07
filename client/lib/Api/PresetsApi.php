@@ -97,7 +97,7 @@ class PresetsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20066
+     * @return \Swagger\Client\Model\InlineResponse20072
      */
     public function createPreset($body = null, $fields = null, $meta = null)
     {
@@ -116,11 +116,11 @@ class PresetsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20066, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20072, HTTP status code, HTTP response headers (array of strings)
      */
     public function createPresetWithHttpInfo($body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20066';
+        $returnType = '\Swagger\Client\Model\InlineResponse20072';
         $request = $this->createPresetRequest($body, $fields, $meta);
 
         try {
@@ -172,7 +172,7 @@ class PresetsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20066',
+                        '\Swagger\Client\Model\InlineResponse20072',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -226,7 +226,7 @@ class PresetsApi
      */
     public function createPresetAsyncWithHttpInfo($body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20066';
+        $returnType = '\Swagger\Client\Model\InlineResponse20072';
         $request = $this->createPresetRequest($body, $fields, $meta);
 
         return $this->client
@@ -615,7 +615,7 @@ class PresetsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20066
+     * @return \Swagger\Client\Model\InlineResponse20072
      */
     public function getPreset($id, $fields = null, $meta = null)
     {
@@ -634,11 +634,11 @@ class PresetsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20066, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20072, HTTP status code, HTTP response headers (array of strings)
      */
     public function getPresetWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20066';
+        $returnType = '\Swagger\Client\Model\InlineResponse20072';
         $request = $this->getPresetRequest($id, $fields, $meta);
 
         try {
@@ -690,7 +690,7 @@ class PresetsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20066',
+                        '\Swagger\Client\Model\InlineResponse20072',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -744,7 +744,7 @@ class PresetsApi
      */
     public function getPresetAsyncWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20066';
+        $returnType = '\Swagger\Client\Model\InlineResponse20072';
         $request = $this->getPresetRequest($id, $fields, $meta);
 
         return $this->client
@@ -916,7 +916,7 @@ class PresetsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20065
+     * @return \Swagger\Client\Model\InlineResponse20071
      */
     public function getPresets($fields = null, $limit = null, $offset = null, $page = null, $sort = null, $filter = null, $search = null, $meta = null)
     {
@@ -940,11 +940,11 @@ class PresetsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20065, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20071, HTTP status code, HTTP response headers (array of strings)
      */
     public function getPresetsWithHttpInfo($fields = null, $limit = null, $offset = null, $page = null, $sort = null, $filter = null, $search = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20065';
+        $returnType = '\Swagger\Client\Model\InlineResponse20071';
         $request = $this->getPresetsRequest($fields, $limit, $offset, $page, $sort, $filter, $search, $meta);
 
         try {
@@ -996,7 +996,7 @@ class PresetsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20065',
+                        '\Swagger\Client\Model\InlineResponse20071',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1060,7 +1060,7 @@ class PresetsApi
      */
     public function getPresetsAsyncWithHttpInfo($fields = null, $limit = null, $offset = null, $page = null, $sort = null, $filter = null, $search = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20065';
+        $returnType = '\Swagger\Client\Model\InlineResponse20071';
         $request = $this->getPresetsRequest($fields, $limit, $offset, $page, $sort, $filter, $search, $meta);
 
         return $this->client
@@ -1249,7 +1249,7 @@ class PresetsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20066
+     * @return \Swagger\Client\Model\InlineResponse20072
      */
     public function updatePreset($id, $body = null, $fields = null, $meta = null)
     {
@@ -1269,11 +1269,11 @@ class PresetsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20066, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20072, HTTP status code, HTTP response headers (array of strings)
      */
     public function updatePresetWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20066';
+        $returnType = '\Swagger\Client\Model\InlineResponse20072';
         $request = $this->updatePresetRequest($id, $body, $fields, $meta);
 
         try {
@@ -1325,7 +1325,7 @@ class PresetsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20066',
+                        '\Swagger\Client\Model\InlineResponse20072',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1381,7 +1381,7 @@ class PresetsApi
      */
     public function updatePresetAsyncWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20066';
+        $returnType = '\Swagger\Client\Model\InlineResponse20072';
         $request = $this->updatePresetRequest($id, $body, $fields, $meta);
 
         return $this->client

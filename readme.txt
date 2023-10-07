@@ -116,3 +116,6 @@ Markdown uses email style notation for blockquotes and I've been told:
 
 
 java -jar swagger-codegen-cli.jar generate -i directus-data.json -l typescript-fetch -o c:\temp\typescript_api
+
+
+java -jar swagger-codegen-cli.jar generate -i directus-data.json -l php -o C:\xampp\htdocs\payiran\wp-content\plugins\PayIranPlugin\client

@@ -96,7 +96,7 @@ class ItemsPersonApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20038
+     * @return \Swagger\Client\Model\InlineResponse20044
      */
     public function createItemsPerson($body = null, $meta = null)
     {
@@ -114,11 +114,11 @@ class ItemsPersonApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20038, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20044, HTTP status code, HTTP response headers (array of strings)
      */
     public function createItemsPersonWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20038';
+        $returnType = '\Swagger\Client\Model\InlineResponse20044';
         $request = $this->createItemsPersonRequest($body, $meta);
 
         try {
@@ -170,7 +170,7 @@ class ItemsPersonApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20038',
+                        '\Swagger\Client\Model\InlineResponse20044',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -222,7 +222,7 @@ class ItemsPersonApi
      */
     public function createItemsPersonAsyncWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20038';
+        $returnType = '\Swagger\Client\Model\InlineResponse20044';
         $request = $this->createItemsPersonRequest($body, $meta);
 
         return $this->client
@@ -359,7 +359,7 @@ class ItemsPersonApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id28 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id34 $id Index of the item. (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -375,7 +375,7 @@ class ItemsPersonApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id28 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id34 $id Index of the item. (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -444,7 +444,7 @@ class ItemsPersonApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id28 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id34 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -464,7 +464,7 @@ class ItemsPersonApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id28 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id34 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,7 +500,7 @@ class ItemsPersonApi
     /**
      * Create request for operation 'deleteSingleItemsPerson'
      *
-     * @param  \Swagger\Client\Model\Id28 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id34 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -610,7 +610,7 @@ class ItemsPersonApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20037
+     * @return \Swagger\Client\Model\InlineResponse20043
      */
     public function readItemsPerson($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
@@ -633,11 +633,11 @@ class ItemsPersonApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20037, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20043, HTTP status code, HTTP response headers (array of strings)
      */
     public function readItemsPersonWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20037';
+        $returnType = '\Swagger\Client\Model\InlineResponse20043';
         $request = $this->readItemsPersonRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         try {
@@ -689,7 +689,7 @@ class ItemsPersonApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20037',
+                        '\Swagger\Client\Model\InlineResponse20043',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -751,7 +751,7 @@ class ItemsPersonApi
      */
     public function readItemsPersonAsyncWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20037';
+        $returnType = '\Swagger\Client\Model\InlineResponse20043';
         $request = $this->readItemsPersonRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         return $this->client
@@ -928,13 +928,13 @@ class ItemsPersonApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id27 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id33 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20039
+     * @return \Swagger\Client\Model\InlineResponse20045
      */
     public function readSingleItemsPerson($id, $fields = null, $meta = null)
     {
@@ -947,17 +947,17 @@ class ItemsPersonApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id27 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id33 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20039, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20045, HTTP status code, HTTP response headers (array of strings)
      */
     public function readSingleItemsPersonWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20039';
+        $returnType = '\Swagger\Client\Model\InlineResponse20045';
         $request = $this->readSingleItemsPersonRequest($id, $fields, $meta);
 
         try {
@@ -1009,7 +1009,7 @@ class ItemsPersonApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20039',
+                        '\Swagger\Client\Model\InlineResponse20045',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1040,7 +1040,7 @@ class ItemsPersonApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id27 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id33 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1062,7 +1062,7 @@ class ItemsPersonApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id27 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id33 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1071,7 +1071,7 @@ class ItemsPersonApi
      */
     public function readSingleItemsPersonAsyncWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20039';
+        $returnType = '\Swagger\Client\Model\InlineResponse20045';
         $request = $this->readSingleItemsPersonRequest($id, $fields, $meta);
 
         return $this->client
@@ -1114,7 +1114,7 @@ class ItemsPersonApi
     /**
      * Create request for operation 'readSingleItemsPerson'
      *
-     * @param  \Swagger\Client\Model\Id27 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id33 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1227,14 +1227,14 @@ class ItemsPersonApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id29 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id35 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsPerson $body body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20039
+     * @return \Swagger\Client\Model\InlineResponse20045
      */
     public function updateSingleItemsPerson($id, $body = null, $fields = null, $meta = null)
     {
@@ -1247,18 +1247,18 @@ class ItemsPersonApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id29 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id35 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsPerson $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20039, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20045, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateSingleItemsPersonWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20039';
+        $returnType = '\Swagger\Client\Model\InlineResponse20045';
         $request = $this->updateSingleItemsPersonRequest($id, $body, $fields, $meta);
 
         try {
@@ -1310,7 +1310,7 @@ class ItemsPersonApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20039',
+                        '\Swagger\Client\Model\InlineResponse20045',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1341,7 +1341,7 @@ class ItemsPersonApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id29 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id35 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsPerson $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
@@ -1364,7 +1364,7 @@ class ItemsPersonApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id29 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id35 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsPerson $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
@@ -1374,7 +1374,7 @@ class ItemsPersonApi
      */
     public function updateSingleItemsPersonAsyncWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20039';
+        $returnType = '\Swagger\Client\Model\InlineResponse20045';
         $request = $this->updateSingleItemsPersonRequest($id, $body, $fields, $meta);
 
         return $this->client
@@ -1417,7 +1417,7 @@ class ItemsPersonApi
     /**
      * Create request for operation 'updateSingleItemsPerson'
      *
-     * @param  \Swagger\Client\Model\Id29 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id35 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsPerson $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)

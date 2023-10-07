@@ -56,7 +56,7 @@ class InlineResponse20077 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'data' => '\Swagger\Client\Model\Flows[]',
+        'data' => '\Swagger\Client\Model\Roles[]',
 'meta' => '\Swagger\Client\Model\XMetadata'    ];
 
     /**
@@ -205,7 +205,7 @@ class InlineResponse20077 implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\Flows[]
+     * @return \Swagger\Client\Model\Roles[]
      */
     public function getData()
     {
@@ -215,7 +215,7 @@ class InlineResponse20077 implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\Flows[] $data data
+     * @param \Swagger\Client\Model\Roles[] $data data
      *
      * @return $this
      */

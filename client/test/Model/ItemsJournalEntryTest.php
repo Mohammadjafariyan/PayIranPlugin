@@ -125,4 +125,32 @@ class ItemsJournalEntryTest extends TestCase
     public function testPropertyDateUpdated()
     {
     }
+
+    /**
+     * Test attribute "invoice"
+     */
+    public function testPropertyInvoice()
+    {
+    }
+
+    /**
+     * Test attribute "subsidiary_account"
+     */
+    public function testPropertySubsidiaryAccount()
+    {
+    }
+
+    /**
+     * Test attribute "bank"
+     */
+    public function testPropertyBank()
+    {
+    }
+
+    /**
+     * Test attribute "ledger_account"
+     */
+    public function testPropertyLedgerAccount()
+    {
+    }
 }

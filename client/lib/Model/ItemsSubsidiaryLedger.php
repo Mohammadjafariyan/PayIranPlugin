@@ -62,7 +62,10 @@ class ItemsSubsidiaryLedger implements ModelInterface, ArrayAccess
 'user_created' => 'OneOfItemsSubsidiaryLedgerUserCreated',
 'date_created' => 'string',
 'user_updated' => 'OneOfItemsSubsidiaryLedgerUserUpdated',
-'date_updated' => 'string'    ];
+'date_updated' => 'string',
+'ledger_account' => 'OneOfItemsSubsidiaryLedgerLedgerAccount',
+'name' => 'string',
+'code' => 'string'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -76,7 +79,10 @@ class ItemsSubsidiaryLedger implements ModelInterface, ArrayAccess
 'user_created' => null,
 'date_created' => 'timestamp',
 'user_updated' => null,
-'date_updated' => 'timestamp'    ];
+'date_updated' => 'timestamp',
+'ledger_account' => null,
+'name' => null,
+'code' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -111,7 +117,10 @@ class ItemsSubsidiaryLedger implements ModelInterface, ArrayAccess
 'user_created' => 'user_created',
 'date_created' => 'date_created',
 'user_updated' => 'user_updated',
-'date_updated' => 'date_updated'    ];
+'date_updated' => 'date_updated',
+'ledger_account' => 'LedgerAccount',
+'name' => 'Name',
+'code' => 'Code'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -125,7 +134,10 @@ class ItemsSubsidiaryLedger implements ModelInterface, ArrayAccess
 'user_created' => 'setUserCreated',
 'date_created' => 'setDateCreated',
 'user_updated' => 'setUserUpdated',
-'date_updated' => 'setDateUpdated'    ];
+'date_updated' => 'setDateUpdated',
+'ledger_account' => 'setLedgerAccount',
+'name' => 'setName',
+'code' => 'setCode'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -139,7 +151,10 @@ class ItemsSubsidiaryLedger implements ModelInterface, ArrayAccess
 'user_created' => 'getUserCreated',
 'date_created' => 'getDateCreated',
 'user_updated' => 'getUserUpdated',
-'date_updated' => 'getDateUpdated'    ];
+'date_updated' => 'getDateUpdated',
+'ledger_account' => 'getLedgerAccount',
+'name' => 'getName',
+'code' => 'getCode'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -206,6 +221,9 @@ class ItemsSubsidiaryLedger implements ModelInterface, ArrayAccess
         $this->container['date_created'] = isset($data['date_created']) ? $data['date_created'] : null;
         $this->container['user_updated'] = isset($data['user_updated']) ? $data['user_updated'] : null;
         $this->container['date_updated'] = isset($data['date_updated']) ? $data['date_updated'] : null;
+        $this->container['ledger_account'] = isset($data['ledger_account']) ? $data['ledger_account'] : null;
+        $this->container['name'] = isset($data['name']) ? $data['name'] : null;
+        $this->container['code'] = isset($data['code']) ? $data['code'] : null;
     }
 
     /**
@@ -396,6 +414,78 @@ class ItemsSubsidiaryLedger implements ModelInterface, ArrayAccess
     public function setDateUpdated($date_updated)
     {
         $this->container['date_updated'] = $date_updated;
+
+        return $this;
+    }
+
+    /**
+     * Gets ledger_account
+     *
+     * @return OneOfItemsSubsidiaryLedgerLedgerAccount
+     */
+    public function getLedgerAccount()
+    {
+        return $this->container['ledger_account'];
+    }
+
+    /**
+     * Sets ledger_account
+     *
+     * @param OneOfItemsSubsidiaryLedgerLedgerAccount $ledger_account ledger_account
+     *
+     * @return $this
+     */
+    public function setLedgerAccount($ledger_account)
+    {
+        $this->container['ledger_account'] = $ledger_account;
+
+        return $this;
+    }
+
+    /**
+     * Gets name
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->container['name'];
+    }
+
+    /**
+     * Sets name
+     *
+     * @param string $name name
+     *
+     * @return $this
+     */
+    public function setName($name)
+    {
+        $this->container['name'] = $name;
+
+        return $this;
+    }
+
+    /**
+     * Gets code
+     *
+     * @return string
+     */
+    public function getCode()
+    {
+        return $this->container['code'];
+    }
+
+    /**
+     * Sets code
+     *
+     * @param string $code code
+     *
+     * @return $this
+     */
+    public function setCode($code)
+    {
+        $this->container['code'] = $code;
 
         return $this;
     }

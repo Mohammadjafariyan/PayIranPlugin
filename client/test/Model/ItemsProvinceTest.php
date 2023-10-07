@@ -90,4 +90,11 @@ class ItemsProvinceTest extends TestCase
     public function testPropertyName()
     {
     }
+
+    /**
+     * Test attribute "slug"
+     */
+    public function testPropertySlug()
+    {
+    }
 }

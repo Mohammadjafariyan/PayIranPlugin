@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateOperation**](OperationsApi.md#updateoperation) | **PATCH** /operations/{id} | Update an Operation
 
 # **createOperation**
-> \Swagger\Client\Model\InlineResponse20080 createOperation($body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20086 createOperation($body, $fields, $meta)
 
 Create an Operation
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20080**](../Model/InlineResponse20080.md)
+[**\Swagger\Client\Model\InlineResponse20086**](../Model/InlineResponse20086.md)
 
 ### Authorization
 
@@ -112,7 +112,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getOperation**
-> \Swagger\Client\Model\InlineResponse20080 getOperation($id)
+> \Swagger\Client\Model\InlineResponse20086 getOperation($id)
 
 Retrieve an Operation
 
@@ -147,7 +147,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20080**](../Model/InlineResponse20080.md)
+[**\Swagger\Client\Model\InlineResponse20086**](../Model/InlineResponse20086.md)
 
 ### Authorization
 
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getOperations**
-> \Swagger\Client\Model\InlineResponse20079 getOperations()
+> \Swagger\Client\Model\InlineResponse20085 getOperations()
 
 List Operations
 
@@ -192,7 +192,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20079**](../Model/InlineResponse20079.md)
+[**\Swagger\Client\Model\InlineResponse20085**](../Model/InlineResponse20085.md)
 
 ### Authorization
 
@@ -206,7 +206,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateOperation**
-> \Swagger\Client\Model\InlineResponse20080 updateOperation($id, $body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20086 updateOperation($id, $body, $fields, $meta)
 
 Update an Operation
 
@@ -247,7 +247,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20080**](../Model/InlineResponse20080.md)
+[**\Swagger\Client\Model\InlineResponse20086**](../Model/InlineResponse20086.md)
 
 ### Authorization
 

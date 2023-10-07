@@ -97,7 +97,7 @@ class RolesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20072
+     * @return \Swagger\Client\Model\InlineResponse20078
      */
     public function createRole($body = null, $fields = null, $meta = null)
     {
@@ -116,11 +116,11 @@ class RolesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20072, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20078, HTTP status code, HTTP response headers (array of strings)
      */
     public function createRoleWithHttpInfo($body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20072';
+        $returnType = '\Swagger\Client\Model\InlineResponse20078';
         $request = $this->createRoleRequest($body, $fields, $meta);
 
         try {
@@ -172,7 +172,7 @@ class RolesApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20072',
+                        '\Swagger\Client\Model\InlineResponse20078',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -234,7 +234,7 @@ class RolesApi
      */
     public function createRoleAsyncWithHttpInfo($body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20072';
+        $returnType = '\Swagger\Client\Model\InlineResponse20078';
         $request = $this->createRoleRequest($body, $fields, $meta);
 
         return $this->client
@@ -626,7 +626,7 @@ class RolesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20072
+     * @return \Swagger\Client\Model\InlineResponse20078
      */
     public function getRole($id, $fields = null, $meta = null)
     {
@@ -645,11 +645,11 @@ class RolesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20072, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20078, HTTP status code, HTTP response headers (array of strings)
      */
     public function getRoleWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20072';
+        $returnType = '\Swagger\Client\Model\InlineResponse20078';
         $request = $this->getRoleRequest($id, $fields, $meta);
 
         try {
@@ -701,7 +701,7 @@ class RolesApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20072',
+                        '\Swagger\Client\Model\InlineResponse20078',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -763,7 +763,7 @@ class RolesApi
      */
     public function getRoleAsyncWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20072';
+        $returnType = '\Swagger\Client\Model\InlineResponse20078';
         $request = $this->getRoleRequest($id, $fields, $meta);
 
         return $this->client
@@ -930,7 +930,7 @@ class RolesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20071
+     * @return \Swagger\Client\Model\InlineResponse20077
      */
     public function getRoles($fields = null, $limit = null, $offset = null, $meta = null, $sort = null, $filter = null, $search = null, $page = null)
     {
@@ -954,11 +954,11 @@ class RolesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20071, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20077, HTTP status code, HTTP response headers (array of strings)
      */
     public function getRolesWithHttpInfo($fields = null, $limit = null, $offset = null, $meta = null, $sort = null, $filter = null, $search = null, $page = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20071';
+        $returnType = '\Swagger\Client\Model\InlineResponse20077';
         $request = $this->getRolesRequest($fields, $limit, $offset, $meta, $sort, $filter, $search, $page);
 
         try {
@@ -1010,7 +1010,7 @@ class RolesApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20071',
+                        '\Swagger\Client\Model\InlineResponse20077',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1082,7 +1082,7 @@ class RolesApi
      */
     public function getRolesAsyncWithHttpInfo($fields = null, $limit = null, $offset = null, $meta = null, $sort = null, $filter = null, $search = null, $page = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20071';
+        $returnType = '\Swagger\Client\Model\InlineResponse20077';
         $request = $this->getRolesRequest($fields, $limit, $offset, $meta, $sort, $filter, $search, $page);
 
         return $this->client
@@ -1266,7 +1266,7 @@ class RolesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20072
+     * @return \Swagger\Client\Model\InlineResponse20078
      */
     public function updateRole($id, $body = null, $fields = null, $meta = null)
     {
@@ -1286,11 +1286,11 @@ class RolesApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20072, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20078, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateRoleWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20072';
+        $returnType = '\Swagger\Client\Model\InlineResponse20078';
         $request = $this->updateRoleRequest($id, $body, $fields, $meta);
 
         try {
@@ -1342,7 +1342,7 @@ class RolesApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20072',
+                        '\Swagger\Client\Model\InlineResponse20078',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1406,7 +1406,7 @@ class RolesApi
      */
     public function updateRoleAsyncWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20072';
+        $returnType = '\Swagger\Client\Model\InlineResponse20078';
         $request = $this->updateRoleRequest($id, $body, $fields, $meta);
 
         return $this->client

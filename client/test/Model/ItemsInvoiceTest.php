@@ -125,4 +125,88 @@ class ItemsInvoiceTest extends TestCase
     public function testPropertyDateUpdated()
     {
     }
+
+    /**
+     * Test attribute "gateway"
+     */
+    public function testPropertyGateway()
+    {
+    }
+
+    /**
+     * Test attribute "invoice_type"
+     */
+    public function testPropertyInvoiceType()
+    {
+    }
+
+    /**
+     * Test attribute "title"
+     */
+    public function testPropertyTitle()
+    {
+    }
+
+    /**
+     * Test attribute "order_id"
+     */
+    public function testPropertyOrderId()
+    {
+    }
+
+    /**
+     * Test attribute "amount"
+     */
+    public function testPropertyAmount()
+    {
+    }
+
+    /**
+     * Test attribute "phone"
+     */
+    public function testPropertyPhone()
+    {
+    }
+
+    /**
+     * Test attribute "mail"
+     */
+    public function testPropertyMail()
+    {
+    }
+
+    /**
+     * Test attribute "desc"
+     */
+    public function testPropertyDesc()
+    {
+    }
+
+    /**
+     * Test attribute "callback"
+     */
+    public function testPropertyCallback()
+    {
+    }
+
+    /**
+     * Test attribute "access_token"
+     */
+    public function testPropertyAccessToken()
+    {
+    }
+
+    /**
+     * Test attribute "gateway_token"
+     */
+    public function testPropertyGatewayToken()
+    {
+    }
+
+    /**
+     * Test attribute "requester_info"
+     */
+    public function testPropertyRequesterInfo()
+    {
+    }
 }

@@ -62,7 +62,10 @@ class ItemsGeneralLedger implements ModelInterface, ArrayAccess
 'user_created' => 'OneOfItemsGeneralLedgerUserCreated',
 'date_created' => 'string',
 'user_updated' => 'OneOfItemsGeneralLedgerUserUpdated',
-'date_updated' => 'string'    ];
+'date_updated' => 'string',
+'name' => 'string',
+'code' => 'string',
+'parent' => 'OneOfItemsGeneralLedgerParent'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -76,7 +79,10 @@ class ItemsGeneralLedger implements ModelInterface, ArrayAccess
 'user_created' => null,
 'date_created' => 'timestamp',
 'user_updated' => null,
-'date_updated' => 'timestamp'    ];
+'date_updated' => 'timestamp',
+'name' => null,
+'code' => null,
+'parent' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -111,7 +117,10 @@ class ItemsGeneralLedger implements ModelInterface, ArrayAccess
 'user_created' => 'user_created',
 'date_created' => 'date_created',
 'user_updated' => 'user_updated',
-'date_updated' => 'date_updated'    ];
+'date_updated' => 'date_updated',
+'name' => 'Name',
+'code' => 'Code',
+'parent' => 'Parent'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -125,7 +134,10 @@ class ItemsGeneralLedger implements ModelInterface, ArrayAccess
 'user_created' => 'setUserCreated',
 'date_created' => 'setDateCreated',
 'user_updated' => 'setUserUpdated',
-'date_updated' => 'setDateUpdated'    ];
+'date_updated' => 'setDateUpdated',
+'name' => 'setName',
+'code' => 'setCode',
+'parent' => 'setParent'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -139,7 +151,10 @@ class ItemsGeneralLedger implements ModelInterface, ArrayAccess
 'user_created' => 'getUserCreated',
 'date_created' => 'getDateCreated',
 'user_updated' => 'getUserUpdated',
-'date_updated' => 'getDateUpdated'    ];
+'date_updated' => 'getDateUpdated',
+'name' => 'getName',
+'code' => 'getCode',
+'parent' => 'getParent'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -206,6 +221,9 @@ class ItemsGeneralLedger implements ModelInterface, ArrayAccess
         $this->container['date_created'] = isset($data['date_created']) ? $data['date_created'] : null;
         $this->container['user_updated'] = isset($data['user_updated']) ? $data['user_updated'] : null;
         $this->container['date_updated'] = isset($data['date_updated']) ? $data['date_updated'] : null;
+        $this->container['name'] = isset($data['name']) ? $data['name'] : null;
+        $this->container['code'] = isset($data['code']) ? $data['code'] : null;
+        $this->container['parent'] = isset($data['parent']) ? $data['parent'] : null;
     }
 
     /**
@@ -396,6 +414,78 @@ class ItemsGeneralLedger implements ModelInterface, ArrayAccess
     public function setDateUpdated($date_updated)
     {
         $this->container['date_updated'] = $date_updated;
+
+        return $this;
+    }
+
+    /**
+     * Gets name
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->container['name'];
+    }
+
+    /**
+     * Sets name
+     *
+     * @param string $name name
+     *
+     * @return $this
+     */
+    public function setName($name)
+    {
+        $this->container['name'] = $name;
+
+        return $this;
+    }
+
+    /**
+     * Gets code
+     *
+     * @return string
+     */
+    public function getCode()
+    {
+        return $this->container['code'];
+    }
+
+    /**
+     * Sets code
+     *
+     * @param string $code code
+     *
+     * @return $this
+     */
+    public function setCode($code)
+    {
+        $this->container['code'] = $code;
+
+        return $this;
+    }
+
+    /**
+     * Gets parent
+     *
+     * @return OneOfItemsGeneralLedgerParent
+     */
+    public function getParent()
+    {
+        return $this->container['parent'];
+    }
+
+    /**
+     * Sets parent
+     *
+     * @param OneOfItemsGeneralLedgerParent $parent parent
+     *
+     * @return $this
+     */
+    public function setParent($parent)
+    {
+        $this->container['parent'] = $parent;
 
         return $this;
     }

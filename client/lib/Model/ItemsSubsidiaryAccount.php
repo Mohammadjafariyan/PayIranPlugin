@@ -66,7 +66,8 @@ class ItemsSubsidiaryAccount implements ModelInterface, ArrayAccess
 'title' => 'string',
 'person' => 'OneOfItemsSubsidiaryAccountPerson',
 'i_rnumber' => 'string',
-'bank' => 'OneOfItemsSubsidiaryAccountBank'    ];
+'bank' => 'OneOfItemsSubsidiaryAccountBank',
+'subsidiary_ledger' => 'OneOfItemsSubsidiaryAccountSubsidiaryLedger'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -84,7 +85,8 @@ class ItemsSubsidiaryAccount implements ModelInterface, ArrayAccess
 'title' => null,
 'person' => null,
 'i_rnumber' => null,
-'bank' => null    ];
+'bank' => null,
+'subsidiary_ledger' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -123,7 +125,8 @@ class ItemsSubsidiaryAccount implements ModelInterface, ArrayAccess
 'title' => 'Title',
 'person' => 'Person',
 'i_rnumber' => 'IRnumber',
-'bank' => 'Bank'    ];
+'bank' => 'Bank',
+'subsidiary_ledger' => 'SubsidiaryLedger'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -141,7 +144,8 @@ class ItemsSubsidiaryAccount implements ModelInterface, ArrayAccess
 'title' => 'setTitle',
 'person' => 'setPerson',
 'i_rnumber' => 'setIRnumber',
-'bank' => 'setBank'    ];
+'bank' => 'setBank',
+'subsidiary_ledger' => 'setSubsidiaryLedger'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -159,7 +163,8 @@ class ItemsSubsidiaryAccount implements ModelInterface, ArrayAccess
 'title' => 'getTitle',
 'person' => 'getPerson',
 'i_rnumber' => 'getIRnumber',
-'bank' => 'getBank'    ];
+'bank' => 'getBank',
+'subsidiary_ledger' => 'getSubsidiaryLedger'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -230,6 +235,7 @@ class ItemsSubsidiaryAccount implements ModelInterface, ArrayAccess
         $this->container['person'] = isset($data['person']) ? $data['person'] : null;
         $this->container['i_rnumber'] = isset($data['i_rnumber']) ? $data['i_rnumber'] : null;
         $this->container['bank'] = isset($data['bank']) ? $data['bank'] : null;
+        $this->container['subsidiary_ledger'] = isset($data['subsidiary_ledger']) ? $data['subsidiary_ledger'] : null;
     }
 
     /**
@@ -516,6 +522,30 @@ class ItemsSubsidiaryAccount implements ModelInterface, ArrayAccess
     public function setBank($bank)
     {
         $this->container['bank'] = $bank;
+
+        return $this;
+    }
+
+    /**
+     * Gets subsidiary_ledger
+     *
+     * @return OneOfItemsSubsidiaryAccountSubsidiaryLedger
+     */
+    public function getSubsidiaryLedger()
+    {
+        return $this->container['subsidiary_ledger'];
+    }
+
+    /**
+     * Sets subsidiary_ledger
+     *
+     * @param OneOfItemsSubsidiaryAccountSubsidiaryLedger $subsidiary_ledger subsidiary_ledger
+     *
+     * @return $this
+     */
+    public function setSubsidiaryLedger($subsidiary_ledger)
+    {
+        $this->container['subsidiary_ledger'] = $subsidiary_ledger;
 
         return $this;
     }

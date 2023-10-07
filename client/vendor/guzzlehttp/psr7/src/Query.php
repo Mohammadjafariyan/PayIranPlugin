@@ -61,7 +61,7 @@ final class Query
      *
      * This function can use the return value of `parse()` to build a query
      * string. This function does not modify the provided keys when an array is
-     * encountered (like `http_build_query()` would).
+     * encountered (like `http_Query::build()` would).
      *
      * @param array     $params   Query string parameters.
      * @param int|false $encoding Set to false to not encode, PHP_QUERY_RFC3986

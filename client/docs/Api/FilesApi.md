@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateFile**](FilesApi.md#updatefile) | **PATCH** /files/{id} | Update a File
 
 # **createFile**
-> \Swagger\Client\Model\InlineResponse20059 createFile($body)
+> \Swagger\Client\Model\InlineResponse20065 createFile($body)
 
 Create a File
 
@@ -46,7 +46,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20059**](../Model/InlineResponse20059.md)
+[**\Swagger\Client\Model\InlineResponse20065**](../Model/InlineResponse20065.md)
 
 ### Authorization
 
@@ -108,7 +108,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFile**
-> \Swagger\Client\Model\InlineResponse20059 getFile($id, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20065 getFile($id, $fields, $meta)
 
 Retrieve a Files
 
@@ -147,7 +147,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20059**](../Model/InlineResponse20059.md)
+[**\Swagger\Client\Model\InlineResponse20065**](../Model/InlineResponse20065.md)
 
 ### Authorization
 
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFiles**
-> \Swagger\Client\Model\InlineResponse20058 getFiles($fields, $limit, $offset, $sort, $filter, $search, $meta)
+> \Swagger\Client\Model\InlineResponse20064 getFiles($fields, $limit, $offset, $sort, $filter, $search, $meta)
 
 List Files
 
@@ -208,7 +208,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20058**](../Model/InlineResponse20058.md)
+[**\Swagger\Client\Model\InlineResponse20064**](../Model/InlineResponse20064.md)
 
 ### Authorization
 
@@ -222,7 +222,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateFile**
-> \Swagger\Client\Model\InlineResponse20059 updateFile($id, $body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20065 updateFile($id, $body, $fields, $meta)
 
 Update a File
 
@@ -263,7 +263,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20059**](../Model/InlineResponse20059.md)
+[**\Swagger\Client\Model\InlineResponse20065**](../Model/InlineResponse20065.md)
 
 ### Authorization
 
@@ -277,7 +277,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateFile**
-> \Swagger\Client\Model\InlineResponse20059 updateFile($id, $body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20065 updateFile($id, $body, $fields, $meta)
 
 Update a File
 
@@ -318,7 +318,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20059**](../Model/InlineResponse20059.md)
+[**\Swagger\Client\Model\InlineResponse20065**](../Model/InlineResponse20065.md)
 
 ### Authorization
 

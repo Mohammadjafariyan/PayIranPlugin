@@ -57,7 +57,8 @@ class ItemsProvince implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-'name' => 'string'    ];
+'name' => 'string',
+'slug' => 'string'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -66,7 +67,8 @@ class ItemsProvince implements ModelInterface, ArrayAccess
       */
     protected static $swaggerFormats = [
         'id' => null,
-'name' => null    ];
+'name' => null,
+'slug' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -96,7 +98,8 @@ class ItemsProvince implements ModelInterface, ArrayAccess
      */
     protected static $attributeMap = [
         'id' => 'id',
-'name' => 'Name'    ];
+'name' => 'Name',
+'slug' => 'slug'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -105,7 +108,8 @@ class ItemsProvince implements ModelInterface, ArrayAccess
      */
     protected static $setters = [
         'id' => 'setId',
-'name' => 'setName'    ];
+'name' => 'setName',
+'slug' => 'setSlug'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -114,7 +118,8 @@ class ItemsProvince implements ModelInterface, ArrayAccess
      */
     protected static $getters = [
         'id' => 'getId',
-'name' => 'getName'    ];
+'name' => 'getName',
+'slug' => 'getSlug'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -176,6 +181,7 @@ class ItemsProvince implements ModelInterface, ArrayAccess
     {
         $this->container['id'] = isset($data['id']) ? $data['id'] : null;
         $this->container['name'] = isset($data['name']) ? $data['name'] : null;
+        $this->container['slug'] = isset($data['slug']) ? $data['slug'] : null;
     }
 
     /**
@@ -246,6 +252,30 @@ class ItemsProvince implements ModelInterface, ArrayAccess
     public function setName($name)
     {
         $this->container['name'] = $name;
+
+        return $this;
+    }
+
+    /**
+     * Gets slug
+     *
+     * @return string
+     */
+    public function getSlug()
+    {
+        return $this->container['slug'];
+    }
+
+    /**
+     * Sets slug
+     *
+     * @param string $slug slug
+     *
+     * @return $this
+     */
+    public function setSlug($slug)
+    {
+        $this->container['slug'] = $slug;
 
         return $this;
     }

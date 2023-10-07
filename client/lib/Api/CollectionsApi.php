@@ -96,7 +96,7 @@ class CollectionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20055
+     * @return \Swagger\Client\Model\InlineResponse20061
      */
     public function createCollection($body = null, $meta = null)
     {
@@ -114,11 +114,11 @@ class CollectionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20055, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20061, HTTP status code, HTTP response headers (array of strings)
      */
     public function createCollectionWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20055';
+        $returnType = '\Swagger\Client\Model\InlineResponse20061';
         $request = $this->createCollectionRequest($body, $meta);
 
         try {
@@ -170,7 +170,7 @@ class CollectionsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20055',
+                        '\Swagger\Client\Model\InlineResponse20061',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -230,7 +230,7 @@ class CollectionsApi
      */
     public function createCollectionAsyncWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20055';
+        $returnType = '\Swagger\Client\Model\InlineResponse20061';
         $request = $this->createCollectionRequest($body, $meta);
 
         return $this->client
@@ -613,7 +613,7 @@ class CollectionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20055
+     * @return \Swagger\Client\Model\InlineResponse20061
      */
     public function getCollection($id, $meta = null)
     {
@@ -631,11 +631,11 @@ class CollectionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20055, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20061, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCollectionWithHttpInfo($id, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20055';
+        $returnType = '\Swagger\Client\Model\InlineResponse20061';
         $request = $this->getCollectionRequest($id, $meta);
 
         try {
@@ -687,7 +687,7 @@ class CollectionsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20055',
+                        '\Swagger\Client\Model\InlineResponse20061',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -747,7 +747,7 @@ class CollectionsApi
      */
     public function getCollectionAsyncWithHttpInfo($id, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20055';
+        $returnType = '\Swagger\Client\Model\InlineResponse20061';
         $request = $this->getCollectionRequest($id, $meta);
 
         return $this->client
@@ -900,7 +900,7 @@ class CollectionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20054
+     * @return \Swagger\Client\Model\InlineResponse20060
      */
     public function getCollections($offset = null, $meta = null)
     {
@@ -918,11 +918,11 @@ class CollectionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20054, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20060, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCollectionsWithHttpInfo($offset = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20054';
+        $returnType = '\Swagger\Client\Model\InlineResponse20060';
         $request = $this->getCollectionsRequest($offset, $meta);
 
         try {
@@ -974,7 +974,7 @@ class CollectionsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20054',
+                        '\Swagger\Client\Model\InlineResponse20060',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1034,7 +1034,7 @@ class CollectionsApi
      */
     public function getCollectionsAsyncWithHttpInfo($offset = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20054';
+        $returnType = '\Swagger\Client\Model\InlineResponse20060';
         $request = $this->getCollectionsRequest($offset, $meta);
 
         return $this->client
@@ -1178,7 +1178,7 @@ class CollectionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20055
+     * @return \Swagger\Client\Model\InlineResponse20061
      */
     public function updateCollection($id, $body = null, $meta = null)
     {
@@ -1197,11 +1197,11 @@ class CollectionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20055, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20061, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateCollectionWithHttpInfo($id, $body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20055';
+        $returnType = '\Swagger\Client\Model\InlineResponse20061';
         $request = $this->updateCollectionRequest($id, $body, $meta);
 
         try {
@@ -1253,7 +1253,7 @@ class CollectionsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20055',
+                        '\Swagger\Client\Model\InlineResponse20061',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1315,7 +1315,7 @@ class CollectionsApi
      */
     public function updateCollectionAsyncWithHttpInfo($id, $body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20055';
+        $returnType = '\Swagger\Client\Model\InlineResponse20061';
         $request = $this->updateCollectionRequest($id, $body, $meta);
 
         return $this->client

@@ -96,7 +96,7 @@ class ActivityApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20053
+     * @return \Swagger\Client\Model\InlineResponse20059
      */
     public function createComment($body = null, $meta = null)
     {
@@ -114,11 +114,11 @@ class ActivityApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20053, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20059, HTTP status code, HTTP response headers (array of strings)
      */
     public function createCommentWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20053';
+        $returnType = '\Swagger\Client\Model\InlineResponse20059';
         $request = $this->createCommentRequest($body, $meta);
 
         try {
@@ -170,7 +170,7 @@ class ActivityApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20053',
+                        '\Swagger\Client\Model\InlineResponse20059',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -230,7 +230,7 @@ class ActivityApi
      */
     public function createCommentAsyncWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20053';
+        $returnType = '\Swagger\Client\Model\InlineResponse20059';
         $request = $this->createCommentRequest($body, $meta);
 
         return $this->client
@@ -618,7 +618,7 @@ class ActivityApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20052
+     * @return \Swagger\Client\Model\InlineResponse20058
      */
     public function getActivities($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
@@ -641,11 +641,11 @@ class ActivityApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20052, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20058, HTTP status code, HTTP response headers (array of strings)
      */
     public function getActivitiesWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20052';
+        $returnType = '\Swagger\Client\Model\InlineResponse20058';
         $request = $this->getActivitiesRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         try {
@@ -697,7 +697,7 @@ class ActivityApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20052',
+                        '\Swagger\Client\Model\InlineResponse20058',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -767,7 +767,7 @@ class ActivityApi
      */
     public function getActivitiesAsyncWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20052';
+        $returnType = '\Swagger\Client\Model\InlineResponse20058';
         $request = $this->getActivitiesRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         return $this->client
@@ -945,7 +945,7 @@ class ActivityApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20053
+     * @return \Swagger\Client\Model\InlineResponse20059
      */
     public function getActivity($id, $fields = null, $meta = null)
     {
@@ -964,11 +964,11 @@ class ActivityApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20053, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20059, HTTP status code, HTTP response headers (array of strings)
      */
     public function getActivityWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20053';
+        $returnType = '\Swagger\Client\Model\InlineResponse20059';
         $request = $this->getActivityRequest($id, $fields, $meta);
 
         try {
@@ -1020,7 +1020,7 @@ class ActivityApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20053',
+                        '\Swagger\Client\Model\InlineResponse20059',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1082,7 +1082,7 @@ class ActivityApi
      */
     public function getActivityAsyncWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20053';
+        $returnType = '\Swagger\Client\Model\InlineResponse20059';
         $request = $this->getActivityRequest($id, $fields, $meta);
 
         return $this->client
@@ -1244,7 +1244,7 @@ class ActivityApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20053
+     * @return \Swagger\Client\Model\InlineResponse20059
      */
     public function updateComment($id, $body = null, $meta = null)
     {
@@ -1263,11 +1263,11 @@ class ActivityApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20053, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20059, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateCommentWithHttpInfo($id, $body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20053';
+        $returnType = '\Swagger\Client\Model\InlineResponse20059';
         $request = $this->updateCommentRequest($id, $body, $meta);
 
         try {
@@ -1319,7 +1319,7 @@ class ActivityApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20053',
+                        '\Swagger\Client\Model\InlineResponse20059',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1381,7 +1381,7 @@ class ActivityApi
      */
     public function updateCommentAsyncWithHttpInfo($id, $body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20053';
+        $returnType = '\Swagger\Client\Model\InlineResponse20059';
         $request = $this->updateCommentRequest($id, $body, $meta);
 
         return $this->client

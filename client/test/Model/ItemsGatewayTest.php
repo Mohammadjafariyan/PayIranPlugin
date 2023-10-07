@@ -351,6 +351,13 @@ class ItemsGatewayTest extends TestCase
     }
 
     /**
+     * Test attribute "gateway_token"
+     */
+    public function testPropertyGatewayToken()
+    {
+    }
+
+    /**
      * Test attribute "accordion_bij6ke"
      */
     public function testPropertyAccordionBij6ke()

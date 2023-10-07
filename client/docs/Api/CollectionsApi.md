@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateCollection**](CollectionsApi.md#updatecollection) | **PATCH** /collections/{id} | Update a Collection
 
 # **createCollection**
-> \Swagger\Client\Model\InlineResponse20055 createCollection($body, $meta)
+> \Swagger\Client\Model\InlineResponse20061 createCollection($body, $meta)
 
 Create a Collection
 
@@ -48,7 +48,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20055**](../Model/InlineResponse20055.md)
+[**\Swagger\Client\Model\InlineResponse20061**](../Model/InlineResponse20061.md)
 
 ### Authorization
 
@@ -110,7 +110,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCollection**
-> \Swagger\Client\Model\InlineResponse20055 getCollection($id, $meta)
+> \Swagger\Client\Model\InlineResponse20061 getCollection($id, $meta)
 
 Retrieve a Collection
 
@@ -147,7 +147,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20055**](../Model/InlineResponse20055.md)
+[**\Swagger\Client\Model\InlineResponse20061**](../Model/InlineResponse20061.md)
 
 ### Authorization
 
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCollections**
-> \Swagger\Client\Model\InlineResponse20054 getCollections($offset, $meta)
+> \Swagger\Client\Model\InlineResponse20060 getCollections($offset, $meta)
 
 List Collections
 
@@ -198,7 +198,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20054**](../Model/InlineResponse20054.md)
+[**\Swagger\Client\Model\InlineResponse20060**](../Model/InlineResponse20060.md)
 
 ### Authorization
 
@@ -212,7 +212,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateCollection**
-> \Swagger\Client\Model\InlineResponse20055 updateCollection($id, $body, $meta)
+> \Swagger\Client\Model\InlineResponse20061 updateCollection($id, $body, $meta)
 
 Update a Collection
 
@@ -251,7 +251,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20055**](../Model/InlineResponse20055.md)
+[**\Swagger\Client\Model\InlineResponse20061**](../Model/InlineResponse20061.md)
 
 ### Authorization
 

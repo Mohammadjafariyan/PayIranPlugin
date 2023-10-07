@@ -96,7 +96,7 @@ class ItemsInvoiceTypeApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20029
+     * @return \Swagger\Client\Model\InlineResponse20032
      */
     public function createItemsInvoiceType($body = null, $meta = null)
     {
@@ -114,11 +114,11 @@ class ItemsInvoiceTypeApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20029, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20032, HTTP status code, HTTP response headers (array of strings)
      */
     public function createItemsInvoiceTypeWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20029';
+        $returnType = '\Swagger\Client\Model\InlineResponse20032';
         $request = $this->createItemsInvoiceTypeRequest($body, $meta);
 
         try {
@@ -170,7 +170,7 @@ class ItemsInvoiceTypeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20029',
+                        '\Swagger\Client\Model\InlineResponse20032',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -222,7 +222,7 @@ class ItemsInvoiceTypeApi
      */
     public function createItemsInvoiceTypeAsyncWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20029';
+        $returnType = '\Swagger\Client\Model\InlineResponse20032';
         $request = $this->createItemsInvoiceTypeRequest($body, $meta);
 
         return $this->client
@@ -359,7 +359,7 @@ class ItemsInvoiceTypeApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id19 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id22 $id Index of the item. (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -375,7 +375,7 @@ class ItemsInvoiceTypeApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id19 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id22 $id Index of the item. (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -444,7 +444,7 @@ class ItemsInvoiceTypeApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id19 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id22 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -464,7 +464,7 @@ class ItemsInvoiceTypeApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id19 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id22 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,7 +500,7 @@ class ItemsInvoiceTypeApi
     /**
      * Create request for operation 'deleteSingleItemsInvoiceType'
      *
-     * @param  \Swagger\Client\Model\Id19 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id22 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -610,7 +610,7 @@ class ItemsInvoiceTypeApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20028
+     * @return \Swagger\Client\Model\InlineResponse20031
      */
     public function readItemsInvoiceType($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
@@ -633,11 +633,11 @@ class ItemsInvoiceTypeApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20028, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20031, HTTP status code, HTTP response headers (array of strings)
      */
     public function readItemsInvoiceTypeWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20028';
+        $returnType = '\Swagger\Client\Model\InlineResponse20031';
         $request = $this->readItemsInvoiceTypeRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         try {
@@ -689,7 +689,7 @@ class ItemsInvoiceTypeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20028',
+                        '\Swagger\Client\Model\InlineResponse20031',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -751,7 +751,7 @@ class ItemsInvoiceTypeApi
      */
     public function readItemsInvoiceTypeAsyncWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20028';
+        $returnType = '\Swagger\Client\Model\InlineResponse20031';
         $request = $this->readItemsInvoiceTypeRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         return $this->client
@@ -928,13 +928,13 @@ class ItemsInvoiceTypeApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id18 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id21 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20030
+     * @return \Swagger\Client\Model\InlineResponse20033
      */
     public function readSingleItemsInvoiceType($id, $fields = null, $meta = null)
     {
@@ -947,17 +947,17 @@ class ItemsInvoiceTypeApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id18 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id21 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20030, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20033, HTTP status code, HTTP response headers (array of strings)
      */
     public function readSingleItemsInvoiceTypeWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20030';
+        $returnType = '\Swagger\Client\Model\InlineResponse20033';
         $request = $this->readSingleItemsInvoiceTypeRequest($id, $fields, $meta);
 
         try {
@@ -1009,7 +1009,7 @@ class ItemsInvoiceTypeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20030',
+                        '\Swagger\Client\Model\InlineResponse20033',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1040,7 +1040,7 @@ class ItemsInvoiceTypeApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id18 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id21 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1062,7 +1062,7 @@ class ItemsInvoiceTypeApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id18 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id21 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1071,7 +1071,7 @@ class ItemsInvoiceTypeApi
      */
     public function readSingleItemsInvoiceTypeAsyncWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20030';
+        $returnType = '\Swagger\Client\Model\InlineResponse20033';
         $request = $this->readSingleItemsInvoiceTypeRequest($id, $fields, $meta);
 
         return $this->client
@@ -1114,7 +1114,7 @@ class ItemsInvoiceTypeApi
     /**
      * Create request for operation 'readSingleItemsInvoiceType'
      *
-     * @param  \Swagger\Client\Model\Id18 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id21 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1227,14 +1227,14 @@ class ItemsInvoiceTypeApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id20 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id23 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsInvoiceType $body body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20030
+     * @return \Swagger\Client\Model\InlineResponse20033
      */
     public function updateSingleItemsInvoiceType($id, $body = null, $fields = null, $meta = null)
     {
@@ -1247,18 +1247,18 @@ class ItemsInvoiceTypeApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id20 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id23 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsInvoiceType $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20030, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20033, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateSingleItemsInvoiceTypeWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20030';
+        $returnType = '\Swagger\Client\Model\InlineResponse20033';
         $request = $this->updateSingleItemsInvoiceTypeRequest($id, $body, $fields, $meta);
 
         try {
@@ -1310,7 +1310,7 @@ class ItemsInvoiceTypeApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20030',
+                        '\Swagger\Client\Model\InlineResponse20033',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1341,7 +1341,7 @@ class ItemsInvoiceTypeApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id20 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id23 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsInvoiceType $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
@@ -1364,7 +1364,7 @@ class ItemsInvoiceTypeApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id20 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id23 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsInvoiceType $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
@@ -1374,7 +1374,7 @@ class ItemsInvoiceTypeApi
      */
     public function updateSingleItemsInvoiceTypeAsyncWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20030';
+        $returnType = '\Swagger\Client\Model\InlineResponse20033';
         $request = $this->updateSingleItemsInvoiceTypeRequest($id, $body, $fields, $meta);
 
         return $this->client
@@ -1417,7 +1417,7 @@ class ItemsInvoiceTypeApi
     /**
      * Create request for operation 'updateSingleItemsInvoiceType'
      *
-     * @param  \Swagger\Client\Model\Id20 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id23 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsInvoiceType $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)

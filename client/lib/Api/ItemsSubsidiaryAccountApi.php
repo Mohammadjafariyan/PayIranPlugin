@@ -96,7 +96,7 @@ class ItemsSubsidiaryAccountApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20044
+     * @return \Swagger\Client\Model\InlineResponse20050
      */
     public function createItemsSubsidiaryAccount($body = null, $meta = null)
     {
@@ -114,11 +114,11 @@ class ItemsSubsidiaryAccountApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20044, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20050, HTTP status code, HTTP response headers (array of strings)
      */
     public function createItemsSubsidiaryAccountWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20044';
+        $returnType = '\Swagger\Client\Model\InlineResponse20050';
         $request = $this->createItemsSubsidiaryAccountRequest($body, $meta);
 
         try {
@@ -170,7 +170,7 @@ class ItemsSubsidiaryAccountApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20044',
+                        '\Swagger\Client\Model\InlineResponse20050',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -222,7 +222,7 @@ class ItemsSubsidiaryAccountApi
      */
     public function createItemsSubsidiaryAccountAsyncWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20044';
+        $returnType = '\Swagger\Client\Model\InlineResponse20050';
         $request = $this->createItemsSubsidiaryAccountRequest($body, $meta);
 
         return $this->client
@@ -359,7 +359,7 @@ class ItemsSubsidiaryAccountApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id34 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id40 $id Index of the item. (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -375,7 +375,7 @@ class ItemsSubsidiaryAccountApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id34 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id40 $id Index of the item. (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -444,7 +444,7 @@ class ItemsSubsidiaryAccountApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id34 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id40 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -464,7 +464,7 @@ class ItemsSubsidiaryAccountApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id34 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id40 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,7 +500,7 @@ class ItemsSubsidiaryAccountApi
     /**
      * Create request for operation 'deleteSingleItemsSubsidiaryAccount'
      *
-     * @param  \Swagger\Client\Model\Id34 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id40 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -610,7 +610,7 @@ class ItemsSubsidiaryAccountApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20043
+     * @return \Swagger\Client\Model\InlineResponse20049
      */
     public function readItemsSubsidiaryAccount($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
@@ -633,11 +633,11 @@ class ItemsSubsidiaryAccountApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20043, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20049, HTTP status code, HTTP response headers (array of strings)
      */
     public function readItemsSubsidiaryAccountWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20043';
+        $returnType = '\Swagger\Client\Model\InlineResponse20049';
         $request = $this->readItemsSubsidiaryAccountRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         try {
@@ -689,7 +689,7 @@ class ItemsSubsidiaryAccountApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20043',
+                        '\Swagger\Client\Model\InlineResponse20049',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -751,7 +751,7 @@ class ItemsSubsidiaryAccountApi
      */
     public function readItemsSubsidiaryAccountAsyncWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20043';
+        $returnType = '\Swagger\Client\Model\InlineResponse20049';
         $request = $this->readItemsSubsidiaryAccountRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         return $this->client
@@ -928,13 +928,13 @@ class ItemsSubsidiaryAccountApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id33 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id39 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20045
+     * @return \Swagger\Client\Model\InlineResponse20051
      */
     public function readSingleItemsSubsidiaryAccount($id, $fields = null, $meta = null)
     {
@@ -947,17 +947,17 @@ class ItemsSubsidiaryAccountApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id33 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id39 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20045, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20051, HTTP status code, HTTP response headers (array of strings)
      */
     public function readSingleItemsSubsidiaryAccountWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20045';
+        $returnType = '\Swagger\Client\Model\InlineResponse20051';
         $request = $this->readSingleItemsSubsidiaryAccountRequest($id, $fields, $meta);
 
         try {
@@ -1009,7 +1009,7 @@ class ItemsSubsidiaryAccountApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20045',
+                        '\Swagger\Client\Model\InlineResponse20051',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1040,7 +1040,7 @@ class ItemsSubsidiaryAccountApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id33 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id39 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1062,7 +1062,7 @@ class ItemsSubsidiaryAccountApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id33 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id39 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1071,7 +1071,7 @@ class ItemsSubsidiaryAccountApi
      */
     public function readSingleItemsSubsidiaryAccountAsyncWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20045';
+        $returnType = '\Swagger\Client\Model\InlineResponse20051';
         $request = $this->readSingleItemsSubsidiaryAccountRequest($id, $fields, $meta);
 
         return $this->client
@@ -1114,7 +1114,7 @@ class ItemsSubsidiaryAccountApi
     /**
      * Create request for operation 'readSingleItemsSubsidiaryAccount'
      *
-     * @param  \Swagger\Client\Model\Id33 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id39 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1227,14 +1227,14 @@ class ItemsSubsidiaryAccountApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id35 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id41 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsSubsidiaryAccount $body body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20045
+     * @return \Swagger\Client\Model\InlineResponse20051
      */
     public function updateSingleItemsSubsidiaryAccount($id, $body = null, $fields = null, $meta = null)
     {
@@ -1247,18 +1247,18 @@ class ItemsSubsidiaryAccountApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id35 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id41 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsSubsidiaryAccount $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20045, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20051, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateSingleItemsSubsidiaryAccountWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20045';
+        $returnType = '\Swagger\Client\Model\InlineResponse20051';
         $request = $this->updateSingleItemsSubsidiaryAccountRequest($id, $body, $fields, $meta);
 
         try {
@@ -1310,7 +1310,7 @@ class ItemsSubsidiaryAccountApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20045',
+                        '\Swagger\Client\Model\InlineResponse20051',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1341,7 +1341,7 @@ class ItemsSubsidiaryAccountApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id35 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id41 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsSubsidiaryAccount $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
@@ -1364,7 +1364,7 @@ class ItemsSubsidiaryAccountApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id35 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id41 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsSubsidiaryAccount $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
@@ -1374,7 +1374,7 @@ class ItemsSubsidiaryAccountApi
      */
     public function updateSingleItemsSubsidiaryAccountAsyncWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20045';
+        $returnType = '\Swagger\Client\Model\InlineResponse20051';
         $request = $this->updateSingleItemsSubsidiaryAccountRequest($id, $body, $fields, $meta);
 
         return $this->client
@@ -1417,7 +1417,7 @@ class ItemsSubsidiaryAccountApi
     /**
      * Create request for operation 'updateSingleItemsSubsidiaryAccount'
      *
-     * @param  \Swagger\Client\Model\Id35 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id41 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsSubsidiaryAccount $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)

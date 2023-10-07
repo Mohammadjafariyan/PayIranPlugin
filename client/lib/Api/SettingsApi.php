@@ -98,7 +98,7 @@ class SettingsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20073
+     * @return \Swagger\Client\Model\InlineResponse20079
      */
     public function getSettings($limit = null, $offset = null, $meta = null, $page = null)
     {
@@ -118,11 +118,11 @@ class SettingsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20073, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20079, HTTP status code, HTTP response headers (array of strings)
      */
     public function getSettingsWithHttpInfo($limit = null, $offset = null, $meta = null, $page = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20073';
+        $returnType = '\Swagger\Client\Model\InlineResponse20079';
         $request = $this->getSettingsRequest($limit, $offset, $meta, $page);
 
         try {
@@ -174,7 +174,7 @@ class SettingsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20073',
+                        '\Swagger\Client\Model\InlineResponse20079',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -238,7 +238,7 @@ class SettingsApi
      */
     public function getSettingsAsyncWithHttpInfo($limit = null, $offset = null, $meta = null, $page = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20073';
+        $returnType = '\Swagger\Client\Model\InlineResponse20079';
         $request = $this->getSettingsRequest($limit, $offset, $meta, $page);
 
         return $this->client
@@ -390,7 +390,7 @@ class SettingsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20073
+     * @return \Swagger\Client\Model\InlineResponse20079
      */
     public function updateSetting($body = null)
     {
@@ -407,11 +407,11 @@ class SettingsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20073, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20079, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateSettingWithHttpInfo($body = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20073';
+        $returnType = '\Swagger\Client\Model\InlineResponse20079';
         $request = $this->updateSettingRequest($body);
 
         try {
@@ -463,7 +463,7 @@ class SettingsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20073',
+                        '\Swagger\Client\Model\InlineResponse20079',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -521,7 +521,7 @@ class SettingsApi
      */
     public function updateSettingAsyncWithHttpInfo($body = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20073';
+        $returnType = '\Swagger\Client\Model\InlineResponse20079';
         $request = $this->updateSettingRequest($body);
 
         return $this->client

@@ -56,8 +56,7 @@ class InlineResponse20062 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'data' => '\Swagger\Client\Model\Permissions[]',
-'meta' => '\Swagger\Client\Model\XMetadata'    ];
+        'data' => '\Swagger\Client\Model\Fields[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -65,8 +64,7 @@ class InlineResponse20062 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        'data' => null,
-'meta' => null    ];
+        'data' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -95,8 +93,7 @@ class InlineResponse20062 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        'data' => 'data',
-'meta' => 'meta'    ];
+        'data' => 'data'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -104,8 +101,7 @@ class InlineResponse20062 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-        'data' => 'setData',
-'meta' => 'setMeta'    ];
+        'data' => 'setData'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -113,8 +109,7 @@ class InlineResponse20062 implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-        'data' => 'getData',
-'meta' => 'getMeta'    ];
+        'data' => 'getData'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -175,7 +170,6 @@ class InlineResponse20062 implements ModelInterface, ArrayAccess
     public function __construct(array $data = null)
     {
         $this->container['data'] = isset($data['data']) ? $data['data'] : null;
-        $this->container['meta'] = isset($data['meta']) ? $data['meta'] : null;
     }
 
     /**
@@ -205,7 +199,7 @@ class InlineResponse20062 implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\Permissions[]
+     * @return \Swagger\Client\Model\Fields[]
      */
     public function getData()
     {
@@ -215,37 +209,13 @@ class InlineResponse20062 implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\Permissions[] $data data
+     * @param \Swagger\Client\Model\Fields[] $data data
      *
      * @return $this
      */
     public function setData($data)
     {
         $this->container['data'] = $data;
-
-        return $this;
-    }
-
-    /**
-     * Gets meta
-     *
-     * @return \Swagger\Client\Model\XMetadata
-     */
-    public function getMeta()
-    {
-        return $this->container['meta'];
-    }
-
-    /**
-     * Sets meta
-     *
-     * @param \Swagger\Client\Model\XMetadata $meta meta
-     *
-     * @return $this
-     */
-    public function setMeta($meta)
-    {
-        $this->container['meta'] = $meta;
 
         return $this;
     }

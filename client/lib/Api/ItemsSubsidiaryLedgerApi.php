@@ -96,7 +96,7 @@ class ItemsSubsidiaryLedgerApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20047
+     * @return \Swagger\Client\Model\InlineResponse20053
      */
     public function createItemsSubsidiaryLedger($body = null, $meta = null)
     {
@@ -114,11 +114,11 @@ class ItemsSubsidiaryLedgerApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20047, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20053, HTTP status code, HTTP response headers (array of strings)
      */
     public function createItemsSubsidiaryLedgerWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20047';
+        $returnType = '\Swagger\Client\Model\InlineResponse20053';
         $request = $this->createItemsSubsidiaryLedgerRequest($body, $meta);
 
         try {
@@ -170,7 +170,7 @@ class ItemsSubsidiaryLedgerApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20047',
+                        '\Swagger\Client\Model\InlineResponse20053',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -222,7 +222,7 @@ class ItemsSubsidiaryLedgerApi
      */
     public function createItemsSubsidiaryLedgerAsyncWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20047';
+        $returnType = '\Swagger\Client\Model\InlineResponse20053';
         $request = $this->createItemsSubsidiaryLedgerRequest($body, $meta);
 
         return $this->client
@@ -359,7 +359,7 @@ class ItemsSubsidiaryLedgerApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id37 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id43 $id Index of the item. (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -375,7 +375,7 @@ class ItemsSubsidiaryLedgerApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id37 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id43 $id Index of the item. (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -444,7 +444,7 @@ class ItemsSubsidiaryLedgerApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id37 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id43 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -464,7 +464,7 @@ class ItemsSubsidiaryLedgerApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id37 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id43 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,7 +500,7 @@ class ItemsSubsidiaryLedgerApi
     /**
      * Create request for operation 'deleteSingleItemsSubsidiaryLedger'
      *
-     * @param  \Swagger\Client\Model\Id37 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id43 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -610,7 +610,7 @@ class ItemsSubsidiaryLedgerApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20046
+     * @return \Swagger\Client\Model\InlineResponse20052
      */
     public function readItemsSubsidiaryLedger($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
@@ -633,11 +633,11 @@ class ItemsSubsidiaryLedgerApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20046, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20052, HTTP status code, HTTP response headers (array of strings)
      */
     public function readItemsSubsidiaryLedgerWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20046';
+        $returnType = '\Swagger\Client\Model\InlineResponse20052';
         $request = $this->readItemsSubsidiaryLedgerRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         try {
@@ -689,7 +689,7 @@ class ItemsSubsidiaryLedgerApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20046',
+                        '\Swagger\Client\Model\InlineResponse20052',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -751,7 +751,7 @@ class ItemsSubsidiaryLedgerApi
      */
     public function readItemsSubsidiaryLedgerAsyncWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20046';
+        $returnType = '\Swagger\Client\Model\InlineResponse20052';
         $request = $this->readItemsSubsidiaryLedgerRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         return $this->client
@@ -928,13 +928,13 @@ class ItemsSubsidiaryLedgerApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id36 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id42 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20048
+     * @return \Swagger\Client\Model\InlineResponse20054
      */
     public function readSingleItemsSubsidiaryLedger($id, $fields = null, $meta = null)
     {
@@ -947,17 +947,17 @@ class ItemsSubsidiaryLedgerApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id36 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id42 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20048, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20054, HTTP status code, HTTP response headers (array of strings)
      */
     public function readSingleItemsSubsidiaryLedgerWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20048';
+        $returnType = '\Swagger\Client\Model\InlineResponse20054';
         $request = $this->readSingleItemsSubsidiaryLedgerRequest($id, $fields, $meta);
 
         try {
@@ -1009,7 +1009,7 @@ class ItemsSubsidiaryLedgerApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20048',
+                        '\Swagger\Client\Model\InlineResponse20054',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1040,7 +1040,7 @@ class ItemsSubsidiaryLedgerApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id36 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id42 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1062,7 +1062,7 @@ class ItemsSubsidiaryLedgerApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id36 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id42 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1071,7 +1071,7 @@ class ItemsSubsidiaryLedgerApi
      */
     public function readSingleItemsSubsidiaryLedgerAsyncWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20048';
+        $returnType = '\Swagger\Client\Model\InlineResponse20054';
         $request = $this->readSingleItemsSubsidiaryLedgerRequest($id, $fields, $meta);
 
         return $this->client
@@ -1114,7 +1114,7 @@ class ItemsSubsidiaryLedgerApi
     /**
      * Create request for operation 'readSingleItemsSubsidiaryLedger'
      *
-     * @param  \Swagger\Client\Model\Id36 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id42 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1227,14 +1227,14 @@ class ItemsSubsidiaryLedgerApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id38 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id44 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsSubsidiaryLedger $body body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20048
+     * @return \Swagger\Client\Model\InlineResponse20054
      */
     public function updateSingleItemsSubsidiaryLedger($id, $body = null, $fields = null, $meta = null)
     {
@@ -1247,18 +1247,18 @@ class ItemsSubsidiaryLedgerApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id38 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id44 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsSubsidiaryLedger $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20048, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20054, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateSingleItemsSubsidiaryLedgerWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20048';
+        $returnType = '\Swagger\Client\Model\InlineResponse20054';
         $request = $this->updateSingleItemsSubsidiaryLedgerRequest($id, $body, $fields, $meta);
 
         try {
@@ -1310,7 +1310,7 @@ class ItemsSubsidiaryLedgerApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20048',
+                        '\Swagger\Client\Model\InlineResponse20054',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1341,7 +1341,7 @@ class ItemsSubsidiaryLedgerApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id38 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id44 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsSubsidiaryLedger $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
@@ -1364,7 +1364,7 @@ class ItemsSubsidiaryLedgerApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id38 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id44 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsSubsidiaryLedger $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
@@ -1374,7 +1374,7 @@ class ItemsSubsidiaryLedgerApi
      */
     public function updateSingleItemsSubsidiaryLedgerAsyncWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20048';
+        $returnType = '\Swagger\Client\Model\InlineResponse20054';
         $request = $this->updateSingleItemsSubsidiaryLedgerRequest($id, $body, $fields, $meta);
 
         return $this->client
@@ -1417,7 +1417,7 @@ class ItemsSubsidiaryLedgerApi
     /**
      * Create request for operation 'updateSingleItemsSubsidiaryLedger'
      *
-     * @param  \Swagger\Client\Model\Id38 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id44 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsSubsidiaryLedger $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)

@@ -1970,6 +1970,303 @@
                 ]
             }
         },
+        "/items/City_translations": {
+            "post": {
+                "summary": "Create an Item",
+                "description": "Create a new City_translations item.",
+                "tags": [
+                    "Items",
+                    "ItemsCityTranslations"
+                ],
+                "operationId": "createItemsCityTranslations",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/Meta"
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "oneOf": [
+                                    {
+                                        "type": "array",
+                                        "items": {
+                                            "$ref": "#/components/schemas/ItemsCityTranslations"
+                                        }
+                                    },
+                                    {
+                                        "$ref": "#/components/schemas/ItemsCityTranslations"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "data": {
+                                            "items": {
+                                                "$ref": "#/components/schemas/ItemsCityTranslations"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "$ref": "#/components/responses/UnauthorizedError"
+                    }
+                }
+            },
+            "get": {
+                "summary": "List Items",
+                "description": "List the City_translations items.",
+                "tags": [
+                    "Items",
+                    "ItemsCityTranslations"
+                ],
+                "operationId": "readItemsCityTranslations",
+                "security": [
+                    {
+                        "Auth": []
+                    }
+                ],
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/Fields"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Limit"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Meta"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Offset"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Sort"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Filter"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Search"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "data": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "$ref": "#/components/schemas/ItemsCityTranslations"
+                                            }
+                                        },
+                                        "meta": {
+                                            "$ref": "#/components/schemas/x-metadata"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "$ref": "#/components/responses/UnauthorizedError"
+                    }
+                }
+            }
+        },
+        "/items/City_translations/{id}": {
+            "get": {
+                "summary": "Retrieve an Item",
+                "description": "Retrieve a single City_translations item by unique identifier.",
+                "tags": [
+                    "Items",
+                    "ItemsCityTranslations"
+                ],
+                "operationId": "readSingleItemsCityTranslations",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/Fields"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Meta"
+                    },
+                    {
+                        "name": "id",
+                        "description": "Index of the item.",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "oneOf": [
+                                {
+                                    "type": "integer",
+                                    "description": "Incremental index of the item.",
+                                    "example": 1
+                                },
+                                {
+                                    "type": "string",
+                                    "description": "Unique identifier of the item.",
+                                    "example": "8cbb43fe-4cdf-4991-8352-c461779cec02"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "data": {
+                                            "type": "object",
+                                            "$ref": "#/components/schemas/ItemsCityTranslations"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "$ref": "#/components/responses/UnauthorizedError"
+                    },
+                    "404": {
+                        "$ref": "#/components/responses/NotFoundError"
+                    }
+                }
+            },
+            "patch": {
+                "summary": "Update an Item",
+                "description": "Update an existing City_translations item.",
+                "tags": [
+                    "Items",
+                    "ItemsCityTranslations"
+                ],
+                "operationId": "updateSingleItemsCityTranslations",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/Fields"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Meta"
+                    },
+                    {
+                        "name": "id",
+                        "description": "Index of the item.",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "oneOf": [
+                                {
+                                    "type": "integer",
+                                    "description": "Incremental index of the item.",
+                                    "example": 1
+                                },
+                                {
+                                    "type": "string",
+                                    "description": "Unique identifier of the item.",
+                                    "example": "8cbb43fe-4cdf-4991-8352-c461779cec02"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "$ref": "#/components/schemas/ItemsCityTranslations"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "data": {
+                                            "type": "object",
+                                            "$ref": "#/components/schemas/ItemsCityTranslations"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "$ref": "#/components/responses/UnauthorizedError"
+                    },
+                    "404": {
+                        "$ref": "#/components/responses/NotFoundError"
+                    }
+                }
+            },
+            "delete": {
+                "summary": "Delete an Item",
+                "description": "Delete an existing City_translations item.",
+                "tags": [
+                    "Items",
+                    "ItemsCityTranslations"
+                ],
+                "operationId": "deleteSingleItemsCityTranslations",
+                "responses": {
+                    "200": {
+                        "description": "Successful request"
+                    },
+                    "401": {
+                        "$ref": "#/components/responses/UnauthorizedError"
+                    },
+                    "404": {
+                        "$ref": "#/components/responses/NotFoundError"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "id",
+                        "description": "Index of the item.",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "oneOf": [
+                                {
+                                    "type": "integer",
+                                    "description": "Incremental index of the item.",
+                                    "example": 1
+                                },
+                                {
+                                    "type": "string",
+                                    "description": "Unique identifier of the item.",
+                                    "example": "8cbb43fe-4cdf-4991-8352-c461779cec02"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
         "/items/Gateway": {
             "post": {
                 "summary": "Create an Item",
@@ -3420,6 +3717,303 @@
                     "ItemsJournalEntry"
                 ],
                 "operationId": "deleteSingleItemsJournalEntry",
+                "responses": {
+                    "200": {
+                        "description": "Successful request"
+                    },
+                    "401": {
+                        "$ref": "#/components/responses/UnauthorizedError"
+                    },
+                    "404": {
+                        "$ref": "#/components/responses/NotFoundError"
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "id",
+                        "description": "Index of the item.",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "oneOf": [
+                                {
+                                    "type": "integer",
+                                    "description": "Incremental index of the item.",
+                                    "example": 1
+                                },
+                                {
+                                    "type": "string",
+                                    "description": "Unique identifier of the item.",
+                                    "example": "8cbb43fe-4cdf-4991-8352-c461779cec02"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "/items/languages": {
+            "post": {
+                "summary": "Create an Item",
+                "description": "Create a new languages item.",
+                "tags": [
+                    "Items",
+                    "ItemsLanguages"
+                ],
+                "operationId": "createItemsLanguages",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/Meta"
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "oneOf": [
+                                    {
+                                        "type": "array",
+                                        "items": {
+                                            "$ref": "#/components/schemas/ItemsLanguages"
+                                        }
+                                    },
+                                    {
+                                        "$ref": "#/components/schemas/ItemsLanguages"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "data": {
+                                            "items": {
+                                                "$ref": "#/components/schemas/ItemsLanguages"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "$ref": "#/components/responses/UnauthorizedError"
+                    }
+                }
+            },
+            "get": {
+                "summary": "List Items",
+                "description": "List the languages items.",
+                "tags": [
+                    "Items",
+                    "ItemsLanguages"
+                ],
+                "operationId": "readItemsLanguages",
+                "security": [
+                    {
+                        "Auth": []
+                    }
+                ],
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/Fields"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Limit"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Meta"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Offset"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Sort"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Filter"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Search"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "data": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "$ref": "#/components/schemas/ItemsLanguages"
+                                            }
+                                        },
+                                        "meta": {
+                                            "$ref": "#/components/schemas/x-metadata"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "$ref": "#/components/responses/UnauthorizedError"
+                    }
+                }
+            }
+        },
+        "/items/languages/{id}": {
+            "get": {
+                "summary": "Retrieve an Item",
+                "description": "Retrieve a single languages item by unique identifier.",
+                "tags": [
+                    "Items",
+                    "ItemsLanguages"
+                ],
+                "operationId": "readSingleItemsLanguages",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/Fields"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Meta"
+                    },
+                    {
+                        "name": "id",
+                        "description": "Index of the item.",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "oneOf": [
+                                {
+                                    "type": "integer",
+                                    "description": "Incremental index of the item.",
+                                    "example": 1
+                                },
+                                {
+                                    "type": "string",
+                                    "description": "Unique identifier of the item.",
+                                    "example": "8cbb43fe-4cdf-4991-8352-c461779cec02"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "data": {
+                                            "type": "object",
+                                            "$ref": "#/components/schemas/ItemsLanguages"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "$ref": "#/components/responses/UnauthorizedError"
+                    },
+                    "404": {
+                        "$ref": "#/components/responses/NotFoundError"
+                    }
+                }
+            },
+            "patch": {
+                "summary": "Update an Item",
+                "description": "Update an existing languages item.",
+                "tags": [
+                    "Items",
+                    "ItemsLanguages"
+                ],
+                "operationId": "updateSingleItemsLanguages",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/Fields"
+                    },
+                    {
+                        "$ref": "#/components/parameters/Meta"
+                    },
+                    {
+                        "name": "id",
+                        "description": "Index of the item.",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "oneOf": [
+                                {
+                                    "type": "integer",
+                                    "description": "Incremental index of the item.",
+                                    "example": 1
+                                },
+                                {
+                                    "type": "string",
+                                    "description": "Unique identifier of the item.",
+                                    "example": "8cbb43fe-4cdf-4991-8352-c461779cec02"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "$ref": "#/components/schemas/ItemsLanguages"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "data": {
+                                            "type": "object",
+                                            "$ref": "#/components/schemas/ItemsLanguages"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "$ref": "#/components/responses/UnauthorizedError"
+                    },
+                    "404": {
+                        "$ref": "#/components/responses/NotFoundError"
+                    }
+                }
+            },
+            "delete": {
+                "summary": "Delete an Item",
+                "description": "Delete an existing languages item.",
+                "tags": [
+                    "Items",
+                    "ItemsLanguages"
+                ],
+                "operationId": "deleteSingleItemsLanguages",
                 "responses": {
                     "200": {
                         "description": "Successful request"
@@ -9875,6 +10469,10 @@
             "x-collection": "City"
         },
         {
+            "name": "ItemsCityTranslations",
+            "x-collection": "City_translations"
+        },
+        {
             "name": "ItemsGateway",
             "x-collection": "Gateway"
         },
@@ -9893,6 +10491,10 @@
         {
             "name": "ItemsJournalEntry",
             "x-collection": "JournalEntry"
+        },
+        {
+            "name": "ItemsLanguages",
+            "x-collection": "languages"
         },
         {
             "name": "ItemsLedgerAccount",
@@ -10328,6 +10930,24 @@
                 },
                 "x-collection": "City"
             },
+            "ItemsCityTranslations": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "nullable": false,
+                        "type": "integer"
+                    },
+                    "City_id": {
+                        "nullable": true,
+                        "type": "integer"
+                    },
+                    "languages_id": {
+                        "nullable": true,
+                        "type": "string"
+                    }
+                },
+                "x-collection": "City_translations"
+            },
             "ItemsGateway": {
                 "type": "object",
                 "properties": {
@@ -10521,6 +11141,11 @@
                         "nullable": true,
                         "type": "integer"
                     },
+                    "GatewayToken": {
+                        "nullable": false,
+                        "type": "string",
+                        "format": "uuid"
+                    },
                     "accordion-bij6ke": {
                         "type": "string"
                     },
@@ -10596,6 +11221,25 @@
                         "nullable": true,
                         "type": "string",
                         "format": "timestamp"
+                    },
+                    "Name": {
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    "Code": {
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    "Parent": {
+                        "nullable": true,
+                        "oneOf": [
+                            {
+                                "type": "integer"
+                            },
+                            {
+                                "$ref": "#/components/schemas/ItemsGeneralLedger"
+                            }
+                        ]
                     }
                 },
                 "x-collection": "GeneralLedger"
@@ -10649,6 +11293,70 @@
                         "nullable": true,
                         "type": "string",
                         "format": "timestamp"
+                    },
+                    "Gateway": {
+                        "nullable": true,
+                        "oneOf": [
+                            {
+                                "type": "string",
+                                "format": "uuid"
+                            },
+                            {
+                                "$ref": "#/components/schemas/ItemsGateway"
+                            }
+                        ]
+                    },
+                    "InvoiceType": {
+                        "nullable": true,
+                        "oneOf": [
+                            {
+                                "type": "string",
+                                "format": "uuid"
+                            },
+                            {
+                                "$ref": "#/components/schemas/ItemsInvoiceType"
+                            }
+                        ]
+                    },
+                    "Title": {
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    "order_id": {
+                        "nullable": false,
+                        "type": "string"
+                    },
+                    "amount": {
+                        "nullable": false,
+                        "type": "number"
+                    },
+                    "phone": {
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    "mail": {
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    "desc": {
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    "callback": {
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    "access_token": {
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    "gateway_token": {
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    "requesterInfo": {
+                        "nullable": true,
+                        "type": "string"
                     }
                 },
                 "x-collection": "Invoice"
@@ -10743,9 +11451,73 @@
                         "nullable": true,
                         "type": "string",
                         "format": "timestamp"
+                    },
+                    "Invoice": {
+                        "nullable": true,
+                        "oneOf": [
+                            {
+                                "type": "string",
+                                "format": "uuid"
+                            },
+                            {
+                                "$ref": "#/components/schemas/ItemsInvoice"
+                            }
+                        ]
+                    },
+                    "SubsidiaryAccount": {
+                        "nullable": true,
+                        "oneOf": [
+                            {
+                                "type": "integer"
+                            },
+                            {
+                                "$ref": "#/components/schemas/ItemsSubsidiaryAccount"
+                            }
+                        ]
+                    },
+                    "Bank": {
+                        "nullable": true,
+                        "oneOf": [
+                            {
+                                "type": "string",
+                                "format": "uuid"
+                            },
+                            {
+                                "$ref": "#/components/schemas/ItemsBank"
+                            }
+                        ]
+                    },
+                    "LedgerAccount": {
+                        "nullable": true,
+                        "oneOf": [
+                            {
+                                "type": "integer"
+                            },
+                            {
+                                "$ref": "#/components/schemas/ItemsLedgerAccount"
+                            }
+                        ]
                     }
                 },
                 "x-collection": "JournalEntry"
+            },
+            "ItemsLanguages": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "nullable": false,
+                        "type": "string"
+                    },
+                    "name": {
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    "direction": {
+                        "nullable": true,
+                        "type": "string"
+                    }
+                },
+                "x-collection": "languages"
             },
             "ItemsLedgerAccount": {
                 "type": "object",
@@ -10795,6 +11567,36 @@
                         "nullable": true,
                         "type": "string",
                         "format": "timestamp"
+                    },
+                    "Name": {
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    "Code": {
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    "AccountType": {
+                        "nullable": true,
+                        "oneOf": [
+                            {
+                                "type": "integer"
+                            },
+                            {
+                                "$ref": "#/components/schemas/ItemsAccountType"
+                            }
+                        ]
+                    },
+                    "GeneralLedger": {
+                        "nullable": true,
+                        "oneOf": [
+                            {
+                                "type": "integer"
+                            },
+                            {
+                                "$ref": "#/components/schemas/ItemsGeneralLedger"
+                            }
+                        ]
                     }
                 },
                 "x-collection": "LedgerAccount"
@@ -11030,6 +11832,10 @@
                     "Name": {
                         "nullable": true,
                         "type": "string"
+                    },
+                    "slug": {
+                        "nullable": true,
+                        "type": "string"
                     }
                 },
                 "x-collection": "Province"
@@ -11113,6 +11919,17 @@
                                 "$ref": "#/components/schemas/ItemsBank"
                             }
                         ]
+                    },
+                    "SubsidiaryLedger": {
+                        "nullable": false,
+                        "oneOf": [
+                            {
+                                "type": "integer"
+                            },
+                            {
+                                "$ref": "#/components/schemas/ItemsSubsidiaryLedger"
+                            }
+                        ]
                     }
                 },
                 "x-collection": "SubsidiaryAccount"
@@ -11165,6 +11982,25 @@
                         "nullable": true,
                         "type": "string",
                         "format": "timestamp"
+                    },
+                    "LedgerAccount": {
+                        "nullable": true,
+                        "oneOf": [
+                            {
+                                "type": "integer"
+                            },
+                            {
+                                "$ref": "#/components/schemas/ItemsLedgerAccount"
+                            }
+                        ]
+                    },
+                    "Name": {
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    "Code": {
+                        "nullable": true,
+                        "type": "string"
                     }
                 },
                 "x-collection": "subsidiaryLedger"

@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateRole**](RolesApi.md#updaterole) | **PATCH** /roles/{id} | Update a Role
 
 # **createRole**
-> \Swagger\Client\Model\InlineResponse20072 createRole($body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20078 createRole($body, $fields, $meta)
 
 Create a Role
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
+[**\Swagger\Client\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
 
 ### Authorization
 
@@ -112,7 +112,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRole**
-> \Swagger\Client\Model\InlineResponse20072 getRole($id, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20078 getRole($id, $fields, $meta)
 
 Retrieve a Role
 
@@ -151,7 +151,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
+[**\Swagger\Client\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
 
 ### Authorization
 
@@ -165,7 +165,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRoles**
-> \Swagger\Client\Model\InlineResponse20071 getRoles($fields, $limit, $offset, $meta, $sort, $filter, $search, $page)
+> \Swagger\Client\Model\InlineResponse20077 getRoles($fields, $limit, $offset, $meta, $sort, $filter, $search, $page)
 
 List Roles
 
@@ -214,7 +214,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20071**](../Model/InlineResponse20071.md)
+[**\Swagger\Client\Model\InlineResponse20077**](../Model/InlineResponse20077.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateRole**
-> \Swagger\Client\Model\InlineResponse20072 updateRole($id, $body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20078 updateRole($id, $body, $fields, $meta)
 
 Update a Role
 
@@ -269,7 +269,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
+[**\Swagger\Client\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
 
 ### Authorization
 

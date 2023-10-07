@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateSingleItemsGateway**](ItemsGatewayApi.md#updatesingleitemsgateway) | **PATCH** /items/Gateway/{id} | Update an Item
 
 # **createItemsGateway**
-> \Swagger\Client\Model\InlineResponse20020 createItemsGateway($body, $meta)
+> \Swagger\Client\Model\InlineResponse20023 createItemsGateway($body, $meta)
 
 Create an Item
 
@@ -48,7 +48,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20020**](../Model/InlineResponse20020.md)
+[**\Swagger\Client\Model\InlineResponse20023**](../Model/InlineResponse20023.md)
 
 ### Authorization
 
@@ -78,7 +78,7 @@ $apiInstance = new Swagger\Client\Api\ItemsGatewayApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id10(); // \Swagger\Client\Model\Id10 | Index of the item.
+$id = new \Swagger\Client\Model\Id13(); // \Swagger\Client\Model\Id13 | Index of the item.
 
 try {
     $apiInstance->deleteSingleItemsGateway($id);
@@ -92,7 +92,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id10**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id13**](../Model/.md)| Index of the item. |
 
 ### Return type
 
@@ -110,7 +110,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **readItemsGateway**
-> \Swagger\Client\Model\InlineResponse20019 readItemsGateway($fields, $limit, $meta, $offset, $sort, $filter, $search)
+> \Swagger\Client\Model\InlineResponse20022 readItemsGateway($fields, $limit, $meta, $offset, $sort, $filter, $search)
 
 List Items
 
@@ -162,7 +162,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20019**](../Model/InlineResponse20019.md)
+[**\Swagger\Client\Model\InlineResponse20022**](../Model/InlineResponse20022.md)
 
 ### Authorization
 
@@ -176,7 +176,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **readSingleItemsGateway**
-> \Swagger\Client\Model\InlineResponse20021 readSingleItemsGateway($id, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20024 readSingleItemsGateway($id, $fields, $meta)
 
 Retrieve an Item
 
@@ -192,7 +192,7 @@ $apiInstance = new Swagger\Client\Api\ItemsGatewayApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id9(); // \Swagger\Client\Model\Id9 | Index of the item.
+$id = new \Swagger\Client\Model\Id12(); // \Swagger\Client\Model\Id12 | Index of the item.
 $fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
 $meta = "meta_example"; // string | What metadata to return in the response.
 
@@ -209,13 +209,13 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id9**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id12**](../Model/.md)| Index of the item. |
  **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
  **meta** | **string**| What metadata to return in the response. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20021**](../Model/InlineResponse20021.md)
+[**\Swagger\Client\Model\InlineResponse20024**](../Model/InlineResponse20024.md)
 
 ### Authorization
 
@@ -229,7 +229,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateSingleItemsGateway**
-> \Swagger\Client\Model\InlineResponse20021 updateSingleItemsGateway($id, $body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20024 updateSingleItemsGateway($id, $body, $fields, $meta)
 
 Update an Item
 
@@ -245,7 +245,7 @@ $apiInstance = new Swagger\Client\Api\ItemsGatewayApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id11(); // \Swagger\Client\Model\Id11 | Index of the item.
+$id = new \Swagger\Client\Model\Id14(); // \Swagger\Client\Model\Id14 | Index of the item.
 $body = new \Swagger\Client\Model\ItemsGateway(); // \Swagger\Client\Model\ItemsGateway | 
 $fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
 $meta = "meta_example"; // string | What metadata to return in the response.
@@ -263,14 +263,14 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id11**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id14**](../Model/.md)| Index of the item. |
  **body** | [**\Swagger\Client\Model\ItemsGateway**](../Model/ItemsGateway.md)|  | [optional]
  **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
  **meta** | **string**| What metadata to return in the response. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20021**](../Model/InlineResponse20021.md)
+[**\Swagger\Client\Model\InlineResponse20024**](../Model/InlineResponse20024.md)
 
 ### Authorization
 

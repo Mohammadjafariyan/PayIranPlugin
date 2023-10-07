@@ -97,7 +97,7 @@ class RevisionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20070
+     * @return \Swagger\Client\Model\InlineResponse20076
      */
     public function getRevision($id, $fields = null, $meta = null)
     {
@@ -116,11 +116,11 @@ class RevisionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20070, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20076, HTTP status code, HTTP response headers (array of strings)
      */
     public function getRevisionWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20070';
+        $returnType = '\Swagger\Client\Model\InlineResponse20076';
         $request = $this->getRevisionRequest($id, $fields, $meta);
 
         try {
@@ -172,7 +172,7 @@ class RevisionsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20070',
+                        '\Swagger\Client\Model\InlineResponse20076',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -234,7 +234,7 @@ class RevisionsApi
      */
     public function getRevisionAsyncWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20070';
+        $returnType = '\Swagger\Client\Model\InlineResponse20076';
         $request = $this->getRevisionRequest($id, $fields, $meta);
 
         return $this->client
@@ -401,7 +401,7 @@ class RevisionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20069
+     * @return \Swagger\Client\Model\InlineResponse20075
      */
     public function getRevisions($fields = null, $limit = null, $offset = null, $meta = null, $sort = null, $filter = null, $search = null, $page = null)
     {
@@ -425,11 +425,11 @@ class RevisionsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20069, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20075, HTTP status code, HTTP response headers (array of strings)
      */
     public function getRevisionsWithHttpInfo($fields = null, $limit = null, $offset = null, $meta = null, $sort = null, $filter = null, $search = null, $page = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20069';
+        $returnType = '\Swagger\Client\Model\InlineResponse20075';
         $request = $this->getRevisionsRequest($fields, $limit, $offset, $meta, $sort, $filter, $search, $page);
 
         try {
@@ -481,7 +481,7 @@ class RevisionsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20069',
+                        '\Swagger\Client\Model\InlineResponse20075',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -553,7 +553,7 @@ class RevisionsApi
      */
     public function getRevisionsAsyncWithHttpInfo($fields = null, $limit = null, $offset = null, $meta = null, $sort = null, $filter = null, $search = null, $page = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20069';
+        $returnType = '\Swagger\Client\Model\InlineResponse20075';
         $request = $this->getRevisionsRequest($fields, $limit, $offset, $meta, $sort, $filter, $search, $page);
 
         return $this->client

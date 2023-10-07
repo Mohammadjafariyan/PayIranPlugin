@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updatePreset**](PresetsApi.md#updatepreset) | **PATCH** /presets/{id} | Update a Preset
 
 # **createPreset**
-> \Swagger\Client\Model\InlineResponse20066 createPreset($body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20072 createPreset($body, $fields, $meta)
 
 Create a Preset
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20066**](../Model/InlineResponse20066.md)
+[**\Swagger\Client\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
 
 ### Authorization
 
@@ -117,7 +117,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPreset**
-> \Swagger\Client\Model\InlineResponse20066 getPreset($id, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20072 getPreset($id, $fields, $meta)
 
 Retrieve a Preset
 
@@ -161,7 +161,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20066**](../Model/InlineResponse20066.md)
+[**\Swagger\Client\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
 
 ### Authorization
 
@@ -175,7 +175,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPresets**
-> \Swagger\Client\Model\InlineResponse20065 getPresets($fields, $limit, $offset, $page, $sort, $filter, $search, $meta)
+> \Swagger\Client\Model\InlineResponse20071 getPresets($fields, $limit, $offset, $page, $sort, $filter, $search, $meta)
 
 List Presets
 
@@ -229,7 +229,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20065**](../Model/InlineResponse20065.md)
+[**\Swagger\Client\Model\InlineResponse20071**](../Model/InlineResponse20071.md)
 
 ### Authorization
 
@@ -243,7 +243,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updatePreset**
-> \Swagger\Client\Model\InlineResponse20066 updatePreset($id, $body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20072 updatePreset($id, $body, $fields, $meta)
 
 Update a Preset
 
@@ -284,7 +284,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20066**](../Model/InlineResponse20066.md)
+[**\Swagger\Client\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
 
 ### Authorization
 

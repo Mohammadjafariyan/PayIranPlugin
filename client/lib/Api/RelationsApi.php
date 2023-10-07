@@ -97,7 +97,7 @@ class RelationsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20068
+     * @return \Swagger\Client\Model\InlineResponse20074
      */
     public function createRelation($body = null, $fields = null, $meta = null)
     {
@@ -116,11 +116,11 @@ class RelationsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20068, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20074, HTTP status code, HTTP response headers (array of strings)
      */
     public function createRelationWithHttpInfo($body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20068';
+        $returnType = '\Swagger\Client\Model\InlineResponse20074';
         $request = $this->createRelationRequest($body, $fields, $meta);
 
         try {
@@ -172,7 +172,7 @@ class RelationsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20068',
+                        '\Swagger\Client\Model\InlineResponse20074',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -234,7 +234,7 @@ class RelationsApi
      */
     public function createRelationAsyncWithHttpInfo($body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20068';
+        $returnType = '\Swagger\Client\Model\InlineResponse20074';
         $request = $this->createRelationRequest($body, $fields, $meta);
 
         return $this->client
@@ -626,7 +626,7 @@ class RelationsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20068
+     * @return \Swagger\Client\Model\InlineResponse20074
      */
     public function getRelation($id, $fields = null, $meta = null)
     {
@@ -645,11 +645,11 @@ class RelationsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20068, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20074, HTTP status code, HTTP response headers (array of strings)
      */
     public function getRelationWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20068';
+        $returnType = '\Swagger\Client\Model\InlineResponse20074';
         $request = $this->getRelationRequest($id, $fields, $meta);
 
         try {
@@ -701,7 +701,7 @@ class RelationsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20068',
+                        '\Swagger\Client\Model\InlineResponse20074',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -763,7 +763,7 @@ class RelationsApi
      */
     public function getRelationAsyncWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20068';
+        $returnType = '\Swagger\Client\Model\InlineResponse20074';
         $request = $this->getRelationRequest($id, $fields, $meta);
 
         return $this->client
@@ -930,7 +930,7 @@ class RelationsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20067
+     * @return \Swagger\Client\Model\InlineResponse20073
      */
     public function getRelations($fields = null, $limit = null, $offset = null, $meta = null, $sort = null, $filter = null, $search = null, $page = null)
     {
@@ -954,11 +954,11 @@ class RelationsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20067, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20073, HTTP status code, HTTP response headers (array of strings)
      */
     public function getRelationsWithHttpInfo($fields = null, $limit = null, $offset = null, $meta = null, $sort = null, $filter = null, $search = null, $page = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20067';
+        $returnType = '\Swagger\Client\Model\InlineResponse20073';
         $request = $this->getRelationsRequest($fields, $limit, $offset, $meta, $sort, $filter, $search, $page);
 
         try {
@@ -1010,7 +1010,7 @@ class RelationsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20067',
+                        '\Swagger\Client\Model\InlineResponse20073',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1082,7 +1082,7 @@ class RelationsApi
      */
     public function getRelationsAsyncWithHttpInfo($fields = null, $limit = null, $offset = null, $meta = null, $sort = null, $filter = null, $search = null, $page = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20067';
+        $returnType = '\Swagger\Client\Model\InlineResponse20073';
         $request = $this->getRelationsRequest($fields, $limit, $offset, $meta, $sort, $filter, $search, $page);
 
         return $this->client
@@ -1266,7 +1266,7 @@ class RelationsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20068
+     * @return \Swagger\Client\Model\InlineResponse20074
      */
     public function updateRelation($id, $body = null, $fields = null, $meta = null)
     {
@@ -1286,11 +1286,11 @@ class RelationsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20068, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20074, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateRelationWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20068';
+        $returnType = '\Swagger\Client\Model\InlineResponse20074';
         $request = $this->updateRelationRequest($id, $body, $fields, $meta);
 
         try {
@@ -1342,7 +1342,7 @@ class RelationsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20068',
+                        '\Swagger\Client\Model\InlineResponse20074',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1406,7 +1406,7 @@ class RelationsApi
      */
     public function updateRelationAsyncWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20068';
+        $returnType = '\Swagger\Client\Model\InlineResponse20074';
         $request = $this->updateRelationRequest($id, $body, $fields, $meta);
 
         return $this->client

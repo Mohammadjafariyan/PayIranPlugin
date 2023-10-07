@@ -56,7 +56,7 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'data' => '\Swagger\Client\Model\ItemsInvoice[]',
+        'data' => '\Swagger\Client\Model\ItemsGeneralLedger[]',
 'meta' => '\Swagger\Client\Model\XMetadata'    ];
 
     /**
@@ -205,7 +205,7 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\ItemsInvoice[]
+     * @return \Swagger\Client\Model\ItemsGeneralLedger[]
      */
     public function getData()
     {
@@ -215,7 +215,7 @@ class InlineResponse20025 implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\ItemsInvoice[] $data data
+     * @param \Swagger\Client\Model\ItemsGeneralLedger[] $data data
      *
      * @return $this
      */

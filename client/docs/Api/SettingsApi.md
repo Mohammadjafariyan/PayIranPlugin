@@ -8,7 +8,7 @@ Method | HTTP request | Description
 [**updateSetting**](SettingsApi.md#updatesetting) | **PATCH** /settings | Update Settings
 
 # **getSettings**
-> \Swagger\Client\Model\InlineResponse20073 getSettings($limit, $offset, $meta, $page)
+> \Swagger\Client\Model\InlineResponse20079 getSettings($limit, $offset, $meta, $page)
 
 Retrieve Settings
 
@@ -49,7 +49,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20073**](../Model/InlineResponse20073.md)
+[**\Swagger\Client\Model\InlineResponse20079**](../Model/InlineResponse20079.md)
 
 ### Authorization
 
@@ -63,7 +63,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateSetting**
-> \Swagger\Client\Model\InlineResponse20073 updateSetting($body)
+> \Swagger\Client\Model\InlineResponse20079 updateSetting($body)
 
 Update Settings
 
@@ -98,7 +98,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20073**](../Model/InlineResponse20073.md)
+[**\Swagger\Client\Model\InlineResponse20079**](../Model/InlineResponse20079.md)
 
 ### Authorization
 

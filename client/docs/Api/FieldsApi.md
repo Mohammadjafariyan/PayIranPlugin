@@ -12,7 +12,7 @@ Method | HTTP request | Description
 [**updateField**](FieldsApi.md#updatefield) | **PATCH** /fields/{collection}/{id} | Update a Field
 
 # **createField**
-> \Swagger\Client\Model\InlineResponse20057 createField($collection, $body)
+> \Swagger\Client\Model\InlineResponse20063 createField($collection, $body)
 
 Create Field in Collection
 
@@ -49,7 +49,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20057**](../Model/InlineResponse20057.md)
+[**\Swagger\Client\Model\InlineResponse20063**](../Model/InlineResponse20063.md)
 
 ### Authorization
 
@@ -113,7 +113,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCollectionField**
-> \Swagger\Client\Model\InlineResponse20057 getCollectionField($collection, $id)
+> \Swagger\Client\Model\InlineResponse20063 getCollectionField($collection, $id)
 
 Retrieve a Field
 
@@ -150,7 +150,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20057**](../Model/InlineResponse20057.md)
+[**\Swagger\Client\Model\InlineResponse20063**](../Model/InlineResponse20063.md)
 
 ### Authorization
 
@@ -164,7 +164,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCollectionFields**
-> \Swagger\Client\Model\InlineResponse20056 getCollectionFields($collection, $sort)
+> \Swagger\Client\Model\InlineResponse20062 getCollectionFields($collection, $sort)
 
 List Fields in Collection
 
@@ -201,7 +201,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20056**](../Model/InlineResponse20056.md)
+[**\Swagger\Client\Model\InlineResponse20062**](../Model/InlineResponse20062.md)
 
 ### Authorization
 
@@ -215,7 +215,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFields**
-> \Swagger\Client\Model\InlineResponse20056 getFields($limit, $sort)
+> \Swagger\Client\Model\InlineResponse20062 getFields($limit, $sort)
 
 List All Fields
 
@@ -252,7 +252,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20056**](../Model/InlineResponse20056.md)
+[**\Swagger\Client\Model\InlineResponse20062**](../Model/InlineResponse20062.md)
 
 ### Authorization
 
@@ -266,7 +266,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateField**
-> \Swagger\Client\Model\InlineResponse20057 updateField($collection, $id, $body)
+> \Swagger\Client\Model\InlineResponse20063 updateField($collection, $id, $body)
 
 Update a Field
 
@@ -305,7 +305,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20057**](../Model/InlineResponse20057.md)
+[**\Swagger\Client\Model\InlineResponse20063**](../Model/InlineResponse20063.md)
 
 ### Authorization
 

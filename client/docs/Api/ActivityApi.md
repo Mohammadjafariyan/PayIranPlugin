@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateComment**](ActivityApi.md#updatecomment) | **PATCH** /activity/comment/{id} | Update a Comment
 
 # **createComment**
-> \Swagger\Client\Model\InlineResponse20053 createComment($body, $meta)
+> \Swagger\Client\Model\InlineResponse20059 createComment($body, $meta)
 
 Create a Comment
 
@@ -48,7 +48,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20053**](../Model/InlineResponse20053.md)
+[**\Swagger\Client\Model\InlineResponse20059**](../Model/InlineResponse20059.md)
 
 ### Authorization
 
@@ -110,7 +110,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getActivities**
-> \Swagger\Client\Model\InlineResponse20052 getActivities($fields, $limit, $meta, $offset, $sort, $filter, $search)
+> \Swagger\Client\Model\InlineResponse20058 getActivities($fields, $limit, $meta, $offset, $sort, $filter, $search)
 
 List Activity Actions
 
@@ -157,7 +157,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20052**](../Model/InlineResponse20052.md)
+[**\Swagger\Client\Model\InlineResponse20058**](../Model/InlineResponse20058.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getActivity**
-> \Swagger\Client\Model\InlineResponse20053 getActivity($id, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20059 getActivity($id, $fields, $meta)
 
 Retrieve an Activity Action
 
@@ -210,7 +210,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20053**](../Model/InlineResponse20053.md)
+[**\Swagger\Client\Model\InlineResponse20059**](../Model/InlineResponse20059.md)
 
 ### Authorization
 
@@ -224,7 +224,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateComment**
-> \Swagger\Client\Model\InlineResponse20053 updateComment($id, $body, $meta)
+> \Swagger\Client\Model\InlineResponse20059 updateComment($id, $body, $meta)
 
 Update a Comment
 
@@ -263,7 +263,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20053**](../Model/InlineResponse20053.md)
+[**\Swagger\Client\Model\InlineResponse20059**](../Model/InlineResponse20059.md)
 
 ### Authorization
 

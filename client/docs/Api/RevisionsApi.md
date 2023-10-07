@@ -8,7 +8,7 @@ Method | HTTP request | Description
 [**getRevisions**](RevisionsApi.md#getrevisions) | **GET** /revisions | List Revisions
 
 # **getRevision**
-> \Swagger\Client\Model\InlineResponse20070 getRevision($id, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20076 getRevision($id, $fields, $meta)
 
 Retrieve a Revision
 
@@ -47,7 +47,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20070**](../Model/InlineResponse20070.md)
+[**\Swagger\Client\Model\InlineResponse20076**](../Model/InlineResponse20076.md)
 
 ### Authorization
 
@@ -61,7 +61,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRevisions**
-> \Swagger\Client\Model\InlineResponse20069 getRevisions($fields, $limit, $offset, $meta, $sort, $filter, $search, $page)
+> \Swagger\Client\Model\InlineResponse20075 getRevisions($fields, $limit, $offset, $meta, $sort, $filter, $search, $page)
 
 List Revisions
 
@@ -110,7 +110,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20069**](../Model/InlineResponse20069.md)
+[**\Swagger\Client\Model\InlineResponse20075**](../Model/InlineResponse20075.md)
 
 ### Authorization
 

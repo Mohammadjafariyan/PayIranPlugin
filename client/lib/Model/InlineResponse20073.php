@@ -56,7 +56,7 @@ class InlineResponse20073 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'data' => '\Swagger\Client\Model\Settings'    ];
+        'data' => '\Swagger\Client\Model\Relations[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class InlineResponse20073 implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\Settings
+     * @return \Swagger\Client\Model\Relations[]
      */
     public function getData()
     {
@@ -209,7 +209,7 @@ class InlineResponse20073 implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\Settings $data data
+     * @param \Swagger\Client\Model\Relations[] $data data
      *
      * @return $this
      */

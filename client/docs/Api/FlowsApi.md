@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateFlow**](FlowsApi.md#updateflow) | **PATCH** /flows/{id} | Update a Flow
 
 # **createFlow**
-> \Swagger\Client\Model\InlineResponse20078 createFlow($body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20084 createFlow($body, $fields, $meta)
 
 Create a Flow
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
+[**\Swagger\Client\Model\InlineResponse20084**](../Model/InlineResponse20084.md)
 
 ### Authorization
 
@@ -112,7 +112,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFlow**
-> \Swagger\Client\Model\InlineResponse20078 getFlow($id)
+> \Swagger\Client\Model\InlineResponse20084 getFlow($id)
 
 Retrieve a Flow
 
@@ -147,7 +147,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
+[**\Swagger\Client\Model\InlineResponse20084**](../Model/InlineResponse20084.md)
 
 ### Authorization
 
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFlows**
-> \Swagger\Client\Model\InlineResponse20077 getFlows()
+> \Swagger\Client\Model\InlineResponse20083 getFlows()
 
 List Flows
 
@@ -192,7 +192,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20077**](../Model/InlineResponse20077.md)
+[**\Swagger\Client\Model\InlineResponse20083**](../Model/InlineResponse20083.md)
 
 ### Authorization
 
@@ -206,7 +206,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateFlow**
-> \Swagger\Client\Model\InlineResponse20078 updateFlow($id, $body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20084 updateFlow($id, $body, $fields, $meta)
 
 Update a Flow
 
@@ -247,7 +247,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
+[**\Swagger\Client\Model\InlineResponse20084**](../Model/InlineResponse20084.md)
 
 ### Authorization
 

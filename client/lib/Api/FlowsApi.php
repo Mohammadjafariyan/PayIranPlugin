@@ -97,7 +97,7 @@ class FlowsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20078
+     * @return \Swagger\Client\Model\InlineResponse20084
      */
     public function createFlow($body = null, $fields = null, $meta = null)
     {
@@ -116,11 +116,11 @@ class FlowsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20078, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20084, HTTP status code, HTTP response headers (array of strings)
      */
     public function createFlowWithHttpInfo($body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20078';
+        $returnType = '\Swagger\Client\Model\InlineResponse20084';
         $request = $this->createFlowRequest($body, $fields, $meta);
 
         try {
@@ -172,7 +172,7 @@ class FlowsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20078',
+                        '\Swagger\Client\Model\InlineResponse20084',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -234,7 +234,7 @@ class FlowsApi
      */
     public function createFlowAsyncWithHttpInfo($body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20078';
+        $returnType = '\Swagger\Client\Model\InlineResponse20084';
         $request = $this->createFlowRequest($body, $fields, $meta);
 
         return $this->client
@@ -624,7 +624,7 @@ class FlowsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20078
+     * @return \Swagger\Client\Model\InlineResponse20084
      */
     public function getFlow($id)
     {
@@ -641,11 +641,11 @@ class FlowsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20078, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20084, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFlowWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20078';
+        $returnType = '\Swagger\Client\Model\InlineResponse20084';
         $request = $this->getFlowRequest($id);
 
         try {
@@ -697,7 +697,7 @@ class FlowsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20078',
+                        '\Swagger\Client\Model\InlineResponse20084',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -755,7 +755,7 @@ class FlowsApi
      */
     public function getFlowAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20078';
+        $returnType = '\Swagger\Client\Model\InlineResponse20084';
         $request = $this->getFlowRequest($id);
 
         return $this->client
@@ -901,7 +901,7 @@ class FlowsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20077
+     * @return \Swagger\Client\Model\InlineResponse20083
      */
     public function getFlows()
     {
@@ -917,11 +917,11 @@ class FlowsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20077, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20083, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFlowsWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20077';
+        $returnType = '\Swagger\Client\Model\InlineResponse20083';
         $request = $this->getFlowsRequest();
 
         try {
@@ -973,7 +973,7 @@ class FlowsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20077',
+                        '\Swagger\Client\Model\InlineResponse20083',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1029,7 +1029,7 @@ class FlowsApi
      */
     public function getFlowsAsyncWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20077';
+        $returnType = '\Swagger\Client\Model\InlineResponse20083';
         $request = $this->getFlowsRequest();
 
         return $this->client
@@ -1164,7 +1164,7 @@ class FlowsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20078
+     * @return \Swagger\Client\Model\InlineResponse20084
      */
     public function updateFlow($id, $body = null, $fields = null, $meta = null)
     {
@@ -1184,11 +1184,11 @@ class FlowsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20078, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20084, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateFlowWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20078';
+        $returnType = '\Swagger\Client\Model\InlineResponse20084';
         $request = $this->updateFlowRequest($id, $body, $fields, $meta);
 
         try {
@@ -1240,7 +1240,7 @@ class FlowsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20078',
+                        '\Swagger\Client\Model\InlineResponse20084',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1304,7 +1304,7 @@ class FlowsApi
      */
     public function updateFlowAsyncWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20078';
+        $returnType = '\Swagger\Client\Model\InlineResponse20084';
         $request = $this->updateFlowRequest($id, $body, $fields, $meta);
 
         return $this->client

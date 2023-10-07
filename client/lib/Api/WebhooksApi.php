@@ -97,7 +97,7 @@ class WebhooksApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20072
+     * @return \Swagger\Client\Model\InlineResponse20078
      */
     public function createWebhook($body = null, $fields = null, $meta = null)
     {
@@ -116,11 +116,11 @@ class WebhooksApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20072, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20078, HTTP status code, HTTP response headers (array of strings)
      */
     public function createWebhookWithHttpInfo($body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20072';
+        $returnType = '\Swagger\Client\Model\InlineResponse20078';
         $request = $this->createWebhookRequest($body, $fields, $meta);
 
         try {
@@ -172,7 +172,7 @@ class WebhooksApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20072',
+                        '\Swagger\Client\Model\InlineResponse20078',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -234,7 +234,7 @@ class WebhooksApi
      */
     public function createWebhookAsyncWithHttpInfo($body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20072';
+        $returnType = '\Swagger\Client\Model\InlineResponse20078';
         $request = $this->createWebhookRequest($body, $fields, $meta);
 
         return $this->client
@@ -624,7 +624,7 @@ class WebhooksApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20076
+     * @return \Swagger\Client\Model\InlineResponse20082
      */
     public function getWebhook($id)
     {
@@ -641,11 +641,11 @@ class WebhooksApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20076, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20082, HTTP status code, HTTP response headers (array of strings)
      */
     public function getWebhookWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20076';
+        $returnType = '\Swagger\Client\Model\InlineResponse20082';
         $request = $this->getWebhookRequest($id);
 
         try {
@@ -697,7 +697,7 @@ class WebhooksApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20076',
+                        '\Swagger\Client\Model\InlineResponse20082',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -755,7 +755,7 @@ class WebhooksApi
      */
     public function getWebhookAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20076';
+        $returnType = '\Swagger\Client\Model\InlineResponse20082';
         $request = $this->getWebhookRequest($id);
 
         return $this->client
@@ -901,7 +901,7 @@ class WebhooksApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20076
+     * @return \Swagger\Client\Model\InlineResponse20082
      */
     public function getWebhooks()
     {
@@ -917,11 +917,11 @@ class WebhooksApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20076, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20082, HTTP status code, HTTP response headers (array of strings)
      */
     public function getWebhooksWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20076';
+        $returnType = '\Swagger\Client\Model\InlineResponse20082';
         $request = $this->getWebhooksRequest();
 
         try {
@@ -973,7 +973,7 @@ class WebhooksApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20076',
+                        '\Swagger\Client\Model\InlineResponse20082',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1029,7 +1029,7 @@ class WebhooksApi
      */
     public function getWebhooksAsyncWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20076';
+        $returnType = '\Swagger\Client\Model\InlineResponse20082';
         $request = $this->getWebhooksRequest();
 
         return $this->client
@@ -1164,7 +1164,7 @@ class WebhooksApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20072
+     * @return \Swagger\Client\Model\InlineResponse20078
      */
     public function updateWebhook($id, $body = null, $fields = null, $meta = null)
     {
@@ -1184,11 +1184,11 @@ class WebhooksApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20072, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20078, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateWebhookWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20072';
+        $returnType = '\Swagger\Client\Model\InlineResponse20078';
         $request = $this->updateWebhookRequest($id, $body, $fields, $meta);
 
         try {
@@ -1240,7 +1240,7 @@ class WebhooksApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20072',
+                        '\Swagger\Client\Model\InlineResponse20078',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1304,7 +1304,7 @@ class WebhooksApi
      */
     public function updateWebhookAsyncWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20072';
+        $returnType = '\Swagger\Client\Model\InlineResponse20078';
         $request = $this->updateWebhookRequest($id, $body, $fields, $meta);
 
         return $this->client

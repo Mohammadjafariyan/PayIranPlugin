@@ -125,4 +125,25 @@ class ItemsSubsidiaryLedgerTest extends TestCase
     public function testPropertyDateUpdated()
     {
     }
+
+    /**
+     * Test attribute "ledger_account"
+     */
+    public function testPropertyLedgerAccount()
+    {
+    }
+
+    /**
+     * Test attribute "name"
+     */
+    public function testPropertyName()
+    {
+    }
+
+    /**
+     * Test attribute "code"
+     */
+    public function testPropertyCode()
+    {
+    }
 }

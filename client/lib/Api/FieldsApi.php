@@ -96,7 +96,7 @@ class FieldsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20057
+     * @return \Swagger\Client\Model\InlineResponse20063
      */
     public function createField($collection, $body = null)
     {
@@ -114,11 +114,11 @@ class FieldsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20057, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20063, HTTP status code, HTTP response headers (array of strings)
      */
     public function createFieldWithHttpInfo($collection, $body = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20057';
+        $returnType = '\Swagger\Client\Model\InlineResponse20063';
         $request = $this->createFieldRequest($collection, $body);
 
         try {
@@ -170,7 +170,7 @@ class FieldsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20057',
+                        '\Swagger\Client\Model\InlineResponse20063',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -230,7 +230,7 @@ class FieldsApi
      */
     public function createFieldAsyncWithHttpInfo($collection, $body = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20057';
+        $returnType = '\Swagger\Client\Model\InlineResponse20063';
         $request = $this->createFieldRequest($collection, $body);
 
         return $this->client
@@ -642,7 +642,7 @@ class FieldsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20057
+     * @return \Swagger\Client\Model\InlineResponse20063
      */
     public function getCollectionField($collection, $id)
     {
@@ -660,11 +660,11 @@ class FieldsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20057, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20063, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCollectionFieldWithHttpInfo($collection, $id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20057';
+        $returnType = '\Swagger\Client\Model\InlineResponse20063';
         $request = $this->getCollectionFieldRequest($collection, $id);
 
         try {
@@ -716,7 +716,7 @@ class FieldsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20057',
+                        '\Swagger\Client\Model\InlineResponse20063',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -776,7 +776,7 @@ class FieldsApi
      */
     public function getCollectionFieldAsyncWithHttpInfo($collection, $id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20057';
+        $returnType = '\Swagger\Client\Model\InlineResponse20063';
         $request = $this->getCollectionFieldRequest($collection, $id);
 
         return $this->client
@@ -939,7 +939,7 @@ class FieldsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20056
+     * @return \Swagger\Client\Model\InlineResponse20062
      */
     public function getCollectionFields($collection, $sort = null)
     {
@@ -957,11 +957,11 @@ class FieldsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20056, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20062, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCollectionFieldsWithHttpInfo($collection, $sort = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20056';
+        $returnType = '\Swagger\Client\Model\InlineResponse20062';
         $request = $this->getCollectionFieldsRequest($collection, $sort);
 
         try {
@@ -1013,7 +1013,7 @@ class FieldsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20056',
+                        '\Swagger\Client\Model\InlineResponse20062',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1073,7 +1073,7 @@ class FieldsApi
      */
     public function getCollectionFieldsAsyncWithHttpInfo($collection, $sort = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20056';
+        $returnType = '\Swagger\Client\Model\InlineResponse20062';
         $request = $this->getCollectionFieldsRequest($collection, $sort);
 
         return $this->client
@@ -1229,7 +1229,7 @@ class FieldsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20056
+     * @return \Swagger\Client\Model\InlineResponse20062
      */
     public function getFields($limit = null, $sort = null)
     {
@@ -1247,11 +1247,11 @@ class FieldsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20056, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20062, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFieldsWithHttpInfo($limit = null, $sort = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20056';
+        $returnType = '\Swagger\Client\Model\InlineResponse20062';
         $request = $this->getFieldsRequest($limit, $sort);
 
         try {
@@ -1303,7 +1303,7 @@ class FieldsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20056',
+                        '\Swagger\Client\Model\InlineResponse20062',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1363,7 +1363,7 @@ class FieldsApi
      */
     public function getFieldsAsyncWithHttpInfo($limit = null, $sort = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20056';
+        $returnType = '\Swagger\Client\Model\InlineResponse20062';
         $request = $this->getFieldsRequest($limit, $sort);
 
         return $this->client
@@ -1510,7 +1510,7 @@ class FieldsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20057
+     * @return \Swagger\Client\Model\InlineResponse20063
      */
     public function updateField($collection, $id, $body = null)
     {
@@ -1529,11 +1529,11 @@ class FieldsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20057, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20063, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateFieldWithHttpInfo($collection, $id, $body = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20057';
+        $returnType = '\Swagger\Client\Model\InlineResponse20063';
         $request = $this->updateFieldRequest($collection, $id, $body);
 
         try {
@@ -1585,7 +1585,7 @@ class FieldsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20057',
+                        '\Swagger\Client\Model\InlineResponse20063',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1647,7 +1647,7 @@ class FieldsApi
      */
     public function updateFieldAsyncWithHttpInfo($collection, $id, $body = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20057';
+        $returnType = '\Swagger\Client\Model\InlineResponse20063';
         $request = $this->updateFieldRequest($collection, $id, $body);
 
         return $this->client

@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateSingleItemsProvince**](ItemsProvinceApi.md#updatesingleitemsprovince) | **PATCH** /items/Province/{id} | Update an Item
 
 # **createItemsProvince**
-> \Swagger\Client\Model\InlineResponse20041 createItemsProvince($body, $meta)
+> \Swagger\Client\Model\InlineResponse20047 createItemsProvince($body, $meta)
 
 Create an Item
 
@@ -48,7 +48,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20041**](../Model/InlineResponse20041.md)
+[**\Swagger\Client\Model\InlineResponse20047**](../Model/InlineResponse20047.md)
 
 ### Authorization
 
@@ -78,7 +78,7 @@ $apiInstance = new Swagger\Client\Api\ItemsProvinceApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id31(); // \Swagger\Client\Model\Id31 | Index of the item.
+$id = new \Swagger\Client\Model\Id37(); // \Swagger\Client\Model\Id37 | Index of the item.
 
 try {
     $apiInstance->deleteSingleItemsProvince($id);
@@ -92,7 +92,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id31**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id37**](../Model/.md)| Index of the item. |
 
 ### Return type
 
@@ -110,7 +110,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **readItemsProvince**
-> \Swagger\Client\Model\InlineResponse20040 readItemsProvince($fields, $limit, $meta, $offset, $sort, $filter, $search)
+> \Swagger\Client\Model\InlineResponse20046 readItemsProvince($fields, $limit, $meta, $offset, $sort, $filter, $search)
 
 List Items
 
@@ -162,7 +162,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20040**](../Model/InlineResponse20040.md)
+[**\Swagger\Client\Model\InlineResponse20046**](../Model/InlineResponse20046.md)
 
 ### Authorization
 
@@ -176,7 +176,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **readSingleItemsProvince**
-> \Swagger\Client\Model\InlineResponse20042 readSingleItemsProvince($id, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20048 readSingleItemsProvince($id, $fields, $meta)
 
 Retrieve an Item
 
@@ -192,7 +192,7 @@ $apiInstance = new Swagger\Client\Api\ItemsProvinceApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id30(); // \Swagger\Client\Model\Id30 | Index of the item.
+$id = new \Swagger\Client\Model\Id36(); // \Swagger\Client\Model\Id36 | Index of the item.
 $fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
 $meta = "meta_example"; // string | What metadata to return in the response.
 
@@ -209,13 +209,13 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id30**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id36**](../Model/.md)| Index of the item. |
  **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
  **meta** | **string**| What metadata to return in the response. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20042**](../Model/InlineResponse20042.md)
+[**\Swagger\Client\Model\InlineResponse20048**](../Model/InlineResponse20048.md)
 
 ### Authorization
 
@@ -229,7 +229,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateSingleItemsProvince**
-> \Swagger\Client\Model\InlineResponse20042 updateSingleItemsProvince($id, $body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20048 updateSingleItemsProvince($id, $body, $fields, $meta)
 
 Update an Item
 
@@ -245,7 +245,7 @@ $apiInstance = new Swagger\Client\Api\ItemsProvinceApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id32(); // \Swagger\Client\Model\Id32 | Index of the item.
+$id = new \Swagger\Client\Model\Id38(); // \Swagger\Client\Model\Id38 | Index of the item.
 $body = new \Swagger\Client\Model\ItemsProvince(); // \Swagger\Client\Model\ItemsProvince | 
 $fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
 $meta = "meta_example"; // string | What metadata to return in the response.
@@ -263,14 +263,14 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id32**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id38**](../Model/.md)| Index of the item. |
  **body** | [**\Swagger\Client\Model\ItemsProvince**](../Model/ItemsProvince.md)|  | [optional]
  **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
  **meta** | **string**| What metadata to return in the response. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20042**](../Model/InlineResponse20042.md)
+[**\Swagger\Client\Model\InlineResponse20048**](../Model/InlineResponse20048.md)
 
 ### Authorization
 

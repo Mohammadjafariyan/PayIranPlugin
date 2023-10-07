@@ -62,7 +62,19 @@ class ItemsInvoice implements ModelInterface, ArrayAccess
 'user_created' => 'OneOfItemsInvoiceUserCreated',
 'date_created' => 'string',
 'user_updated' => 'OneOfItemsInvoiceUserUpdated',
-'date_updated' => 'string'    ];
+'date_updated' => 'string',
+'gateway' => 'OneOfItemsInvoiceGateway',
+'invoice_type' => 'OneOfItemsInvoiceInvoiceType',
+'title' => 'string',
+'order_id' => 'string',
+'amount' => 'float',
+'phone' => 'string',
+'mail' => 'string',
+'desc' => 'string',
+'callback' => 'string',
+'access_token' => 'string',
+'gateway_token' => 'string',
+'requester_info' => 'string'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -76,7 +88,19 @@ class ItemsInvoice implements ModelInterface, ArrayAccess
 'user_created' => null,
 'date_created' => 'timestamp',
 'user_updated' => null,
-'date_updated' => 'timestamp'    ];
+'date_updated' => 'timestamp',
+'gateway' => null,
+'invoice_type' => null,
+'title' => null,
+'order_id' => null,
+'amount' => null,
+'phone' => null,
+'mail' => null,
+'desc' => null,
+'callback' => null,
+'access_token' => null,
+'gateway_token' => null,
+'requester_info' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -111,7 +135,19 @@ class ItemsInvoice implements ModelInterface, ArrayAccess
 'user_created' => 'user_created',
 'date_created' => 'date_created',
 'user_updated' => 'user_updated',
-'date_updated' => 'date_updated'    ];
+'date_updated' => 'date_updated',
+'gateway' => 'Gateway',
+'invoice_type' => 'InvoiceType',
+'title' => 'Title',
+'order_id' => 'order_id',
+'amount' => 'amount',
+'phone' => 'phone',
+'mail' => 'mail',
+'desc' => 'desc',
+'callback' => 'callback',
+'access_token' => 'access_token',
+'gateway_token' => 'gateway_token',
+'requester_info' => 'requesterInfo'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -125,7 +161,19 @@ class ItemsInvoice implements ModelInterface, ArrayAccess
 'user_created' => 'setUserCreated',
 'date_created' => 'setDateCreated',
 'user_updated' => 'setUserUpdated',
-'date_updated' => 'setDateUpdated'    ];
+'date_updated' => 'setDateUpdated',
+'gateway' => 'setGateway',
+'invoice_type' => 'setInvoiceType',
+'title' => 'setTitle',
+'order_id' => 'setOrderId',
+'amount' => 'setAmount',
+'phone' => 'setPhone',
+'mail' => 'setMail',
+'desc' => 'setDesc',
+'callback' => 'setCallback',
+'access_token' => 'setAccessToken',
+'gateway_token' => 'setGatewayToken',
+'requester_info' => 'setRequesterInfo'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -139,7 +187,19 @@ class ItemsInvoice implements ModelInterface, ArrayAccess
 'user_created' => 'getUserCreated',
 'date_created' => 'getDateCreated',
 'user_updated' => 'getUserUpdated',
-'date_updated' => 'getDateUpdated'    ];
+'date_updated' => 'getDateUpdated',
+'gateway' => 'getGateway',
+'invoice_type' => 'getInvoiceType',
+'title' => 'getTitle',
+'order_id' => 'getOrderId',
+'amount' => 'getAmount',
+'phone' => 'getPhone',
+'mail' => 'getMail',
+'desc' => 'getDesc',
+'callback' => 'getCallback',
+'access_token' => 'getAccessToken',
+'gateway_token' => 'getGatewayToken',
+'requester_info' => 'getRequesterInfo'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -206,6 +266,18 @@ class ItemsInvoice implements ModelInterface, ArrayAccess
         $this->container['date_created'] = isset($data['date_created']) ? $data['date_created'] : null;
         $this->container['user_updated'] = isset($data['user_updated']) ? $data['user_updated'] : null;
         $this->container['date_updated'] = isset($data['date_updated']) ? $data['date_updated'] : null;
+        $this->container['gateway'] = isset($data['gateway']) ? $data['gateway'] : null;
+        $this->container['invoice_type'] = isset($data['invoice_type']) ? $data['invoice_type'] : null;
+        $this->container['title'] = isset($data['title']) ? $data['title'] : null;
+        $this->container['order_id'] = isset($data['order_id']) ? $data['order_id'] : null;
+        $this->container['amount'] = isset($data['amount']) ? $data['amount'] : null;
+        $this->container['phone'] = isset($data['phone']) ? $data['phone'] : null;
+        $this->container['mail'] = isset($data['mail']) ? $data['mail'] : null;
+        $this->container['desc'] = isset($data['desc']) ? $data['desc'] : null;
+        $this->container['callback'] = isset($data['callback']) ? $data['callback'] : null;
+        $this->container['access_token'] = isset($data['access_token']) ? $data['access_token'] : null;
+        $this->container['gateway_token'] = isset($data['gateway_token']) ? $data['gateway_token'] : null;
+        $this->container['requester_info'] = isset($data['requester_info']) ? $data['requester_info'] : null;
     }
 
     /**
@@ -396,6 +468,294 @@ class ItemsInvoice implements ModelInterface, ArrayAccess
     public function setDateUpdated($date_updated)
     {
         $this->container['date_updated'] = $date_updated;
+
+        return $this;
+    }
+
+    /**
+     * Gets gateway
+     *
+     * @return OneOfItemsInvoiceGateway
+     */
+    public function getGateway()
+    {
+        return $this->container['gateway'];
+    }
+
+    /**
+     * Sets gateway
+     *
+     * @param OneOfItemsInvoiceGateway $gateway gateway
+     *
+     * @return $this
+     */
+    public function setGateway($gateway)
+    {
+        $this->container['gateway'] = $gateway;
+
+        return $this;
+    }
+
+    /**
+     * Gets invoice_type
+     *
+     * @return OneOfItemsInvoiceInvoiceType
+     */
+    public function getInvoiceType()
+    {
+        return $this->container['invoice_type'];
+    }
+
+    /**
+     * Sets invoice_type
+     *
+     * @param OneOfItemsInvoiceInvoiceType $invoice_type invoice_type
+     *
+     * @return $this
+     */
+    public function setInvoiceType($invoice_type)
+    {
+        $this->container['invoice_type'] = $invoice_type;
+
+        return $this;
+    }
+
+    /**
+     * Gets title
+     *
+     * @return string
+     */
+    public function getTitle()
+    {
+        return $this->container['title'];
+    }
+
+    /**
+     * Sets title
+     *
+     * @param string $title title
+     *
+     * @return $this
+     */
+    public function setTitle($title)
+    {
+        $this->container['title'] = $title;
+
+        return $this;
+    }
+
+    /**
+     * Gets order_id
+     *
+     * @return string
+     */
+    public function getOrderId()
+    {
+        return $this->container['order_id'];
+    }
+
+    /**
+     * Sets order_id
+     *
+     * @param string $order_id order_id
+     *
+     * @return $this
+     */
+    public function setOrderId($order_id)
+    {
+        $this->container['order_id'] = $order_id;
+
+        return $this;
+    }
+
+    /**
+     * Gets amount
+     *
+     * @return float
+     */
+    public function getAmount()
+    {
+        return $this->container['amount'];
+    }
+
+    /**
+     * Sets amount
+     *
+     * @param float $amount amount
+     *
+     * @return $this
+     */
+    public function setAmount($amount)
+    {
+        $this->container['amount'] = $amount;
+
+        return $this;
+    }
+
+    /**
+     * Gets phone
+     *
+     * @return string
+     */
+    public function getPhone()
+    {
+        return $this->container['phone'];
+    }
+
+    /**
+     * Sets phone
+     *
+     * @param string $phone phone
+     *
+     * @return $this
+     */
+    public function setPhone($phone)
+    {
+        $this->container['phone'] = $phone;
+
+        return $this;
+    }
+
+    /**
+     * Gets mail
+     *
+     * @return string
+     */
+    public function getMail()
+    {
+        return $this->container['mail'];
+    }
+
+    /**
+     * Sets mail
+     *
+     * @param string $mail mail
+     *
+     * @return $this
+     */
+    public function setMail($mail)
+    {
+        $this->container['mail'] = $mail;
+
+        return $this;
+    }
+
+    /**
+     * Gets desc
+     *
+     * @return string
+     */
+    public function getDesc()
+    {
+        return $this->container['desc'];
+    }
+
+    /**
+     * Sets desc
+     *
+     * @param string $desc desc
+     *
+     * @return $this
+     */
+    public function setDesc($desc)
+    {
+        $this->container['desc'] = $desc;
+
+        return $this;
+    }
+
+    /**
+     * Gets callback
+     *
+     * @return string
+     */
+    public function getCallback()
+    {
+        return $this->container['callback'];
+    }
+
+    /**
+     * Sets callback
+     *
+     * @param string $callback callback
+     *
+     * @return $this
+     */
+    public function setCallback($callback)
+    {
+        $this->container['callback'] = $callback;
+
+        return $this;
+    }
+
+    /**
+     * Gets access_token
+     *
+     * @return string
+     */
+    public function getAccessToken()
+    {
+        return $this->container['access_token'];
+    }
+
+    /**
+     * Sets access_token
+     *
+     * @param string $access_token access_token
+     *
+     * @return $this
+     */
+    public function setAccessToken($access_token)
+    {
+        $this->container['access_token'] = $access_token;
+
+        return $this;
+    }
+
+    /**
+     * Gets gateway_token
+     *
+     * @return string
+     */
+    public function getGatewayToken()
+    {
+        return $this->container['gateway_token'];
+    }
+
+    /**
+     * Sets gateway_token
+     *
+     * @param string $gateway_token gateway_token
+     *
+     * @return $this
+     */
+    public function setGatewayToken($gateway_token)
+    {
+        $this->container['gateway_token'] = $gateway_token;
+
+        return $this;
+    }
+
+    /**
+     * Gets requester_info
+     *
+     * @return string
+     */
+    public function getRequesterInfo()
+    {
+        return $this->container['requester_info'];
+    }
+
+    /**
+     * Sets requester_info
+     *
+     * @param string $requester_info requester_info
+     *
+     * @return $this
+     */
+    public function setRequesterInfo($requester_info)
+    {
+        $this->container['requester_info'] = $requester_info;
 
         return $this;
     }

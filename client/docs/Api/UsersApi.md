@@ -18,7 +18,7 @@ Method | HTTP request | Description
 [**updateUser**](UsersApi.md#updateuser) | **PATCH** /users/{id} | Update a User
 
 # **acceptInvite**
-> \Swagger\Client\Model\InlineResponse20075 acceptInvite($body)
+> \Swagger\Client\Model\InlineResponse20081 acceptInvite($body)
 
 Accept User Invite
 
@@ -53,7 +53,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20075**](../Model/InlineResponse20075.md)
+[**\Swagger\Client\Model\InlineResponse20081**](../Model/InlineResponse20081.md)
 
 ### Authorization
 
@@ -67,7 +67,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createUser**
-> \Swagger\Client\Model\InlineResponse20075 createUser($body, $meta)
+> \Swagger\Client\Model\InlineResponse20081 createUser($body, $meta)
 
 Create a User
 
@@ -104,7 +104,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20075**](../Model/InlineResponse20075.md)
+[**\Swagger\Client\Model\InlineResponse20081**](../Model/InlineResponse20081.md)
 
 ### Authorization
 
@@ -166,7 +166,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getMe**
-> \Swagger\Client\Model\InlineResponse20075 getMe($fields, $meta)
+> \Swagger\Client\Model\InlineResponse20081 getMe($fields, $meta)
 
 Retrieve Current User
 
@@ -203,7 +203,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20075**](../Model/InlineResponse20075.md)
+[**\Swagger\Client\Model\InlineResponse20081**](../Model/InlineResponse20081.md)
 
 ### Authorization
 
@@ -217,7 +217,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getUser**
-> \Swagger\Client\Model\InlineResponse20075 getUser($id, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20081 getUser($id, $fields, $meta)
 
 Retrieve a User
 
@@ -256,7 +256,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20075**](../Model/InlineResponse20075.md)
+[**\Swagger\Client\Model\InlineResponse20081**](../Model/InlineResponse20081.md)
 
 ### Authorization
 
@@ -270,7 +270,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getUsers**
-> \Swagger\Client\Model\InlineResponse20074 getUsers($fields, $limit, $offset, $meta, $sort, $filter, $search)
+> \Swagger\Client\Model\InlineResponse20080 getUsers($fields, $limit, $offset, $meta, $sort, $filter, $search)
 
 List Users
 
@@ -317,7 +317,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20074**](../Model/InlineResponse20074.md)
+[**\Swagger\Client\Model\InlineResponse20080**](../Model/InlineResponse20080.md)
 
 ### Authorization
 
@@ -331,7 +331,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **invite**
-> \Swagger\Client\Model\InlineResponse20075 invite($body)
+> \Swagger\Client\Model\InlineResponse20081 invite($body)
 
 Invite User(s)
 
@@ -366,7 +366,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20075**](../Model/InlineResponse20075.md)
+[**\Swagger\Client\Model\InlineResponse20081**](../Model/InlineResponse20081.md)
 
 ### Authorization
 
@@ -516,7 +516,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateMe**
-> \Swagger\Client\Model\InlineResponse20075 updateMe()
+> \Swagger\Client\Model\InlineResponse20081 updateMe()
 
 Update Current User
 
@@ -547,7 +547,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20075**](../Model/InlineResponse20075.md)
+[**\Swagger\Client\Model\InlineResponse20081**](../Model/InlineResponse20081.md)
 
 ### Authorization
 

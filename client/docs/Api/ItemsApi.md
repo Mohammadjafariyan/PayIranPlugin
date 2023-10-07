@@ -7,11 +7,13 @@ Method | HTTP request | Description
 [**createItemsAccountType**](ItemsApi.md#createitemsaccounttype) | **POST** /items/AccountType | Create an Item
 [**createItemsBank**](ItemsApi.md#createitemsbank) | **POST** /items/Bank | Create an Item
 [**createItemsCity**](ItemsApi.md#createitemscity) | **POST** /items/City | Create an Item
+[**createItemsCityTranslations**](ItemsApi.md#createitemscitytranslations) | **POST** /items/City_translations | Create an Item
 [**createItemsGateway**](ItemsApi.md#createitemsgateway) | **POST** /items/Gateway | Create an Item
 [**createItemsGeneralLedger**](ItemsApi.md#createitemsgeneralledger) | **POST** /items/GeneralLedger | Create an Item
 [**createItemsInvoice**](ItemsApi.md#createitemsinvoice) | **POST** /items/Invoice | Create an Item
 [**createItemsInvoiceType**](ItemsApi.md#createitemsinvoicetype) | **POST** /items/InvoiceType | Create an Item
 [**createItemsJournalEntry**](ItemsApi.md#createitemsjournalentry) | **POST** /items/JournalEntry | Create an Item
+[**createItemsLanguages**](ItemsApi.md#createitemslanguages) | **POST** /items/languages | Create an Item
 [**createItemsLedgerAccount**](ItemsApi.md#createitemsledgeraccount) | **POST** /items/LedgerAccount | Create an Item
 [**createItemsPerson**](ItemsApi.md#createitemsperson) | **POST** /items/Person | Create an Item
 [**createItemsProvince**](ItemsApi.md#createitemsprovince) | **POST** /items/Province | Create an Item
@@ -21,11 +23,13 @@ Method | HTTP request | Description
 [**deleteSingleItemsAccountType**](ItemsApi.md#deletesingleitemsaccounttype) | **DELETE** /items/AccountType/{id} | Delete an Item
 [**deleteSingleItemsBank**](ItemsApi.md#deletesingleitemsbank) | **DELETE** /items/Bank/{id} | Delete an Item
 [**deleteSingleItemsCity**](ItemsApi.md#deletesingleitemscity) | **DELETE** /items/City/{id} | Delete an Item
+[**deleteSingleItemsCityTranslations**](ItemsApi.md#deletesingleitemscitytranslations) | **DELETE** /items/City_translations/{id} | Delete an Item
 [**deleteSingleItemsGateway**](ItemsApi.md#deletesingleitemsgateway) | **DELETE** /items/Gateway/{id} | Delete an Item
 [**deleteSingleItemsGeneralLedger**](ItemsApi.md#deletesingleitemsgeneralledger) | **DELETE** /items/GeneralLedger/{id} | Delete an Item
 [**deleteSingleItemsInvoice**](ItemsApi.md#deletesingleitemsinvoice) | **DELETE** /items/Invoice/{id} | Delete an Item
 [**deleteSingleItemsInvoiceType**](ItemsApi.md#deletesingleitemsinvoicetype) | **DELETE** /items/InvoiceType/{id} | Delete an Item
 [**deleteSingleItemsJournalEntry**](ItemsApi.md#deletesingleitemsjournalentry) | **DELETE** /items/JournalEntry/{id} | Delete an Item
+[**deleteSingleItemsLanguages**](ItemsApi.md#deletesingleitemslanguages) | **DELETE** /items/languages/{id} | Delete an Item
 [**deleteSingleItemsLedgerAccount**](ItemsApi.md#deletesingleitemsledgeraccount) | **DELETE** /items/LedgerAccount/{id} | Delete an Item
 [**deleteSingleItemsPerson**](ItemsApi.md#deletesingleitemsperson) | **DELETE** /items/Person/{id} | Delete an Item
 [**deleteSingleItemsProvince**](ItemsApi.md#deletesingleitemsprovince) | **DELETE** /items/Province/{id} | Delete an Item
@@ -35,11 +39,13 @@ Method | HTTP request | Description
 [**readItemsAccountType**](ItemsApi.md#readitemsaccounttype) | **GET** /items/AccountType | List Items
 [**readItemsBank**](ItemsApi.md#readitemsbank) | **GET** /items/Bank | List Items
 [**readItemsCity**](ItemsApi.md#readitemscity) | **GET** /items/City | List Items
+[**readItemsCityTranslations**](ItemsApi.md#readitemscitytranslations) | **GET** /items/City_translations | List Items
 [**readItemsGateway**](ItemsApi.md#readitemsgateway) | **GET** /items/Gateway | List Items
 [**readItemsGeneralLedger**](ItemsApi.md#readitemsgeneralledger) | **GET** /items/GeneralLedger | List Items
 [**readItemsInvoice**](ItemsApi.md#readitemsinvoice) | **GET** /items/Invoice | List Items
 [**readItemsInvoiceType**](ItemsApi.md#readitemsinvoicetype) | **GET** /items/InvoiceType | List Items
 [**readItemsJournalEntry**](ItemsApi.md#readitemsjournalentry) | **GET** /items/JournalEntry | List Items
+[**readItemsLanguages**](ItemsApi.md#readitemslanguages) | **GET** /items/languages | List Items
 [**readItemsLedgerAccount**](ItemsApi.md#readitemsledgeraccount) | **GET** /items/LedgerAccount | List Items
 [**readItemsPerson**](ItemsApi.md#readitemsperson) | **GET** /items/Person | List Items
 [**readItemsProvince**](ItemsApi.md#readitemsprovince) | **GET** /items/Province | List Items
@@ -49,11 +55,13 @@ Method | HTTP request | Description
 [**readSingleItemsAccountType**](ItemsApi.md#readsingleitemsaccounttype) | **GET** /items/AccountType/{id} | Retrieve an Item
 [**readSingleItemsBank**](ItemsApi.md#readsingleitemsbank) | **GET** /items/Bank/{id} | Retrieve an Item
 [**readSingleItemsCity**](ItemsApi.md#readsingleitemscity) | **GET** /items/City/{id} | Retrieve an Item
+[**readSingleItemsCityTranslations**](ItemsApi.md#readsingleitemscitytranslations) | **GET** /items/City_translations/{id} | Retrieve an Item
 [**readSingleItemsGateway**](ItemsApi.md#readsingleitemsgateway) | **GET** /items/Gateway/{id} | Retrieve an Item
 [**readSingleItemsGeneralLedger**](ItemsApi.md#readsingleitemsgeneralledger) | **GET** /items/GeneralLedger/{id} | Retrieve an Item
 [**readSingleItemsInvoice**](ItemsApi.md#readsingleitemsinvoice) | **GET** /items/Invoice/{id} | Retrieve an Item
 [**readSingleItemsInvoiceType**](ItemsApi.md#readsingleitemsinvoicetype) | **GET** /items/InvoiceType/{id} | Retrieve an Item
 [**readSingleItemsJournalEntry**](ItemsApi.md#readsingleitemsjournalentry) | **GET** /items/JournalEntry/{id} | Retrieve an Item
+[**readSingleItemsLanguages**](ItemsApi.md#readsingleitemslanguages) | **GET** /items/languages/{id} | Retrieve an Item
 [**readSingleItemsLedgerAccount**](ItemsApi.md#readsingleitemsledgeraccount) | **GET** /items/LedgerAccount/{id} | Retrieve an Item
 [**readSingleItemsPerson**](ItemsApi.md#readsingleitemsperson) | **GET** /items/Person/{id} | Retrieve an Item
 [**readSingleItemsProvince**](ItemsApi.md#readsingleitemsprovince) | **GET** /items/Province/{id} | Retrieve an Item
@@ -63,11 +71,13 @@ Method | HTTP request | Description
 [**updateSingleItemsAccountType**](ItemsApi.md#updatesingleitemsaccounttype) | **PATCH** /items/AccountType/{id} | Update an Item
 [**updateSingleItemsBank**](ItemsApi.md#updatesingleitemsbank) | **PATCH** /items/Bank/{id} | Update an Item
 [**updateSingleItemsCity**](ItemsApi.md#updatesingleitemscity) | **PATCH** /items/City/{id} | Update an Item
+[**updateSingleItemsCityTranslations**](ItemsApi.md#updatesingleitemscitytranslations) | **PATCH** /items/City_translations/{id} | Update an Item
 [**updateSingleItemsGateway**](ItemsApi.md#updatesingleitemsgateway) | **PATCH** /items/Gateway/{id} | Update an Item
 [**updateSingleItemsGeneralLedger**](ItemsApi.md#updatesingleitemsgeneralledger) | **PATCH** /items/GeneralLedger/{id} | Update an Item
 [**updateSingleItemsInvoice**](ItemsApi.md#updatesingleitemsinvoice) | **PATCH** /items/Invoice/{id} | Update an Item
 [**updateSingleItemsInvoiceType**](ItemsApi.md#updatesingleitemsinvoicetype) | **PATCH** /items/InvoiceType/{id} | Update an Item
 [**updateSingleItemsJournalEntry**](ItemsApi.md#updatesingleitemsjournalentry) | **PATCH** /items/JournalEntry/{id} | Update an Item
+[**updateSingleItemsLanguages**](ItemsApi.md#updatesingleitemslanguages) | **PATCH** /items/languages/{id} | Update an Item
 [**updateSingleItemsLedgerAccount**](ItemsApi.md#updatesingleitemsledgeraccount) | **PATCH** /items/LedgerAccount/{id} | Update an Item
 [**updateSingleItemsPerson**](ItemsApi.md#updatesingleitemsperson) | **PATCH** /items/Person/{id} | Update an Item
 [**updateSingleItemsProvince**](ItemsApi.md#updatesingleitemsprovince) | **PATCH** /items/Province/{id} | Update an Item
@@ -228,8 +238,59 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
+# **createItemsCityTranslations**
+> \Swagger\Client\Model\InlineResponse20020 createItemsCityTranslations($body, $meta)
+
+Create an Item
+
+Create a new City_translations item.
+
+### Example
+```php
+<?php
+require_once(__DIR__ . '/vendor/autoload.php');
+
+$apiInstance = new Swagger\Client\Api\ItemsApi(
+    // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
+    // This is optional, `GuzzleHttp\Client` will be used as default.
+    new GuzzleHttp\Client()
+);
+$body = new \Swagger\Client\Model\ItemsCityTranslationsBody(); // \Swagger\Client\Model\ItemsCityTranslationsBody | 
+$meta = "meta_example"; // string | What metadata to return in the response.
+
+try {
+    $result = $apiInstance->createItemsCityTranslations($body, $meta);
+    print_r($result);
+} catch (Exception $e) {
+    echo 'Exception when calling ItemsApi->createItemsCityTranslations: ', $e->getMessage(), PHP_EOL;
+}
+?>
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **body** | [**\Swagger\Client\Model\ItemsCityTranslationsBody**](../Model/ItemsCityTranslationsBody.md)|  | [optional]
+ **meta** | **string**| What metadata to return in the response. | [optional]
+
+### Return type
+
+[**\Swagger\Client\Model\InlineResponse20020**](../Model/InlineResponse20020.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: application/json
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
+
 # **createItemsGateway**
-> \Swagger\Client\Model\InlineResponse20020 createItemsGateway($body, $meta)
+> \Swagger\Client\Model\InlineResponse20023 createItemsGateway($body, $meta)
 
 Create an Item
 
@@ -266,7 +327,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20020**](../Model/InlineResponse20020.md)
+[**\Swagger\Client\Model\InlineResponse20023**](../Model/InlineResponse20023.md)
 
 ### Authorization
 
@@ -280,7 +341,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createItemsGeneralLedger**
-> \Swagger\Client\Model\InlineResponse20023 createItemsGeneralLedger($body, $meta)
+> \Swagger\Client\Model\InlineResponse20026 createItemsGeneralLedger($body, $meta)
 
 Create an Item
 
@@ -317,7 +378,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20023**](../Model/InlineResponse20023.md)
+[**\Swagger\Client\Model\InlineResponse20026**](../Model/InlineResponse20026.md)
 
 ### Authorization
 
@@ -331,7 +392,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createItemsInvoice**
-> \Swagger\Client\Model\InlineResponse20026 createItemsInvoice($body, $meta)
+> \Swagger\Client\Model\InlineResponse20029 createItemsInvoice($body, $meta)
 
 Create an Item
 
@@ -368,7 +429,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20026**](../Model/InlineResponse20026.md)
+[**\Swagger\Client\Model\InlineResponse20029**](../Model/InlineResponse20029.md)
 
 ### Authorization
 
@@ -382,7 +443,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createItemsInvoiceType**
-> \Swagger\Client\Model\InlineResponse20029 createItemsInvoiceType($body, $meta)
+> \Swagger\Client\Model\InlineResponse20032 createItemsInvoiceType($body, $meta)
 
 Create an Item
 
@@ -419,7 +480,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20029**](../Model/InlineResponse20029.md)
+[**\Swagger\Client\Model\InlineResponse20032**](../Model/InlineResponse20032.md)
 
 ### Authorization
 
@@ -433,7 +494,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createItemsJournalEntry**
-> \Swagger\Client\Model\InlineResponse20032 createItemsJournalEntry($body, $meta)
+> \Swagger\Client\Model\InlineResponse20035 createItemsJournalEntry($body, $meta)
 
 Create an Item
 
@@ -470,7 +531,58 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20032**](../Model/InlineResponse20032.md)
+[**\Swagger\Client\Model\InlineResponse20035**](../Model/InlineResponse20035.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: application/json
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
+
+# **createItemsLanguages**
+> \Swagger\Client\Model\InlineResponse20038 createItemsLanguages($body, $meta)
+
+Create an Item
+
+Create a new languages item.
+
+### Example
+```php
+<?php
+require_once(__DIR__ . '/vendor/autoload.php');
+
+$apiInstance = new Swagger\Client\Api\ItemsApi(
+    // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
+    // This is optional, `GuzzleHttp\Client` will be used as default.
+    new GuzzleHttp\Client()
+);
+$body = new \Swagger\Client\Model\ItemsLanguagesBody(); // \Swagger\Client\Model\ItemsLanguagesBody | 
+$meta = "meta_example"; // string | What metadata to return in the response.
+
+try {
+    $result = $apiInstance->createItemsLanguages($body, $meta);
+    print_r($result);
+} catch (Exception $e) {
+    echo 'Exception when calling ItemsApi->createItemsLanguages: ', $e->getMessage(), PHP_EOL;
+}
+?>
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **body** | [**\Swagger\Client\Model\ItemsLanguagesBody**](../Model/ItemsLanguagesBody.md)|  | [optional]
+ **meta** | **string**| What metadata to return in the response. | [optional]
+
+### Return type
+
+[**\Swagger\Client\Model\InlineResponse20038**](../Model/InlineResponse20038.md)
 
 ### Authorization
 
@@ -484,7 +596,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createItemsLedgerAccount**
-> \Swagger\Client\Model\InlineResponse20035 createItemsLedgerAccount($body, $meta)
+> \Swagger\Client\Model\InlineResponse20041 createItemsLedgerAccount($body, $meta)
 
 Create an Item
 
@@ -521,7 +633,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20035**](../Model/InlineResponse20035.md)
+[**\Swagger\Client\Model\InlineResponse20041**](../Model/InlineResponse20041.md)
 
 ### Authorization
 
@@ -535,7 +647,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createItemsPerson**
-> \Swagger\Client\Model\InlineResponse20038 createItemsPerson($body, $meta)
+> \Swagger\Client\Model\InlineResponse20044 createItemsPerson($body, $meta)
 
 Create an Item
 
@@ -572,7 +684,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20038**](../Model/InlineResponse20038.md)
+[**\Swagger\Client\Model\InlineResponse20044**](../Model/InlineResponse20044.md)
 
 ### Authorization
 
@@ -586,7 +698,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createItemsProvince**
-> \Swagger\Client\Model\InlineResponse20041 createItemsProvince($body, $meta)
+> \Swagger\Client\Model\InlineResponse20047 createItemsProvince($body, $meta)
 
 Create an Item
 
@@ -623,7 +735,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20041**](../Model/InlineResponse20041.md)
+[**\Swagger\Client\Model\InlineResponse20047**](../Model/InlineResponse20047.md)
 
 ### Authorization
 
@@ -637,7 +749,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createItemsSubsidiaryAccount**
-> \Swagger\Client\Model\InlineResponse20044 createItemsSubsidiaryAccount($body, $meta)
+> \Swagger\Client\Model\InlineResponse20050 createItemsSubsidiaryAccount($body, $meta)
 
 Create an Item
 
@@ -674,7 +786,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20044**](../Model/InlineResponse20044.md)
+[**\Swagger\Client\Model\InlineResponse20050**](../Model/InlineResponse20050.md)
 
 ### Authorization
 
@@ -688,7 +800,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createItemsSubsidiaryLedger**
-> \Swagger\Client\Model\InlineResponse20047 createItemsSubsidiaryLedger($body, $meta)
+> \Swagger\Client\Model\InlineResponse20053 createItemsSubsidiaryLedger($body, $meta)
 
 Create an Item
 
@@ -725,7 +837,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20047**](../Model/InlineResponse20047.md)
+[**\Swagger\Client\Model\InlineResponse20053**](../Model/InlineResponse20053.md)
 
 ### Authorization
 
@@ -739,7 +851,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **createItemsTicket**
-> \Swagger\Client\Model\InlineResponse20050 createItemsTicket($body, $meta)
+> \Swagger\Client\Model\InlineResponse20056 createItemsTicket($body, $meta)
 
 Create an Item
 
@@ -776,7 +888,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20050**](../Model/InlineResponse20050.md)
+[**\Swagger\Client\Model\InlineResponse20056**](../Model/InlineResponse20056.md)
 
 ### Authorization
 
@@ -933,6 +1045,54 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
+# **deleteSingleItemsCityTranslations**
+> deleteSingleItemsCityTranslations($id)
+
+Delete an Item
+
+Delete an existing City_translations item.
+
+### Example
+```php
+<?php
+require_once(__DIR__ . '/vendor/autoload.php');
+
+$apiInstance = new Swagger\Client\Api\ItemsApi(
+    // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
+    // This is optional, `GuzzleHttp\Client` will be used as default.
+    new GuzzleHttp\Client()
+);
+$id = new \Swagger\Client\Model\Id10(); // \Swagger\Client\Model\Id10 | Index of the item.
+
+try {
+    $apiInstance->deleteSingleItemsCityTranslations($id);
+} catch (Exception $e) {
+    echo 'Exception when calling ItemsApi->deleteSingleItemsCityTranslations: ', $e->getMessage(), PHP_EOL;
+}
+?>
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **id** | [**\Swagger\Client\Model\Id10**](../Model/.md)| Index of the item. |
+
+### Return type
+
+void (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
+
 # **deleteSingleItemsGateway**
 > deleteSingleItemsGateway($id)
 
@@ -950,7 +1110,7 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id10(); // \Swagger\Client\Model\Id10 | Index of the item.
+$id = new \Swagger\Client\Model\Id13(); // \Swagger\Client\Model\Id13 | Index of the item.
 
 try {
     $apiInstance->deleteSingleItemsGateway($id);
@@ -964,7 +1124,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id10**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id13**](../Model/.md)| Index of the item. |
 
 ### Return type
 
@@ -998,7 +1158,7 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id13(); // \Swagger\Client\Model\Id13 | Index of the item.
+$id = new \Swagger\Client\Model\Id16(); // \Swagger\Client\Model\Id16 | Index of the item.
 
 try {
     $apiInstance->deleteSingleItemsGeneralLedger($id);
@@ -1012,7 +1172,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id13**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id16**](../Model/.md)| Index of the item. |
 
 ### Return type
 
@@ -1046,7 +1206,7 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id16(); // \Swagger\Client\Model\Id16 | Index of the item.
+$id = new \Swagger\Client\Model\Id19(); // \Swagger\Client\Model\Id19 | Index of the item.
 
 try {
     $apiInstance->deleteSingleItemsInvoice($id);
@@ -1060,7 +1220,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id16**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id19**](../Model/.md)| Index of the item. |
 
 ### Return type
 
@@ -1094,7 +1254,7 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id19(); // \Swagger\Client\Model\Id19 | Index of the item.
+$id = new \Swagger\Client\Model\Id22(); // \Swagger\Client\Model\Id22 | Index of the item.
 
 try {
     $apiInstance->deleteSingleItemsInvoiceType($id);
@@ -1108,7 +1268,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id19**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id22**](../Model/.md)| Index of the item. |
 
 ### Return type
 
@@ -1142,7 +1302,7 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id22(); // \Swagger\Client\Model\Id22 | Index of the item.
+$id = new \Swagger\Client\Model\Id25(); // \Swagger\Client\Model\Id25 | Index of the item.
 
 try {
     $apiInstance->deleteSingleItemsJournalEntry($id);
@@ -1156,7 +1316,55 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id22**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id25**](../Model/.md)| Index of the item. |
+
+### Return type
+
+void (empty response body)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
+
+# **deleteSingleItemsLanguages**
+> deleteSingleItemsLanguages($id)
+
+Delete an Item
+
+Delete an existing languages item.
+
+### Example
+```php
+<?php
+require_once(__DIR__ . '/vendor/autoload.php');
+
+$apiInstance = new Swagger\Client\Api\ItemsApi(
+    // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
+    // This is optional, `GuzzleHttp\Client` will be used as default.
+    new GuzzleHttp\Client()
+);
+$id = new \Swagger\Client\Model\Id28(); // \Swagger\Client\Model\Id28 | Index of the item.
+
+try {
+    $apiInstance->deleteSingleItemsLanguages($id);
+} catch (Exception $e) {
+    echo 'Exception when calling ItemsApi->deleteSingleItemsLanguages: ', $e->getMessage(), PHP_EOL;
+}
+?>
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **id** | [**\Swagger\Client\Model\Id28**](../Model/.md)| Index of the item. |
 
 ### Return type
 
@@ -1190,7 +1398,7 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id25(); // \Swagger\Client\Model\Id25 | Index of the item.
+$id = new \Swagger\Client\Model\Id31(); // \Swagger\Client\Model\Id31 | Index of the item.
 
 try {
     $apiInstance->deleteSingleItemsLedgerAccount($id);
@@ -1204,7 +1412,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id25**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id31**](../Model/.md)| Index of the item. |
 
 ### Return type
 
@@ -1238,7 +1446,7 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id28(); // \Swagger\Client\Model\Id28 | Index of the item.
+$id = new \Swagger\Client\Model\Id34(); // \Swagger\Client\Model\Id34 | Index of the item.
 
 try {
     $apiInstance->deleteSingleItemsPerson($id);
@@ -1252,7 +1460,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id28**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id34**](../Model/.md)| Index of the item. |
 
 ### Return type
 
@@ -1286,7 +1494,7 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id31(); // \Swagger\Client\Model\Id31 | Index of the item.
+$id = new \Swagger\Client\Model\Id37(); // \Swagger\Client\Model\Id37 | Index of the item.
 
 try {
     $apiInstance->deleteSingleItemsProvince($id);
@@ -1300,7 +1508,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id31**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id37**](../Model/.md)| Index of the item. |
 
 ### Return type
 
@@ -1334,7 +1542,7 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id34(); // \Swagger\Client\Model\Id34 | Index of the item.
+$id = new \Swagger\Client\Model\Id40(); // \Swagger\Client\Model\Id40 | Index of the item.
 
 try {
     $apiInstance->deleteSingleItemsSubsidiaryAccount($id);
@@ -1348,7 +1556,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id34**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id40**](../Model/.md)| Index of the item. |
 
 ### Return type
 
@@ -1382,7 +1590,7 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id37(); // \Swagger\Client\Model\Id37 | Index of the item.
+$id = new \Swagger\Client\Model\Id43(); // \Swagger\Client\Model\Id43 | Index of the item.
 
 try {
     $apiInstance->deleteSingleItemsSubsidiaryLedger($id);
@@ -1396,7 +1604,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id37**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id43**](../Model/.md)| Index of the item. |
 
 ### Return type
 
@@ -1430,7 +1638,7 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id40(); // \Swagger\Client\Model\Id40 | Index of the item.
+$id = new \Swagger\Client\Model\Id46(); // \Swagger\Client\Model\Id46 | Index of the item.
 
 try {
     $apiInstance->deleteSingleItemsTicket($id);
@@ -1444,7 +1652,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id40**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id46**](../Model/.md)| Index of the item. |
 
 ### Return type
 
@@ -1659,8 +1867,74 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
+# **readItemsCityTranslations**
+> \Swagger\Client\Model\InlineResponse20019 readItemsCityTranslations($fields, $limit, $meta, $offset, $sort, $filter, $search)
+
+List Items
+
+List the City_translations items.
+
+### Example
+```php
+<?php
+require_once(__DIR__ . '/vendor/autoload.php');
+// Configure API key authorization: Auth
+$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+
+$apiInstance = new Swagger\Client\Api\ItemsApi(
+    // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
+    // This is optional, `GuzzleHttp\Client` will be used as default.
+    new GuzzleHttp\Client(),
+    $config
+);
+$fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
+$limit = 56; // int | A limit on the number of objects that are returned.
+$meta = "meta_example"; // string | What metadata to return in the response.
+$offset = 56; // int | How many items to skip when fetching data.
+$sort = array("sort_example"); // string[] | How to sort the returned items. `sort` is a CSV of fields used to sort the fetched items. Sorting defaults to ascending (ASC) order but a minus sign (` - `) can be used to reverse this to descending (DESC) order. Fields are prioritized by their order in the CSV. You can also use a ` ? ` to sort randomly.
+$filter = array("filter_example"); // string[] | Select items in collection by given conditions.
+$search = "search_example"; // string | Filter by items that contain the given search query in one of their fields.
+
+try {
+    $result = $apiInstance->readItemsCityTranslations($fields, $limit, $meta, $offset, $sort, $filter, $search);
+    print_r($result);
+} catch (Exception $e) {
+    echo 'Exception when calling ItemsApi->readItemsCityTranslations: ', $e->getMessage(), PHP_EOL;
+}
+?>
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
+ **limit** | **int**| A limit on the number of objects that are returned. | [optional]
+ **meta** | **string**| What metadata to return in the response. | [optional]
+ **offset** | **int**| How many items to skip when fetching data. | [optional]
+ **sort** | [**string[]**](../Model/string.md)| How to sort the returned items. &#x60;sort&#x60; is a CSV of fields used to sort the fetched items. Sorting defaults to ascending (ASC) order but a minus sign (&#x60; - &#x60;) can be used to reverse this to descending (DESC) order. Fields are prioritized by their order in the CSV. You can also use a &#x60; ? &#x60; to sort randomly. | [optional]
+ **filter** | [**string[]**](../Model/string.md)| Select items in collection by given conditions. | [optional]
+ **search** | **string**| Filter by items that contain the given search query in one of their fields. | [optional]
+
+### Return type
+
+[**\Swagger\Client\Model\InlineResponse20019**](../Model/InlineResponse20019.md)
+
+### Authorization
+
+[Auth](../../README.md#Auth)
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
+
 # **readItemsGateway**
-> \Swagger\Client\Model\InlineResponse20019 readItemsGateway($fields, $limit, $meta, $offset, $sort, $filter, $search)
+> \Swagger\Client\Model\InlineResponse20022 readItemsGateway($fields, $limit, $meta, $offset, $sort, $filter, $search)
 
 List Items
 
@@ -1712,7 +1986,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20019**](../Model/InlineResponse20019.md)
+[**\Swagger\Client\Model\InlineResponse20022**](../Model/InlineResponse20022.md)
 
 ### Authorization
 
@@ -1726,7 +2000,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **readItemsGeneralLedger**
-> \Swagger\Client\Model\InlineResponse20022 readItemsGeneralLedger($fields, $limit, $meta, $offset, $sort, $filter, $search)
+> \Swagger\Client\Model\InlineResponse20025 readItemsGeneralLedger($fields, $limit, $meta, $offset, $sort, $filter, $search)
 
 List Items
 
@@ -1778,7 +2052,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20022**](../Model/InlineResponse20022.md)
+[**\Swagger\Client\Model\InlineResponse20025**](../Model/InlineResponse20025.md)
 
 ### Authorization
 
@@ -1792,7 +2066,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **readItemsInvoice**
-> \Swagger\Client\Model\InlineResponse20025 readItemsInvoice($fields, $limit, $meta, $offset, $sort, $filter, $search)
+> \Swagger\Client\Model\InlineResponse20028 readItemsInvoice($fields, $limit, $meta, $offset, $sort, $filter, $search)
 
 List Items
 
@@ -1844,7 +2118,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20025**](../Model/InlineResponse20025.md)
+[**\Swagger\Client\Model\InlineResponse20028**](../Model/InlineResponse20028.md)
 
 ### Authorization
 
@@ -1858,7 +2132,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **readItemsInvoiceType**
-> \Swagger\Client\Model\InlineResponse20028 readItemsInvoiceType($fields, $limit, $meta, $offset, $sort, $filter, $search)
+> \Swagger\Client\Model\InlineResponse20031 readItemsInvoiceType($fields, $limit, $meta, $offset, $sort, $filter, $search)
 
 List Items
 
@@ -1910,7 +2184,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20028**](../Model/InlineResponse20028.md)
+[**\Swagger\Client\Model\InlineResponse20031**](../Model/InlineResponse20031.md)
 
 ### Authorization
 
@@ -1924,7 +2198,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **readItemsJournalEntry**
-> \Swagger\Client\Model\InlineResponse20031 readItemsJournalEntry($fields, $limit, $meta, $offset, $sort, $filter, $search)
+> \Swagger\Client\Model\InlineResponse20034 readItemsJournalEntry($fields, $limit, $meta, $offset, $sort, $filter, $search)
 
 List Items
 
@@ -1976,7 +2250,73 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20031**](../Model/InlineResponse20031.md)
+[**\Swagger\Client\Model\InlineResponse20034**](../Model/InlineResponse20034.md)
+
+### Authorization
+
+[Auth](../../README.md#Auth)
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
+
+# **readItemsLanguages**
+> \Swagger\Client\Model\InlineResponse20037 readItemsLanguages($fields, $limit, $meta, $offset, $sort, $filter, $search)
+
+List Items
+
+List the languages items.
+
+### Example
+```php
+<?php
+require_once(__DIR__ . '/vendor/autoload.php');
+// Configure API key authorization: Auth
+$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+// Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+
+$apiInstance = new Swagger\Client\Api\ItemsApi(
+    // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
+    // This is optional, `GuzzleHttp\Client` will be used as default.
+    new GuzzleHttp\Client(),
+    $config
+);
+$fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
+$limit = 56; // int | A limit on the number of objects that are returned.
+$meta = "meta_example"; // string | What metadata to return in the response.
+$offset = 56; // int | How many items to skip when fetching data.
+$sort = array("sort_example"); // string[] | How to sort the returned items. `sort` is a CSV of fields used to sort the fetched items. Sorting defaults to ascending (ASC) order but a minus sign (` - `) can be used to reverse this to descending (DESC) order. Fields are prioritized by their order in the CSV. You can also use a ` ? ` to sort randomly.
+$filter = array("filter_example"); // string[] | Select items in collection by given conditions.
+$search = "search_example"; // string | Filter by items that contain the given search query in one of their fields.
+
+try {
+    $result = $apiInstance->readItemsLanguages($fields, $limit, $meta, $offset, $sort, $filter, $search);
+    print_r($result);
+} catch (Exception $e) {
+    echo 'Exception when calling ItemsApi->readItemsLanguages: ', $e->getMessage(), PHP_EOL;
+}
+?>
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
+ **limit** | **int**| A limit on the number of objects that are returned. | [optional]
+ **meta** | **string**| What metadata to return in the response. | [optional]
+ **offset** | **int**| How many items to skip when fetching data. | [optional]
+ **sort** | [**string[]**](../Model/string.md)| How to sort the returned items. &#x60;sort&#x60; is a CSV of fields used to sort the fetched items. Sorting defaults to ascending (ASC) order but a minus sign (&#x60; - &#x60;) can be used to reverse this to descending (DESC) order. Fields are prioritized by their order in the CSV. You can also use a &#x60; ? &#x60; to sort randomly. | [optional]
+ **filter** | [**string[]**](../Model/string.md)| Select items in collection by given conditions. | [optional]
+ **search** | **string**| Filter by items that contain the given search query in one of their fields. | [optional]
+
+### Return type
+
+[**\Swagger\Client\Model\InlineResponse20037**](../Model/InlineResponse20037.md)
 
 ### Authorization
 
@@ -1990,7 +2330,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **readItemsLedgerAccount**
-> \Swagger\Client\Model\InlineResponse20034 readItemsLedgerAccount($fields, $limit, $meta, $offset, $sort, $filter, $search)
+> \Swagger\Client\Model\InlineResponse20040 readItemsLedgerAccount($fields, $limit, $meta, $offset, $sort, $filter, $search)
 
 List Items
 
@@ -2042,7 +2382,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20034**](../Model/InlineResponse20034.md)
+[**\Swagger\Client\Model\InlineResponse20040**](../Model/InlineResponse20040.md)
 
 ### Authorization
 
@@ -2056,7 +2396,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **readItemsPerson**
-> \Swagger\Client\Model\InlineResponse20037 readItemsPerson($fields, $limit, $meta, $offset, $sort, $filter, $search)
+> \Swagger\Client\Model\InlineResponse20043 readItemsPerson($fields, $limit, $meta, $offset, $sort, $filter, $search)
 
 List Items
 
@@ -2108,7 +2448,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20037**](../Model/InlineResponse20037.md)
+[**\Swagger\Client\Model\InlineResponse20043**](../Model/InlineResponse20043.md)
 
 ### Authorization
 
@@ -2122,7 +2462,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **readItemsProvince**
-> \Swagger\Client\Model\InlineResponse20040 readItemsProvince($fields, $limit, $meta, $offset, $sort, $filter, $search)
+> \Swagger\Client\Model\InlineResponse20046 readItemsProvince($fields, $limit, $meta, $offset, $sort, $filter, $search)
 
 List Items
 
@@ -2174,7 +2514,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20040**](../Model/InlineResponse20040.md)
+[**\Swagger\Client\Model\InlineResponse20046**](../Model/InlineResponse20046.md)
 
 ### Authorization
 
@@ -2188,7 +2528,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **readItemsSubsidiaryAccount**
-> \Swagger\Client\Model\InlineResponse20043 readItemsSubsidiaryAccount($fields, $limit, $meta, $offset, $sort, $filter, $search)
+> \Swagger\Client\Model\InlineResponse20049 readItemsSubsidiaryAccount($fields, $limit, $meta, $offset, $sort, $filter, $search)
 
 List Items
 
@@ -2240,7 +2580,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20043**](../Model/InlineResponse20043.md)
+[**\Swagger\Client\Model\InlineResponse20049**](../Model/InlineResponse20049.md)
 
 ### Authorization
 
@@ -2254,7 +2594,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **readItemsSubsidiaryLedger**
-> \Swagger\Client\Model\InlineResponse20046 readItemsSubsidiaryLedger($fields, $limit, $meta, $offset, $sort, $filter, $search)
+> \Swagger\Client\Model\InlineResponse20052 readItemsSubsidiaryLedger($fields, $limit, $meta, $offset, $sort, $filter, $search)
 
 List Items
 
@@ -2306,7 +2646,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20046**](../Model/InlineResponse20046.md)
+[**\Swagger\Client\Model\InlineResponse20052**](../Model/InlineResponse20052.md)
 
 ### Authorization
 
@@ -2320,7 +2660,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **readItemsTicket**
-> \Swagger\Client\Model\InlineResponse20049 readItemsTicket($fields, $limit, $meta, $offset, $sort, $filter, $search)
+> \Swagger\Client\Model\InlineResponse20055 readItemsTicket($fields, $limit, $meta, $offset, $sort, $filter, $search)
 
 List Items
 
@@ -2372,7 +2712,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20049**](../Model/InlineResponse20049.md)
+[**\Swagger\Client\Model\InlineResponse20055**](../Model/InlineResponse20055.md)
 
 ### Authorization
 
@@ -2544,12 +2884,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **readSingleItemsGateway**
-> \Swagger\Client\Model\InlineResponse20021 readSingleItemsGateway($id, $fields, $meta)
+# **readSingleItemsCityTranslations**
+> \Swagger\Client\Model\InlineResponse20021 readSingleItemsCityTranslations($id, $fields, $meta)
 
 Retrieve an Item
 
-Retrieve a single Gateway item by unique identifier.
+Retrieve a single City_translations item by unique identifier.
 
 ### Example
 ```php
@@ -2566,10 +2906,10 @@ $fields = array("fields_example"); // string[] | Control what fields are being r
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->readSingleItemsGateway($id, $fields, $meta);
+    $result = $apiInstance->readSingleItemsCityTranslations($id, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->readSingleItemsGateway: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->readSingleItemsCityTranslations: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -2597,12 +2937,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **readSingleItemsGeneralLedger**
-> \Swagger\Client\Model\InlineResponse20024 readSingleItemsGeneralLedger($id, $fields, $meta)
+# **readSingleItemsGateway**
+> \Swagger\Client\Model\InlineResponse20024 readSingleItemsGateway($id, $fields, $meta)
 
 Retrieve an Item
 
-Retrieve a single GeneralLedger item by unique identifier.
+Retrieve a single Gateway item by unique identifier.
 
 ### Example
 ```php
@@ -2619,10 +2959,10 @@ $fields = array("fields_example"); // string[] | Control what fields are being r
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->readSingleItemsGeneralLedger($id, $fields, $meta);
+    $result = $apiInstance->readSingleItemsGateway($id, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->readSingleItemsGeneralLedger: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->readSingleItemsGateway: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -2650,12 +2990,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **readSingleItemsInvoice**
-> \Swagger\Client\Model\InlineResponse20027 readSingleItemsInvoice($id, $fields, $meta)
+# **readSingleItemsGeneralLedger**
+> \Swagger\Client\Model\InlineResponse20027 readSingleItemsGeneralLedger($id, $fields, $meta)
 
 Retrieve an Item
 
-Retrieve a single Invoice item by unique identifier.
+Retrieve a single GeneralLedger item by unique identifier.
 
 ### Example
 ```php
@@ -2672,10 +3012,10 @@ $fields = array("fields_example"); // string[] | Control what fields are being r
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->readSingleItemsInvoice($id, $fields, $meta);
+    $result = $apiInstance->readSingleItemsGeneralLedger($id, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->readSingleItemsInvoice: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->readSingleItemsGeneralLedger: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -2703,12 +3043,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **readSingleItemsInvoiceType**
-> \Swagger\Client\Model\InlineResponse20030 readSingleItemsInvoiceType($id, $fields, $meta)
+# **readSingleItemsInvoice**
+> \Swagger\Client\Model\InlineResponse20030 readSingleItemsInvoice($id, $fields, $meta)
 
 Retrieve an Item
 
-Retrieve a single InvoiceType item by unique identifier.
+Retrieve a single Invoice item by unique identifier.
 
 ### Example
 ```php
@@ -2725,10 +3065,10 @@ $fields = array("fields_example"); // string[] | Control what fields are being r
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->readSingleItemsInvoiceType($id, $fields, $meta);
+    $result = $apiInstance->readSingleItemsInvoice($id, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->readSingleItemsInvoiceType: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->readSingleItemsInvoice: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -2756,12 +3096,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **readSingleItemsJournalEntry**
-> \Swagger\Client\Model\InlineResponse20033 readSingleItemsJournalEntry($id, $fields, $meta)
+# **readSingleItemsInvoiceType**
+> \Swagger\Client\Model\InlineResponse20033 readSingleItemsInvoiceType($id, $fields, $meta)
 
 Retrieve an Item
 
-Retrieve a single JournalEntry item by unique identifier.
+Retrieve a single InvoiceType item by unique identifier.
 
 ### Example
 ```php
@@ -2778,10 +3118,10 @@ $fields = array("fields_example"); // string[] | Control what fields are being r
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->readSingleItemsJournalEntry($id, $fields, $meta);
+    $result = $apiInstance->readSingleItemsInvoiceType($id, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->readSingleItemsJournalEntry: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->readSingleItemsInvoiceType: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -2809,12 +3149,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **readSingleItemsLedgerAccount**
-> \Swagger\Client\Model\InlineResponse20036 readSingleItemsLedgerAccount($id, $fields, $meta)
+# **readSingleItemsJournalEntry**
+> \Swagger\Client\Model\InlineResponse20036 readSingleItemsJournalEntry($id, $fields, $meta)
 
 Retrieve an Item
 
-Retrieve a single LedgerAccount item by unique identifier.
+Retrieve a single JournalEntry item by unique identifier.
 
 ### Example
 ```php
@@ -2831,10 +3171,10 @@ $fields = array("fields_example"); // string[] | Control what fields are being r
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->readSingleItemsLedgerAccount($id, $fields, $meta);
+    $result = $apiInstance->readSingleItemsJournalEntry($id, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->readSingleItemsLedgerAccount: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->readSingleItemsJournalEntry: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -2862,12 +3202,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **readSingleItemsPerson**
-> \Swagger\Client\Model\InlineResponse20039 readSingleItemsPerson($id, $fields, $meta)
+# **readSingleItemsLanguages**
+> \Swagger\Client\Model\InlineResponse20039 readSingleItemsLanguages($id, $fields, $meta)
 
 Retrieve an Item
 
-Retrieve a single Person item by unique identifier.
+Retrieve a single languages item by unique identifier.
 
 ### Example
 ```php
@@ -2884,10 +3224,10 @@ $fields = array("fields_example"); // string[] | Control what fields are being r
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->readSingleItemsPerson($id, $fields, $meta);
+    $result = $apiInstance->readSingleItemsLanguages($id, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->readSingleItemsPerson: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->readSingleItemsLanguages: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -2915,12 +3255,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **readSingleItemsProvince**
-> \Swagger\Client\Model\InlineResponse20042 readSingleItemsProvince($id, $fields, $meta)
+# **readSingleItemsLedgerAccount**
+> \Swagger\Client\Model\InlineResponse20042 readSingleItemsLedgerAccount($id, $fields, $meta)
 
 Retrieve an Item
 
-Retrieve a single Province item by unique identifier.
+Retrieve a single LedgerAccount item by unique identifier.
 
 ### Example
 ```php
@@ -2937,10 +3277,10 @@ $fields = array("fields_example"); // string[] | Control what fields are being r
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->readSingleItemsProvince($id, $fields, $meta);
+    $result = $apiInstance->readSingleItemsLedgerAccount($id, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->readSingleItemsProvince: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->readSingleItemsLedgerAccount: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -2968,12 +3308,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **readSingleItemsSubsidiaryAccount**
-> \Swagger\Client\Model\InlineResponse20045 readSingleItemsSubsidiaryAccount($id, $fields, $meta)
+# **readSingleItemsPerson**
+> \Swagger\Client\Model\InlineResponse20045 readSingleItemsPerson($id, $fields, $meta)
 
 Retrieve an Item
 
-Retrieve a single SubsidiaryAccount item by unique identifier.
+Retrieve a single Person item by unique identifier.
 
 ### Example
 ```php
@@ -2990,10 +3330,10 @@ $fields = array("fields_example"); // string[] | Control what fields are being r
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->readSingleItemsSubsidiaryAccount($id, $fields, $meta);
+    $result = $apiInstance->readSingleItemsPerson($id, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->readSingleItemsSubsidiaryAccount: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->readSingleItemsPerson: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -3021,12 +3361,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **readSingleItemsSubsidiaryLedger**
-> \Swagger\Client\Model\InlineResponse20048 readSingleItemsSubsidiaryLedger($id, $fields, $meta)
+# **readSingleItemsProvince**
+> \Swagger\Client\Model\InlineResponse20048 readSingleItemsProvince($id, $fields, $meta)
 
 Retrieve an Item
 
-Retrieve a single subsidiaryLedger item by unique identifier.
+Retrieve a single Province item by unique identifier.
 
 ### Example
 ```php
@@ -3043,10 +3383,10 @@ $fields = array("fields_example"); // string[] | Control what fields are being r
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->readSingleItemsSubsidiaryLedger($id, $fields, $meta);
+    $result = $apiInstance->readSingleItemsProvince($id, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->readSingleItemsSubsidiaryLedger: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->readSingleItemsProvince: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -3074,12 +3414,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **readSingleItemsTicket**
-> \Swagger\Client\Model\InlineResponse20051 readSingleItemsTicket($id, $fields, $meta)
+# **readSingleItemsSubsidiaryAccount**
+> \Swagger\Client\Model\InlineResponse20051 readSingleItemsSubsidiaryAccount($id, $fields, $meta)
 
 Retrieve an Item
 
-Retrieve a single Ticket item by unique identifier.
+Retrieve a single SubsidiaryAccount item by unique identifier.
 
 ### Example
 ```php
@@ -3096,10 +3436,10 @@ $fields = array("fields_example"); // string[] | Control what fields are being r
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->readSingleItemsTicket($id, $fields, $meta);
+    $result = $apiInstance->readSingleItemsSubsidiaryAccount($id, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->readSingleItemsTicket: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->readSingleItemsSubsidiaryAccount: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -3115,6 +3455,112 @@ Name | Type | Description  | Notes
 ### Return type
 
 [**\Swagger\Client\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
+
+# **readSingleItemsSubsidiaryLedger**
+> \Swagger\Client\Model\InlineResponse20054 readSingleItemsSubsidiaryLedger($id, $fields, $meta)
+
+Retrieve an Item
+
+Retrieve a single subsidiaryLedger item by unique identifier.
+
+### Example
+```php
+<?php
+require_once(__DIR__ . '/vendor/autoload.php');
+
+$apiInstance = new Swagger\Client\Api\ItemsApi(
+    // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
+    // This is optional, `GuzzleHttp\Client` will be used as default.
+    new GuzzleHttp\Client()
+);
+$id = new \Swagger\Client\Model\Id42(); // \Swagger\Client\Model\Id42 | Index of the item.
+$fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
+$meta = "meta_example"; // string | What metadata to return in the response.
+
+try {
+    $result = $apiInstance->readSingleItemsSubsidiaryLedger($id, $fields, $meta);
+    print_r($result);
+} catch (Exception $e) {
+    echo 'Exception when calling ItemsApi->readSingleItemsSubsidiaryLedger: ', $e->getMessage(), PHP_EOL;
+}
+?>
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **id** | [**\Swagger\Client\Model\Id42**](../Model/.md)| Index of the item. |
+ **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
+ **meta** | **string**| What metadata to return in the response. | [optional]
+
+### Return type
+
+[**\Swagger\Client\Model\InlineResponse20054**](../Model/InlineResponse20054.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
+
+# **readSingleItemsTicket**
+> \Swagger\Client\Model\InlineResponse20057 readSingleItemsTicket($id, $fields, $meta)
+
+Retrieve an Item
+
+Retrieve a single Ticket item by unique identifier.
+
+### Example
+```php
+<?php
+require_once(__DIR__ . '/vendor/autoload.php');
+
+$apiInstance = new Swagger\Client\Api\ItemsApi(
+    // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
+    // This is optional, `GuzzleHttp\Client` will be used as default.
+    new GuzzleHttp\Client()
+);
+$id = new \Swagger\Client\Model\Id45(); // \Swagger\Client\Model\Id45 | Index of the item.
+$fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
+$meta = "meta_example"; // string | What metadata to return in the response.
+
+try {
+    $result = $apiInstance->readSingleItemsTicket($id, $fields, $meta);
+    print_r($result);
+} catch (Exception $e) {
+    echo 'Exception when calling ItemsApi->readSingleItemsTicket: ', $e->getMessage(), PHP_EOL;
+}
+?>
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **id** | [**\Swagger\Client\Model\Id45**](../Model/.md)| Index of the item. |
+ **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
+ **meta** | **string**| What metadata to return in the response. | [optional]
+
+### Return type
+
+[**\Swagger\Client\Model\InlineResponse20057**](../Model/InlineResponse20057.md)
 
 ### Authorization
 
@@ -3292,12 +3738,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **updateSingleItemsGateway**
-> \Swagger\Client\Model\InlineResponse20021 updateSingleItemsGateway($id, $body, $fields, $meta)
+# **updateSingleItemsCityTranslations**
+> \Swagger\Client\Model\InlineResponse20021 updateSingleItemsCityTranslations($id, $body, $fields, $meta)
 
 Update an Item
 
-Update an existing Gateway item.
+Update an existing City_translations item.
 
 ### Example
 ```php
@@ -3310,15 +3756,15 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     new GuzzleHttp\Client()
 );
 $id = new \Swagger\Client\Model\Id11(); // \Swagger\Client\Model\Id11 | Index of the item.
-$body = new \Swagger\Client\Model\ItemsGateway(); // \Swagger\Client\Model\ItemsGateway | 
+$body = new \Swagger\Client\Model\ItemsCityTranslations(); // \Swagger\Client\Model\ItemsCityTranslations | 
 $fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->updateSingleItemsGateway($id, $body, $fields, $meta);
+    $result = $apiInstance->updateSingleItemsCityTranslations($id, $body, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->updateSingleItemsGateway: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->updateSingleItemsCityTranslations: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -3328,7 +3774,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**\Swagger\Client\Model\Id11**](../Model/.md)| Index of the item. |
- **body** | [**\Swagger\Client\Model\ItemsGateway**](../Model/ItemsGateway.md)|  | [optional]
+ **body** | [**\Swagger\Client\Model\ItemsCityTranslations**](../Model/ItemsCityTranslations.md)|  | [optional]
  **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
  **meta** | **string**| What metadata to return in the response. | [optional]
 
@@ -3347,12 +3793,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **updateSingleItemsGeneralLedger**
-> \Swagger\Client\Model\InlineResponse20024 updateSingleItemsGeneralLedger($id, $body, $fields, $meta)
+# **updateSingleItemsGateway**
+> \Swagger\Client\Model\InlineResponse20024 updateSingleItemsGateway($id, $body, $fields, $meta)
 
 Update an Item
 
-Update an existing GeneralLedger item.
+Update an existing Gateway item.
 
 ### Example
 ```php
@@ -3365,15 +3811,15 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     new GuzzleHttp\Client()
 );
 $id = new \Swagger\Client\Model\Id14(); // \Swagger\Client\Model\Id14 | Index of the item.
-$body = new \Swagger\Client\Model\ItemsGeneralLedger(); // \Swagger\Client\Model\ItemsGeneralLedger | 
+$body = new \Swagger\Client\Model\ItemsGateway(); // \Swagger\Client\Model\ItemsGateway | 
 $fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->updateSingleItemsGeneralLedger($id, $body, $fields, $meta);
+    $result = $apiInstance->updateSingleItemsGateway($id, $body, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->updateSingleItemsGeneralLedger: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->updateSingleItemsGateway: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -3383,7 +3829,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**\Swagger\Client\Model\Id14**](../Model/.md)| Index of the item. |
- **body** | [**\Swagger\Client\Model\ItemsGeneralLedger**](../Model/ItemsGeneralLedger.md)|  | [optional]
+ **body** | [**\Swagger\Client\Model\ItemsGateway**](../Model/ItemsGateway.md)|  | [optional]
  **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
  **meta** | **string**| What metadata to return in the response. | [optional]
 
@@ -3402,12 +3848,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **updateSingleItemsInvoice**
-> \Swagger\Client\Model\InlineResponse20027 updateSingleItemsInvoice($id, $body, $fields, $meta)
+# **updateSingleItemsGeneralLedger**
+> \Swagger\Client\Model\InlineResponse20027 updateSingleItemsGeneralLedger($id, $body, $fields, $meta)
 
 Update an Item
 
-Update an existing Invoice item.
+Update an existing GeneralLedger item.
 
 ### Example
 ```php
@@ -3420,15 +3866,15 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     new GuzzleHttp\Client()
 );
 $id = new \Swagger\Client\Model\Id17(); // \Swagger\Client\Model\Id17 | Index of the item.
-$body = new \Swagger\Client\Model\ItemsInvoice(); // \Swagger\Client\Model\ItemsInvoice | 
+$body = new \Swagger\Client\Model\ItemsGeneralLedger(); // \Swagger\Client\Model\ItemsGeneralLedger | 
 $fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->updateSingleItemsInvoice($id, $body, $fields, $meta);
+    $result = $apiInstance->updateSingleItemsGeneralLedger($id, $body, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->updateSingleItemsInvoice: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->updateSingleItemsGeneralLedger: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -3438,7 +3884,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**\Swagger\Client\Model\Id17**](../Model/.md)| Index of the item. |
- **body** | [**\Swagger\Client\Model\ItemsInvoice**](../Model/ItemsInvoice.md)|  | [optional]
+ **body** | [**\Swagger\Client\Model\ItemsGeneralLedger**](../Model/ItemsGeneralLedger.md)|  | [optional]
  **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
  **meta** | **string**| What metadata to return in the response. | [optional]
 
@@ -3457,12 +3903,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **updateSingleItemsInvoiceType**
-> \Swagger\Client\Model\InlineResponse20030 updateSingleItemsInvoiceType($id, $body, $fields, $meta)
+# **updateSingleItemsInvoice**
+> \Swagger\Client\Model\InlineResponse20030 updateSingleItemsInvoice($id, $body, $fields, $meta)
 
 Update an Item
 
-Update an existing InvoiceType item.
+Update an existing Invoice item.
 
 ### Example
 ```php
@@ -3475,15 +3921,15 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     new GuzzleHttp\Client()
 );
 $id = new \Swagger\Client\Model\Id20(); // \Swagger\Client\Model\Id20 | Index of the item.
-$body = new \Swagger\Client\Model\ItemsInvoiceType(); // \Swagger\Client\Model\ItemsInvoiceType | 
+$body = new \Swagger\Client\Model\ItemsInvoice(); // \Swagger\Client\Model\ItemsInvoice | 
 $fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->updateSingleItemsInvoiceType($id, $body, $fields, $meta);
+    $result = $apiInstance->updateSingleItemsInvoice($id, $body, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->updateSingleItemsInvoiceType: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->updateSingleItemsInvoice: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -3493,7 +3939,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**\Swagger\Client\Model\Id20**](../Model/.md)| Index of the item. |
- **body** | [**\Swagger\Client\Model\ItemsInvoiceType**](../Model/ItemsInvoiceType.md)|  | [optional]
+ **body** | [**\Swagger\Client\Model\ItemsInvoice**](../Model/ItemsInvoice.md)|  | [optional]
  **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
  **meta** | **string**| What metadata to return in the response. | [optional]
 
@@ -3512,12 +3958,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **updateSingleItemsJournalEntry**
-> \Swagger\Client\Model\InlineResponse20033 updateSingleItemsJournalEntry($id, $body, $fields, $meta)
+# **updateSingleItemsInvoiceType**
+> \Swagger\Client\Model\InlineResponse20033 updateSingleItemsInvoiceType($id, $body, $fields, $meta)
 
 Update an Item
 
-Update an existing JournalEntry item.
+Update an existing InvoiceType item.
 
 ### Example
 ```php
@@ -3530,15 +3976,15 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     new GuzzleHttp\Client()
 );
 $id = new \Swagger\Client\Model\Id23(); // \Swagger\Client\Model\Id23 | Index of the item.
-$body = new \Swagger\Client\Model\ItemsJournalEntry(); // \Swagger\Client\Model\ItemsJournalEntry | 
+$body = new \Swagger\Client\Model\ItemsInvoiceType(); // \Swagger\Client\Model\ItemsInvoiceType | 
 $fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->updateSingleItemsJournalEntry($id, $body, $fields, $meta);
+    $result = $apiInstance->updateSingleItemsInvoiceType($id, $body, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->updateSingleItemsJournalEntry: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->updateSingleItemsInvoiceType: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -3548,7 +3994,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**\Swagger\Client\Model\Id23**](../Model/.md)| Index of the item. |
- **body** | [**\Swagger\Client\Model\ItemsJournalEntry**](../Model/ItemsJournalEntry.md)|  | [optional]
+ **body** | [**\Swagger\Client\Model\ItemsInvoiceType**](../Model/ItemsInvoiceType.md)|  | [optional]
  **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
  **meta** | **string**| What metadata to return in the response. | [optional]
 
@@ -3567,12 +4013,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **updateSingleItemsLedgerAccount**
-> \Swagger\Client\Model\InlineResponse20036 updateSingleItemsLedgerAccount($id, $body, $fields, $meta)
+# **updateSingleItemsJournalEntry**
+> \Swagger\Client\Model\InlineResponse20036 updateSingleItemsJournalEntry($id, $body, $fields, $meta)
 
 Update an Item
 
-Update an existing LedgerAccount item.
+Update an existing JournalEntry item.
 
 ### Example
 ```php
@@ -3585,15 +4031,15 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     new GuzzleHttp\Client()
 );
 $id = new \Swagger\Client\Model\Id26(); // \Swagger\Client\Model\Id26 | Index of the item.
-$body = new \Swagger\Client\Model\ItemsLedgerAccount(); // \Swagger\Client\Model\ItemsLedgerAccount | 
+$body = new \Swagger\Client\Model\ItemsJournalEntry(); // \Swagger\Client\Model\ItemsJournalEntry | 
 $fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->updateSingleItemsLedgerAccount($id, $body, $fields, $meta);
+    $result = $apiInstance->updateSingleItemsJournalEntry($id, $body, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->updateSingleItemsLedgerAccount: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->updateSingleItemsJournalEntry: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -3603,7 +4049,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**\Swagger\Client\Model\Id26**](../Model/.md)| Index of the item. |
- **body** | [**\Swagger\Client\Model\ItemsLedgerAccount**](../Model/ItemsLedgerAccount.md)|  | [optional]
+ **body** | [**\Swagger\Client\Model\ItemsJournalEntry**](../Model/ItemsJournalEntry.md)|  | [optional]
  **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
  **meta** | **string**| What metadata to return in the response. | [optional]
 
@@ -3622,12 +4068,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **updateSingleItemsPerson**
-> \Swagger\Client\Model\InlineResponse20039 updateSingleItemsPerson($id, $body, $fields, $meta)
+# **updateSingleItemsLanguages**
+> \Swagger\Client\Model\InlineResponse20039 updateSingleItemsLanguages($id, $body, $fields, $meta)
 
 Update an Item
 
-Update an existing Person item.
+Update an existing languages item.
 
 ### Example
 ```php
@@ -3640,15 +4086,15 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     new GuzzleHttp\Client()
 );
 $id = new \Swagger\Client\Model\Id29(); // \Swagger\Client\Model\Id29 | Index of the item.
-$body = new \Swagger\Client\Model\ItemsPerson(); // \Swagger\Client\Model\ItemsPerson | 
+$body = new \Swagger\Client\Model\ItemsLanguages(); // \Swagger\Client\Model\ItemsLanguages | 
 $fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->updateSingleItemsPerson($id, $body, $fields, $meta);
+    $result = $apiInstance->updateSingleItemsLanguages($id, $body, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->updateSingleItemsPerson: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->updateSingleItemsLanguages: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -3658,7 +4104,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**\Swagger\Client\Model\Id29**](../Model/.md)| Index of the item. |
- **body** | [**\Swagger\Client\Model\ItemsPerson**](../Model/ItemsPerson.md)|  | [optional]
+ **body** | [**\Swagger\Client\Model\ItemsLanguages**](../Model/ItemsLanguages.md)|  | [optional]
  **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
  **meta** | **string**| What metadata to return in the response. | [optional]
 
@@ -3677,12 +4123,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **updateSingleItemsProvince**
-> \Swagger\Client\Model\InlineResponse20042 updateSingleItemsProvince($id, $body, $fields, $meta)
+# **updateSingleItemsLedgerAccount**
+> \Swagger\Client\Model\InlineResponse20042 updateSingleItemsLedgerAccount($id, $body, $fields, $meta)
 
 Update an Item
 
-Update an existing Province item.
+Update an existing LedgerAccount item.
 
 ### Example
 ```php
@@ -3695,15 +4141,15 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     new GuzzleHttp\Client()
 );
 $id = new \Swagger\Client\Model\Id32(); // \Swagger\Client\Model\Id32 | Index of the item.
-$body = new \Swagger\Client\Model\ItemsProvince(); // \Swagger\Client\Model\ItemsProvince | 
+$body = new \Swagger\Client\Model\ItemsLedgerAccount(); // \Swagger\Client\Model\ItemsLedgerAccount | 
 $fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->updateSingleItemsProvince($id, $body, $fields, $meta);
+    $result = $apiInstance->updateSingleItemsLedgerAccount($id, $body, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->updateSingleItemsProvince: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->updateSingleItemsLedgerAccount: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -3713,7 +4159,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**\Swagger\Client\Model\Id32**](../Model/.md)| Index of the item. |
- **body** | [**\Swagger\Client\Model\ItemsProvince**](../Model/ItemsProvince.md)|  | [optional]
+ **body** | [**\Swagger\Client\Model\ItemsLedgerAccount**](../Model/ItemsLedgerAccount.md)|  | [optional]
  **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
  **meta** | **string**| What metadata to return in the response. | [optional]
 
@@ -3732,12 +4178,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **updateSingleItemsSubsidiaryAccount**
-> \Swagger\Client\Model\InlineResponse20045 updateSingleItemsSubsidiaryAccount($id, $body, $fields, $meta)
+# **updateSingleItemsPerson**
+> \Swagger\Client\Model\InlineResponse20045 updateSingleItemsPerson($id, $body, $fields, $meta)
 
 Update an Item
 
-Update an existing SubsidiaryAccount item.
+Update an existing Person item.
 
 ### Example
 ```php
@@ -3750,15 +4196,15 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     new GuzzleHttp\Client()
 );
 $id = new \Swagger\Client\Model\Id35(); // \Swagger\Client\Model\Id35 | Index of the item.
-$body = new \Swagger\Client\Model\ItemsSubsidiaryAccount(); // \Swagger\Client\Model\ItemsSubsidiaryAccount | 
+$body = new \Swagger\Client\Model\ItemsPerson(); // \Swagger\Client\Model\ItemsPerson | 
 $fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->updateSingleItemsSubsidiaryAccount($id, $body, $fields, $meta);
+    $result = $apiInstance->updateSingleItemsPerson($id, $body, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->updateSingleItemsSubsidiaryAccount: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->updateSingleItemsPerson: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -3768,7 +4214,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**\Swagger\Client\Model\Id35**](../Model/.md)| Index of the item. |
- **body** | [**\Swagger\Client\Model\ItemsSubsidiaryAccount**](../Model/ItemsSubsidiaryAccount.md)|  | [optional]
+ **body** | [**\Swagger\Client\Model\ItemsPerson**](../Model/ItemsPerson.md)|  | [optional]
  **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
  **meta** | **string**| What metadata to return in the response. | [optional]
 
@@ -3787,12 +4233,12 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
-# **updateSingleItemsSubsidiaryLedger**
-> \Swagger\Client\Model\InlineResponse20048 updateSingleItemsSubsidiaryLedger($id, $body, $fields, $meta)
+# **updateSingleItemsProvince**
+> \Swagger\Client\Model\InlineResponse20048 updateSingleItemsProvince($id, $body, $fields, $meta)
 
 Update an Item
 
-Update an existing subsidiaryLedger item.
+Update an existing Province item.
 
 ### Example
 ```php
@@ -3805,15 +4251,15 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     new GuzzleHttp\Client()
 );
 $id = new \Swagger\Client\Model\Id38(); // \Swagger\Client\Model\Id38 | Index of the item.
-$body = new \Swagger\Client\Model\ItemsSubsidiaryLedger(); // \Swagger\Client\Model\ItemsSubsidiaryLedger | 
+$body = new \Swagger\Client\Model\ItemsProvince(); // \Swagger\Client\Model\ItemsProvince | 
 $fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
 $meta = "meta_example"; // string | What metadata to return in the response.
 
 try {
-    $result = $apiInstance->updateSingleItemsSubsidiaryLedger($id, $body, $fields, $meta);
+    $result = $apiInstance->updateSingleItemsProvince($id, $body, $fields, $meta);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling ItemsApi->updateSingleItemsSubsidiaryLedger: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ItemsApi->updateSingleItemsProvince: ', $e->getMessage(), PHP_EOL;
 }
 ?>
 ```
@@ -3823,7 +4269,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | [**\Swagger\Client\Model\Id38**](../Model/.md)| Index of the item. |
- **body** | [**\Swagger\Client\Model\ItemsSubsidiaryLedger**](../Model/ItemsSubsidiaryLedger.md)|  | [optional]
+ **body** | [**\Swagger\Client\Model\ItemsProvince**](../Model/ItemsProvince.md)|  | [optional]
  **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
  **meta** | **string**| What metadata to return in the response. | [optional]
 
@@ -3842,8 +4288,118 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
+# **updateSingleItemsSubsidiaryAccount**
+> \Swagger\Client\Model\InlineResponse20051 updateSingleItemsSubsidiaryAccount($id, $body, $fields, $meta)
+
+Update an Item
+
+Update an existing SubsidiaryAccount item.
+
+### Example
+```php
+<?php
+require_once(__DIR__ . '/vendor/autoload.php');
+
+$apiInstance = new Swagger\Client\Api\ItemsApi(
+    // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
+    // This is optional, `GuzzleHttp\Client` will be used as default.
+    new GuzzleHttp\Client()
+);
+$id = new \Swagger\Client\Model\Id41(); // \Swagger\Client\Model\Id41 | Index of the item.
+$body = new \Swagger\Client\Model\ItemsSubsidiaryAccount(); // \Swagger\Client\Model\ItemsSubsidiaryAccount | 
+$fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
+$meta = "meta_example"; // string | What metadata to return in the response.
+
+try {
+    $result = $apiInstance->updateSingleItemsSubsidiaryAccount($id, $body, $fields, $meta);
+    print_r($result);
+} catch (Exception $e) {
+    echo 'Exception when calling ItemsApi->updateSingleItemsSubsidiaryAccount: ', $e->getMessage(), PHP_EOL;
+}
+?>
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **id** | [**\Swagger\Client\Model\Id41**](../Model/.md)| Index of the item. |
+ **body** | [**\Swagger\Client\Model\ItemsSubsidiaryAccount**](../Model/ItemsSubsidiaryAccount.md)|  | [optional]
+ **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
+ **meta** | **string**| What metadata to return in the response. | [optional]
+
+### Return type
+
+[**\Swagger\Client\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: application/json
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
+
+# **updateSingleItemsSubsidiaryLedger**
+> \Swagger\Client\Model\InlineResponse20054 updateSingleItemsSubsidiaryLedger($id, $body, $fields, $meta)
+
+Update an Item
+
+Update an existing subsidiaryLedger item.
+
+### Example
+```php
+<?php
+require_once(__DIR__ . '/vendor/autoload.php');
+
+$apiInstance = new Swagger\Client\Api\ItemsApi(
+    // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
+    // This is optional, `GuzzleHttp\Client` will be used as default.
+    new GuzzleHttp\Client()
+);
+$id = new \Swagger\Client\Model\Id44(); // \Swagger\Client\Model\Id44 | Index of the item.
+$body = new \Swagger\Client\Model\ItemsSubsidiaryLedger(); // \Swagger\Client\Model\ItemsSubsidiaryLedger | 
+$fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
+$meta = "meta_example"; // string | What metadata to return in the response.
+
+try {
+    $result = $apiInstance->updateSingleItemsSubsidiaryLedger($id, $body, $fields, $meta);
+    print_r($result);
+} catch (Exception $e) {
+    echo 'Exception when calling ItemsApi->updateSingleItemsSubsidiaryLedger: ', $e->getMessage(), PHP_EOL;
+}
+?>
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **id** | [**\Swagger\Client\Model\Id44**](../Model/.md)| Index of the item. |
+ **body** | [**\Swagger\Client\Model\ItemsSubsidiaryLedger**](../Model/ItemsSubsidiaryLedger.md)|  | [optional]
+ **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
+ **meta** | **string**| What metadata to return in the response. | [optional]
+
+### Return type
+
+[**\Swagger\Client\Model\InlineResponse20054**](../Model/InlineResponse20054.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: application/json
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
+
 # **updateSingleItemsTicket**
-> \Swagger\Client\Model\InlineResponse20051 updateSingleItemsTicket($id, $body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20057 updateSingleItemsTicket($id, $body, $fields, $meta)
 
 Update an Item
 
@@ -3859,7 +4415,7 @@ $apiInstance = new Swagger\Client\Api\ItemsApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id41(); // \Swagger\Client\Model\Id41 | Index of the item.
+$id = new \Swagger\Client\Model\Id47(); // \Swagger\Client\Model\Id47 | Index of the item.
 $body = new \Swagger\Client\Model\ItemsTicket(); // \Swagger\Client\Model\ItemsTicket | 
 $fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
 $meta = "meta_example"; // string | What metadata to return in the response.
@@ -3877,14 +4433,14 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id41**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id47**](../Model/.md)| Index of the item. |
  **body** | [**\Swagger\Client\Model\ItemsTicket**](../Model/ItemsTicket.md)|  | [optional]
  **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
  **meta** | **string**| What metadata to return in the response. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
+[**\Swagger\Client\Model\InlineResponse20057**](../Model/InlineResponse20057.md)
 
 ### Authorization
 

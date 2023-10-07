@@ -42,6 +42,7 @@ Name | Type | Description | Notes
 **third_custom_field_title** | **string** |  | [optional] 
 **third_custom_field_placeholder** | **string** |  | [optional] 
 **commision_type** | **int** |  | [optional] 
+**gateway_token** | **string** |  | [optional] 
 **accordion_bij6ke** | **string** |  | [optional] 
 **g1** | **string** |  | [optional] 
 **notification** | **string** |  | [optional] 

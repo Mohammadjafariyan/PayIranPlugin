@@ -125,4 +125,25 @@ class ItemsGeneralLedgerTest extends TestCase
     public function testPropertyDateUpdated()
     {
     }
+
+    /**
+     * Test attribute "name"
+     */
+    public function testPropertyName()
+    {
+    }
+
+    /**
+     * Test attribute "code"
+     */
+    public function testPropertyCode()
+    {
+    }
+
+    /**
+     * Test attribute "parent"
+     */
+    public function testPropertyParent()
+    {
+    }
 }

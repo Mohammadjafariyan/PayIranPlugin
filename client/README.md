@@ -190,11 +190,13 @@ Class | Method | HTTP request | Description
 *ItemsApi* | [**createItemsAccountType**](docs/Api/ItemsApi.md#createitemsaccounttype) | **POST** /items/AccountType | Create an Item
 *ItemsApi* | [**createItemsBank**](docs/Api/ItemsApi.md#createitemsbank) | **POST** /items/Bank | Create an Item
 *ItemsApi* | [**createItemsCity**](docs/Api/ItemsApi.md#createitemscity) | **POST** /items/City | Create an Item
+*ItemsApi* | [**createItemsCityTranslations**](docs/Api/ItemsApi.md#createitemscitytranslations) | **POST** /items/City_translations | Create an Item
 *ItemsApi* | [**createItemsGateway**](docs/Api/ItemsApi.md#createitemsgateway) | **POST** /items/Gateway | Create an Item
 *ItemsApi* | [**createItemsGeneralLedger**](docs/Api/ItemsApi.md#createitemsgeneralledger) | **POST** /items/GeneralLedger | Create an Item
 *ItemsApi* | [**createItemsInvoice**](docs/Api/ItemsApi.md#createitemsinvoice) | **POST** /items/Invoice | Create an Item
 *ItemsApi* | [**createItemsInvoiceType**](docs/Api/ItemsApi.md#createitemsinvoicetype) | **POST** /items/InvoiceType | Create an Item
 *ItemsApi* | [**createItemsJournalEntry**](docs/Api/ItemsApi.md#createitemsjournalentry) | **POST** /items/JournalEntry | Create an Item
+*ItemsApi* | [**createItemsLanguages**](docs/Api/ItemsApi.md#createitemslanguages) | **POST** /items/languages | Create an Item
 *ItemsApi* | [**createItemsLedgerAccount**](docs/Api/ItemsApi.md#createitemsledgeraccount) | **POST** /items/LedgerAccount | Create an Item
 *ItemsApi* | [**createItemsPerson**](docs/Api/ItemsApi.md#createitemsperson) | **POST** /items/Person | Create an Item
 *ItemsApi* | [**createItemsProvince**](docs/Api/ItemsApi.md#createitemsprovince) | **POST** /items/Province | Create an Item
@@ -204,11 +206,13 @@ Class | Method | HTTP request | Description
 *ItemsApi* | [**deleteSingleItemsAccountType**](docs/Api/ItemsApi.md#deletesingleitemsaccounttype) | **DELETE** /items/AccountType/{id} | Delete an Item
 *ItemsApi* | [**deleteSingleItemsBank**](docs/Api/ItemsApi.md#deletesingleitemsbank) | **DELETE** /items/Bank/{id} | Delete an Item
 *ItemsApi* | [**deleteSingleItemsCity**](docs/Api/ItemsApi.md#deletesingleitemscity) | **DELETE** /items/City/{id} | Delete an Item
+*ItemsApi* | [**deleteSingleItemsCityTranslations**](docs/Api/ItemsApi.md#deletesingleitemscitytranslations) | **DELETE** /items/City_translations/{id} | Delete an Item
 *ItemsApi* | [**deleteSingleItemsGateway**](docs/Api/ItemsApi.md#deletesingleitemsgateway) | **DELETE** /items/Gateway/{id} | Delete an Item
 *ItemsApi* | [**deleteSingleItemsGeneralLedger**](docs/Api/ItemsApi.md#deletesingleitemsgeneralledger) | **DELETE** /items/GeneralLedger/{id} | Delete an Item
 *ItemsApi* | [**deleteSingleItemsInvoice**](docs/Api/ItemsApi.md#deletesingleitemsinvoice) | **DELETE** /items/Invoice/{id} | Delete an Item
 *ItemsApi* | [**deleteSingleItemsInvoiceType**](docs/Api/ItemsApi.md#deletesingleitemsinvoicetype) | **DELETE** /items/InvoiceType/{id} | Delete an Item
 *ItemsApi* | [**deleteSingleItemsJournalEntry**](docs/Api/ItemsApi.md#deletesingleitemsjournalentry) | **DELETE** /items/JournalEntry/{id} | Delete an Item
+*ItemsApi* | [**deleteSingleItemsLanguages**](docs/Api/ItemsApi.md#deletesingleitemslanguages) | **DELETE** /items/languages/{id} | Delete an Item
 *ItemsApi* | [**deleteSingleItemsLedgerAccount**](docs/Api/ItemsApi.md#deletesingleitemsledgeraccount) | **DELETE** /items/LedgerAccount/{id} | Delete an Item
 *ItemsApi* | [**deleteSingleItemsPerson**](docs/Api/ItemsApi.md#deletesingleitemsperson) | **DELETE** /items/Person/{id} | Delete an Item
 *ItemsApi* | [**deleteSingleItemsProvince**](docs/Api/ItemsApi.md#deletesingleitemsprovince) | **DELETE** /items/Province/{id} | Delete an Item
@@ -218,11 +222,13 @@ Class | Method | HTTP request | Description
 *ItemsApi* | [**readItemsAccountType**](docs/Api/ItemsApi.md#readitemsaccounttype) | **GET** /items/AccountType | List Items
 *ItemsApi* | [**readItemsBank**](docs/Api/ItemsApi.md#readitemsbank) | **GET** /items/Bank | List Items
 *ItemsApi* | [**readItemsCity**](docs/Api/ItemsApi.md#readitemscity) | **GET** /items/City | List Items
+*ItemsApi* | [**readItemsCityTranslations**](docs/Api/ItemsApi.md#readitemscitytranslations) | **GET** /items/City_translations | List Items
 *ItemsApi* | [**readItemsGateway**](docs/Api/ItemsApi.md#readitemsgateway) | **GET** /items/Gateway | List Items
 *ItemsApi* | [**readItemsGeneralLedger**](docs/Api/ItemsApi.md#readitemsgeneralledger) | **GET** /items/GeneralLedger | List Items
 *ItemsApi* | [**readItemsInvoice**](docs/Api/ItemsApi.md#readitemsinvoice) | **GET** /items/Invoice | List Items
 *ItemsApi* | [**readItemsInvoiceType**](docs/Api/ItemsApi.md#readitemsinvoicetype) | **GET** /items/InvoiceType | List Items
 *ItemsApi* | [**readItemsJournalEntry**](docs/Api/ItemsApi.md#readitemsjournalentry) | **GET** /items/JournalEntry | List Items
+*ItemsApi* | [**readItemsLanguages**](docs/Api/ItemsApi.md#readitemslanguages) | **GET** /items/languages | List Items
 *ItemsApi* | [**readItemsLedgerAccount**](docs/Api/ItemsApi.md#readitemsledgeraccount) | **GET** /items/LedgerAccount | List Items
 *ItemsApi* | [**readItemsPerson**](docs/Api/ItemsApi.md#readitemsperson) | **GET** /items/Person | List Items
 *ItemsApi* | [**readItemsProvince**](docs/Api/ItemsApi.md#readitemsprovince) | **GET** /items/Province | List Items
@@ -232,11 +238,13 @@ Class | Method | HTTP request | Description
 *ItemsApi* | [**readSingleItemsAccountType**](docs/Api/ItemsApi.md#readsingleitemsaccounttype) | **GET** /items/AccountType/{id} | Retrieve an Item
 *ItemsApi* | [**readSingleItemsBank**](docs/Api/ItemsApi.md#readsingleitemsbank) | **GET** /items/Bank/{id} | Retrieve an Item
 *ItemsApi* | [**readSingleItemsCity**](docs/Api/ItemsApi.md#readsingleitemscity) | **GET** /items/City/{id} | Retrieve an Item
+*ItemsApi* | [**readSingleItemsCityTranslations**](docs/Api/ItemsApi.md#readsingleitemscitytranslations) | **GET** /items/City_translations/{id} | Retrieve an Item
 *ItemsApi* | [**readSingleItemsGateway**](docs/Api/ItemsApi.md#readsingleitemsgateway) | **GET** /items/Gateway/{id} | Retrieve an Item
 *ItemsApi* | [**readSingleItemsGeneralLedger**](docs/Api/ItemsApi.md#readsingleitemsgeneralledger) | **GET** /items/GeneralLedger/{id} | Retrieve an Item
 *ItemsApi* | [**readSingleItemsInvoice**](docs/Api/ItemsApi.md#readsingleitemsinvoice) | **GET** /items/Invoice/{id} | Retrieve an Item
 *ItemsApi* | [**readSingleItemsInvoiceType**](docs/Api/ItemsApi.md#readsingleitemsinvoicetype) | **GET** /items/InvoiceType/{id} | Retrieve an Item
 *ItemsApi* | [**readSingleItemsJournalEntry**](docs/Api/ItemsApi.md#readsingleitemsjournalentry) | **GET** /items/JournalEntry/{id} | Retrieve an Item
+*ItemsApi* | [**readSingleItemsLanguages**](docs/Api/ItemsApi.md#readsingleitemslanguages) | **GET** /items/languages/{id} | Retrieve an Item
 *ItemsApi* | [**readSingleItemsLedgerAccount**](docs/Api/ItemsApi.md#readsingleitemsledgeraccount) | **GET** /items/LedgerAccount/{id} | Retrieve an Item
 *ItemsApi* | [**readSingleItemsPerson**](docs/Api/ItemsApi.md#readsingleitemsperson) | **GET** /items/Person/{id} | Retrieve an Item
 *ItemsApi* | [**readSingleItemsProvince**](docs/Api/ItemsApi.md#readsingleitemsprovince) | **GET** /items/Province/{id} | Retrieve an Item
@@ -246,11 +254,13 @@ Class | Method | HTTP request | Description
 *ItemsApi* | [**updateSingleItemsAccountType**](docs/Api/ItemsApi.md#updatesingleitemsaccounttype) | **PATCH** /items/AccountType/{id} | Update an Item
 *ItemsApi* | [**updateSingleItemsBank**](docs/Api/ItemsApi.md#updatesingleitemsbank) | **PATCH** /items/Bank/{id} | Update an Item
 *ItemsApi* | [**updateSingleItemsCity**](docs/Api/ItemsApi.md#updatesingleitemscity) | **PATCH** /items/City/{id} | Update an Item
+*ItemsApi* | [**updateSingleItemsCityTranslations**](docs/Api/ItemsApi.md#updatesingleitemscitytranslations) | **PATCH** /items/City_translations/{id} | Update an Item
 *ItemsApi* | [**updateSingleItemsGateway**](docs/Api/ItemsApi.md#updatesingleitemsgateway) | **PATCH** /items/Gateway/{id} | Update an Item
 *ItemsApi* | [**updateSingleItemsGeneralLedger**](docs/Api/ItemsApi.md#updatesingleitemsgeneralledger) | **PATCH** /items/GeneralLedger/{id} | Update an Item
 *ItemsApi* | [**updateSingleItemsInvoice**](docs/Api/ItemsApi.md#updatesingleitemsinvoice) | **PATCH** /items/Invoice/{id} | Update an Item
 *ItemsApi* | [**updateSingleItemsInvoiceType**](docs/Api/ItemsApi.md#updatesingleitemsinvoicetype) | **PATCH** /items/InvoiceType/{id} | Update an Item
 *ItemsApi* | [**updateSingleItemsJournalEntry**](docs/Api/ItemsApi.md#updatesingleitemsjournalentry) | **PATCH** /items/JournalEntry/{id} | Update an Item
+*ItemsApi* | [**updateSingleItemsLanguages**](docs/Api/ItemsApi.md#updatesingleitemslanguages) | **PATCH** /items/languages/{id} | Update an Item
 *ItemsApi* | [**updateSingleItemsLedgerAccount**](docs/Api/ItemsApi.md#updatesingleitemsledgeraccount) | **PATCH** /items/LedgerAccount/{id} | Update an Item
 *ItemsApi* | [**updateSingleItemsPerson**](docs/Api/ItemsApi.md#updatesingleitemsperson) | **PATCH** /items/Person/{id} | Update an Item
 *ItemsApi* | [**updateSingleItemsProvince**](docs/Api/ItemsApi.md#updatesingleitemsprovince) | **PATCH** /items/Province/{id} | Update an Item
@@ -272,6 +282,11 @@ Class | Method | HTTP request | Description
 *ItemsCityApi* | [**readItemsCity**](docs/Api/ItemsCityApi.md#readitemscity) | **GET** /items/City | List Items
 *ItemsCityApi* | [**readSingleItemsCity**](docs/Api/ItemsCityApi.md#readsingleitemscity) | **GET** /items/City/{id} | Retrieve an Item
 *ItemsCityApi* | [**updateSingleItemsCity**](docs/Api/ItemsCityApi.md#updatesingleitemscity) | **PATCH** /items/City/{id} | Update an Item
+*ItemsCityTranslationsApi* | [**createItemsCityTranslations**](docs/Api/ItemsCityTranslationsApi.md#createitemscitytranslations) | **POST** /items/City_translations | Create an Item
+*ItemsCityTranslationsApi* | [**deleteSingleItemsCityTranslations**](docs/Api/ItemsCityTranslationsApi.md#deletesingleitemscitytranslations) | **DELETE** /items/City_translations/{id} | Delete an Item
+*ItemsCityTranslationsApi* | [**readItemsCityTranslations**](docs/Api/ItemsCityTranslationsApi.md#readitemscitytranslations) | **GET** /items/City_translations | List Items
+*ItemsCityTranslationsApi* | [**readSingleItemsCityTranslations**](docs/Api/ItemsCityTranslationsApi.md#readsingleitemscitytranslations) | **GET** /items/City_translations/{id} | Retrieve an Item
+*ItemsCityTranslationsApi* | [**updateSingleItemsCityTranslations**](docs/Api/ItemsCityTranslationsApi.md#updatesingleitemscitytranslations) | **PATCH** /items/City_translations/{id} | Update an Item
 *ItemsGatewayApi* | [**createItemsGateway**](docs/Api/ItemsGatewayApi.md#createitemsgateway) | **POST** /items/Gateway | Create an Item
 *ItemsGatewayApi* | [**deleteSingleItemsGateway**](docs/Api/ItemsGatewayApi.md#deletesingleitemsgateway) | **DELETE** /items/Gateway/{id} | Delete an Item
 *ItemsGatewayApi* | [**readItemsGateway**](docs/Api/ItemsGatewayApi.md#readitemsgateway) | **GET** /items/Gateway | List Items
@@ -297,6 +312,11 @@ Class | Method | HTTP request | Description
 *ItemsJournalEntryApi* | [**readItemsJournalEntry**](docs/Api/ItemsJournalEntryApi.md#readitemsjournalentry) | **GET** /items/JournalEntry | List Items
 *ItemsJournalEntryApi* | [**readSingleItemsJournalEntry**](docs/Api/ItemsJournalEntryApi.md#readsingleitemsjournalentry) | **GET** /items/JournalEntry/{id} | Retrieve an Item
 *ItemsJournalEntryApi* | [**updateSingleItemsJournalEntry**](docs/Api/ItemsJournalEntryApi.md#updatesingleitemsjournalentry) | **PATCH** /items/JournalEntry/{id} | Update an Item
+*ItemsLanguagesApi* | [**createItemsLanguages**](docs/Api/ItemsLanguagesApi.md#createitemslanguages) | **POST** /items/languages | Create an Item
+*ItemsLanguagesApi* | [**deleteSingleItemsLanguages**](docs/Api/ItemsLanguagesApi.md#deletesingleitemslanguages) | **DELETE** /items/languages/{id} | Delete an Item
+*ItemsLanguagesApi* | [**readItemsLanguages**](docs/Api/ItemsLanguagesApi.md#readitemslanguages) | **GET** /items/languages | List Items
+*ItemsLanguagesApi* | [**readSingleItemsLanguages**](docs/Api/ItemsLanguagesApi.md#readsingleitemslanguages) | **GET** /items/languages/{id} | Retrieve an Item
+*ItemsLanguagesApi* | [**updateSingleItemsLanguages**](docs/Api/ItemsLanguagesApi.md#updatesingleitemslanguages) | **PATCH** /items/languages/{id} | Update an Item
 *ItemsLedgerAccountApi* | [**createItemsLedgerAccount**](docs/Api/ItemsLedgerAccountApi.md#createitemsledgeraccount) | **POST** /items/LedgerAccount | Create an Item
 *ItemsLedgerAccountApi* | [**deleteSingleItemsLedgerAccount**](docs/Api/ItemsLedgerAccountApi.md#deletesingleitemsledgeraccount) | **DELETE** /items/LedgerAccount/{id} | Delete an Item
 *ItemsLedgerAccountApi* | [**readItemsLedgerAccount**](docs/Api/ItemsLedgerAccountApi.md#readitemsledgeraccount) | **GET** /items/LedgerAccount | List Items
@@ -459,6 +479,12 @@ Class | Method | HTTP request | Description
  - [Id4](docs/Model/Id4.md)
  - [Id40](docs/Model/Id40.md)
  - [Id41](docs/Model/Id41.md)
+ - [Id42](docs/Model/Id42.md)
+ - [Id43](docs/Model/Id43.md)
+ - [Id44](docs/Model/Id44.md)
+ - [Id45](docs/Model/Id45.md)
+ - [Id46](docs/Model/Id46.md)
+ - [Id47](docs/Model/Id47.md)
  - [Id5](docs/Model/Id5.md)
  - [Id6](docs/Model/Id6.md)
  - [Id7](docs/Model/Id7.md)
@@ -547,6 +573,12 @@ Class | Method | HTTP request | Description
  - [InlineResponse20079](docs/Model/InlineResponse20079.md)
  - [InlineResponse2008](docs/Model/InlineResponse2008.md)
  - [InlineResponse20080](docs/Model/InlineResponse20080.md)
+ - [InlineResponse20081](docs/Model/InlineResponse20081.md)
+ - [InlineResponse20082](docs/Model/InlineResponse20082.md)
+ - [InlineResponse20083](docs/Model/InlineResponse20083.md)
+ - [InlineResponse20084](docs/Model/InlineResponse20084.md)
+ - [InlineResponse20085](docs/Model/InlineResponse20085.md)
+ - [InlineResponse20086](docs/Model/InlineResponse20086.md)
  - [InlineResponse2009](docs/Model/InlineResponse2009.md)
  - [InlineResponse200Data](docs/Model/InlineResponse200Data.md)
  - [InlineResponse404](docs/Model/InlineResponse404.md)
@@ -558,6 +590,8 @@ Class | Method | HTTP request | Description
  - [ItemsBankBody](docs/Model/ItemsBankBody.md)
  - [ItemsCity](docs/Model/ItemsCity.md)
  - [ItemsCityBody](docs/Model/ItemsCityBody.md)
+ - [ItemsCityTranslations](docs/Model/ItemsCityTranslations.md)
+ - [ItemsCityTranslationsBody](docs/Model/ItemsCityTranslationsBody.md)
  - [ItemsGateway](docs/Model/ItemsGateway.md)
  - [ItemsGatewayBody](docs/Model/ItemsGatewayBody.md)
  - [ItemsGeneralLedger](docs/Model/ItemsGeneralLedger.md)
@@ -568,6 +602,8 @@ Class | Method | HTTP request | Description
  - [ItemsInvoiceTypeBody](docs/Model/ItemsInvoiceTypeBody.md)
  - [ItemsJournalEntry](docs/Model/ItemsJournalEntry.md)
  - [ItemsJournalEntryBody](docs/Model/ItemsJournalEntryBody.md)
+ - [ItemsLanguages](docs/Model/ItemsLanguages.md)
+ - [ItemsLanguagesBody](docs/Model/ItemsLanguagesBody.md)
  - [ItemsLedgerAccount](docs/Model/ItemsLedgerAccount.md)
  - [ItemsLedgerAccountBody](docs/Model/ItemsLedgerAccountBody.md)
  - [ItemsPerson](docs/Model/ItemsPerson.md)
@@ -603,13 +639,22 @@ Class | Method | HTTP request | Description
  - [OneOfItemsGatewaySubsidiaryAccount](docs/Model/OneOfItemsGatewaySubsidiaryAccount.md)
  - [OneOfItemsGatewayUserCreated](docs/Model/OneOfItemsGatewayUserCreated.md)
  - [OneOfItemsGatewayUserUpdated](docs/Model/OneOfItemsGatewayUserUpdated.md)
+ - [OneOfItemsGeneralLedgerParent](docs/Model/OneOfItemsGeneralLedgerParent.md)
  - [OneOfItemsGeneralLedgerUserCreated](docs/Model/OneOfItemsGeneralLedgerUserCreated.md)
  - [OneOfItemsGeneralLedgerUserUpdated](docs/Model/OneOfItemsGeneralLedgerUserUpdated.md)
+ - [OneOfItemsInvoiceGateway](docs/Model/OneOfItemsInvoiceGateway.md)
+ - [OneOfItemsInvoiceInvoiceType](docs/Model/OneOfItemsInvoiceInvoiceType.md)
  - [OneOfItemsInvoiceTypeUserCreated](docs/Model/OneOfItemsInvoiceTypeUserCreated.md)
  - [OneOfItemsInvoiceUserCreated](docs/Model/OneOfItemsInvoiceUserCreated.md)
  - [OneOfItemsInvoiceUserUpdated](docs/Model/OneOfItemsInvoiceUserUpdated.md)
+ - [OneOfItemsJournalEntryBank](docs/Model/OneOfItemsJournalEntryBank.md)
+ - [OneOfItemsJournalEntryInvoice](docs/Model/OneOfItemsJournalEntryInvoice.md)
+ - [OneOfItemsJournalEntryLedgerAccount](docs/Model/OneOfItemsJournalEntryLedgerAccount.md)
+ - [OneOfItemsJournalEntrySubsidiaryAccount](docs/Model/OneOfItemsJournalEntrySubsidiaryAccount.md)
  - [OneOfItemsJournalEntryUserCreated](docs/Model/OneOfItemsJournalEntryUserCreated.md)
  - [OneOfItemsJournalEntryUserUpdated](docs/Model/OneOfItemsJournalEntryUserUpdated.md)
+ - [OneOfItemsLedgerAccountAccountType](docs/Model/OneOfItemsLedgerAccountAccountType.md)
+ - [OneOfItemsLedgerAccountGeneralLedger](docs/Model/OneOfItemsLedgerAccountGeneralLedger.md)
  - [OneOfItemsLedgerAccountUserCreated](docs/Model/OneOfItemsLedgerAccountUserCreated.md)
  - [OneOfItemsLedgerAccountUserUpdated](docs/Model/OneOfItemsLedgerAccountUserUpdated.md)
  - [OneOfItemsPersonCity](docs/Model/OneOfItemsPersonCity.md)
@@ -622,8 +667,10 @@ Class | Method | HTTP request | Description
  - [OneOfItemsPersonUserUpdated](docs/Model/OneOfItemsPersonUserUpdated.md)
  - [OneOfItemsSubsidiaryAccountBank](docs/Model/OneOfItemsSubsidiaryAccountBank.md)
  - [OneOfItemsSubsidiaryAccountPerson](docs/Model/OneOfItemsSubsidiaryAccountPerson.md)
+ - [OneOfItemsSubsidiaryAccountSubsidiaryLedger](docs/Model/OneOfItemsSubsidiaryAccountSubsidiaryLedger.md)
  - [OneOfItemsSubsidiaryAccountUserCreated](docs/Model/OneOfItemsSubsidiaryAccountUserCreated.md)
  - [OneOfItemsSubsidiaryAccountUserUpdated](docs/Model/OneOfItemsSubsidiaryAccountUserUpdated.md)
+ - [OneOfItemsSubsidiaryLedgerLedgerAccount](docs/Model/OneOfItemsSubsidiaryLedgerLedgerAccount.md)
  - [OneOfItemsSubsidiaryLedgerUserCreated](docs/Model/OneOfItemsSubsidiaryLedgerUserCreated.md)
  - [OneOfItemsSubsidiaryLedgerUserUpdated](docs/Model/OneOfItemsSubsidiaryLedgerUserUpdated.md)
  - [OneOfItemsTicketUserCreated](docs/Model/OneOfItemsTicketUserCreated.md)

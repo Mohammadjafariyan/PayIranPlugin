@@ -96,7 +96,7 @@ class ItemsLedgerAccountApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20035
+     * @return \Swagger\Client\Model\InlineResponse20041
      */
     public function createItemsLedgerAccount($body = null, $meta = null)
     {
@@ -114,11 +114,11 @@ class ItemsLedgerAccountApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20035, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20041, HTTP status code, HTTP response headers (array of strings)
      */
     public function createItemsLedgerAccountWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20035';
+        $returnType = '\Swagger\Client\Model\InlineResponse20041';
         $request = $this->createItemsLedgerAccountRequest($body, $meta);
 
         try {
@@ -170,7 +170,7 @@ class ItemsLedgerAccountApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20035',
+                        '\Swagger\Client\Model\InlineResponse20041',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -222,7 +222,7 @@ class ItemsLedgerAccountApi
      */
     public function createItemsLedgerAccountAsyncWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20035';
+        $returnType = '\Swagger\Client\Model\InlineResponse20041';
         $request = $this->createItemsLedgerAccountRequest($body, $meta);
 
         return $this->client
@@ -359,7 +359,7 @@ class ItemsLedgerAccountApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id25 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id31 $id Index of the item. (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -375,7 +375,7 @@ class ItemsLedgerAccountApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id25 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id31 $id Index of the item. (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -444,7 +444,7 @@ class ItemsLedgerAccountApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id25 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id31 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -464,7 +464,7 @@ class ItemsLedgerAccountApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id25 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id31 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,7 +500,7 @@ class ItemsLedgerAccountApi
     /**
      * Create request for operation 'deleteSingleItemsLedgerAccount'
      *
-     * @param  \Swagger\Client\Model\Id25 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id31 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -610,7 +610,7 @@ class ItemsLedgerAccountApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20034
+     * @return \Swagger\Client\Model\InlineResponse20040
      */
     public function readItemsLedgerAccount($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
@@ -633,11 +633,11 @@ class ItemsLedgerAccountApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20034, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20040, HTTP status code, HTTP response headers (array of strings)
      */
     public function readItemsLedgerAccountWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20034';
+        $returnType = '\Swagger\Client\Model\InlineResponse20040';
         $request = $this->readItemsLedgerAccountRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         try {
@@ -689,7 +689,7 @@ class ItemsLedgerAccountApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20034',
+                        '\Swagger\Client\Model\InlineResponse20040',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -751,7 +751,7 @@ class ItemsLedgerAccountApi
      */
     public function readItemsLedgerAccountAsyncWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20034';
+        $returnType = '\Swagger\Client\Model\InlineResponse20040';
         $request = $this->readItemsLedgerAccountRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         return $this->client
@@ -928,13 +928,13 @@ class ItemsLedgerAccountApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id24 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id30 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20036
+     * @return \Swagger\Client\Model\InlineResponse20042
      */
     public function readSingleItemsLedgerAccount($id, $fields = null, $meta = null)
     {
@@ -947,17 +947,17 @@ class ItemsLedgerAccountApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id24 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id30 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20036, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20042, HTTP status code, HTTP response headers (array of strings)
      */
     public function readSingleItemsLedgerAccountWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20036';
+        $returnType = '\Swagger\Client\Model\InlineResponse20042';
         $request = $this->readSingleItemsLedgerAccountRequest($id, $fields, $meta);
 
         try {
@@ -1009,7 +1009,7 @@ class ItemsLedgerAccountApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20036',
+                        '\Swagger\Client\Model\InlineResponse20042',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1040,7 +1040,7 @@ class ItemsLedgerAccountApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id24 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id30 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1062,7 +1062,7 @@ class ItemsLedgerAccountApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id24 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id30 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1071,7 +1071,7 @@ class ItemsLedgerAccountApi
      */
     public function readSingleItemsLedgerAccountAsyncWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20036';
+        $returnType = '\Swagger\Client\Model\InlineResponse20042';
         $request = $this->readSingleItemsLedgerAccountRequest($id, $fields, $meta);
 
         return $this->client
@@ -1114,7 +1114,7 @@ class ItemsLedgerAccountApi
     /**
      * Create request for operation 'readSingleItemsLedgerAccount'
      *
-     * @param  \Swagger\Client\Model\Id24 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id30 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1227,14 +1227,14 @@ class ItemsLedgerAccountApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id26 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id32 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsLedgerAccount $body body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20036
+     * @return \Swagger\Client\Model\InlineResponse20042
      */
     public function updateSingleItemsLedgerAccount($id, $body = null, $fields = null, $meta = null)
     {
@@ -1247,18 +1247,18 @@ class ItemsLedgerAccountApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id26 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id32 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsLedgerAccount $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20036, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20042, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateSingleItemsLedgerAccountWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20036';
+        $returnType = '\Swagger\Client\Model\InlineResponse20042';
         $request = $this->updateSingleItemsLedgerAccountRequest($id, $body, $fields, $meta);
 
         try {
@@ -1310,7 +1310,7 @@ class ItemsLedgerAccountApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20036',
+                        '\Swagger\Client\Model\InlineResponse20042',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1341,7 +1341,7 @@ class ItemsLedgerAccountApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id26 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id32 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsLedgerAccount $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
@@ -1364,7 +1364,7 @@ class ItemsLedgerAccountApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id26 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id32 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsLedgerAccount $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
@@ -1374,7 +1374,7 @@ class ItemsLedgerAccountApi
      */
     public function updateSingleItemsLedgerAccountAsyncWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20036';
+        $returnType = '\Swagger\Client\Model\InlineResponse20042';
         $request = $this->updateSingleItemsLedgerAccountRequest($id, $body, $fields, $meta);
 
         return $this->client
@@ -1417,7 +1417,7 @@ class ItemsLedgerAccountApi
     /**
      * Create request for operation 'updateSingleItemsLedgerAccount'
      *
-     * @param  \Swagger\Client\Model\Id26 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id32 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsLedgerAccount $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)

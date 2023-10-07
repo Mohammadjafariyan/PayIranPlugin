@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateSingleItemsSubsidiaryAccount**](ItemsSubsidiaryAccountApi.md#updatesingleitemssubsidiaryaccount) | **PATCH** /items/SubsidiaryAccount/{id} | Update an Item
 
 # **createItemsSubsidiaryAccount**
-> \Swagger\Client\Model\InlineResponse20044 createItemsSubsidiaryAccount($body, $meta)
+> \Swagger\Client\Model\InlineResponse20050 createItemsSubsidiaryAccount($body, $meta)
 
 Create an Item
 
@@ -48,7 +48,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20044**](../Model/InlineResponse20044.md)
+[**\Swagger\Client\Model\InlineResponse20050**](../Model/InlineResponse20050.md)
 
 ### Authorization
 
@@ -78,7 +78,7 @@ $apiInstance = new Swagger\Client\Api\ItemsSubsidiaryAccountApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id34(); // \Swagger\Client\Model\Id34 | Index of the item.
+$id = new \Swagger\Client\Model\Id40(); // \Swagger\Client\Model\Id40 | Index of the item.
 
 try {
     $apiInstance->deleteSingleItemsSubsidiaryAccount($id);
@@ -92,7 +92,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id34**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id40**](../Model/.md)| Index of the item. |
 
 ### Return type
 
@@ -110,7 +110,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **readItemsSubsidiaryAccount**
-> \Swagger\Client\Model\InlineResponse20043 readItemsSubsidiaryAccount($fields, $limit, $meta, $offset, $sort, $filter, $search)
+> \Swagger\Client\Model\InlineResponse20049 readItemsSubsidiaryAccount($fields, $limit, $meta, $offset, $sort, $filter, $search)
 
 List Items
 
@@ -162,7 +162,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20043**](../Model/InlineResponse20043.md)
+[**\Swagger\Client\Model\InlineResponse20049**](../Model/InlineResponse20049.md)
 
 ### Authorization
 
@@ -176,7 +176,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **readSingleItemsSubsidiaryAccount**
-> \Swagger\Client\Model\InlineResponse20045 readSingleItemsSubsidiaryAccount($id, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20051 readSingleItemsSubsidiaryAccount($id, $fields, $meta)
 
 Retrieve an Item
 
@@ -192,7 +192,7 @@ $apiInstance = new Swagger\Client\Api\ItemsSubsidiaryAccountApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id33(); // \Swagger\Client\Model\Id33 | Index of the item.
+$id = new \Swagger\Client\Model\Id39(); // \Swagger\Client\Model\Id39 | Index of the item.
 $fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
 $meta = "meta_example"; // string | What metadata to return in the response.
 
@@ -209,13 +209,13 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id33**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id39**](../Model/.md)| Index of the item. |
  **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
  **meta** | **string**| What metadata to return in the response. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20045**](../Model/InlineResponse20045.md)
+[**\Swagger\Client\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
 
 ### Authorization
 
@@ -229,7 +229,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateSingleItemsSubsidiaryAccount**
-> \Swagger\Client\Model\InlineResponse20045 updateSingleItemsSubsidiaryAccount($id, $body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20051 updateSingleItemsSubsidiaryAccount($id, $body, $fields, $meta)
 
 Update an Item
 
@@ -245,7 +245,7 @@ $apiInstance = new Swagger\Client\Api\ItemsSubsidiaryAccountApi(
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$id = new \Swagger\Client\Model\Id35(); // \Swagger\Client\Model\Id35 | Index of the item.
+$id = new \Swagger\Client\Model\Id41(); // \Swagger\Client\Model\Id41 | Index of the item.
 $body = new \Swagger\Client\Model\ItemsSubsidiaryAccount(); // \Swagger\Client\Model\ItemsSubsidiaryAccount | 
 $fields = array("fields_example"); // string[] | Control what fields are being returned in the object.
 $meta = "meta_example"; // string | What metadata to return in the response.
@@ -263,14 +263,14 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | [**\Swagger\Client\Model\Id35**](../Model/.md)| Index of the item. |
+ **id** | [**\Swagger\Client\Model\Id41**](../Model/.md)| Index of the item. |
  **body** | [**\Swagger\Client\Model\ItemsSubsidiaryAccount**](../Model/ItemsSubsidiaryAccount.md)|  | [optional]
  **fields** | [**string[]**](../Model/string.md)| Control what fields are being returned in the object. | [optional]
  **meta** | **string**| What metadata to return in the response. | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20045**](../Model/InlineResponse20045.md)
+[**\Swagger\Client\Model\InlineResponse20051**](../Model/InlineResponse20051.md)
 
 ### Authorization
 

@@ -95,6 +95,7 @@ class ItemsGateway implements ModelInterface, ArrayAccess
 'third_custom_field_title' => 'string',
 'third_custom_field_placeholder' => 'string',
 'commision_type' => 'int',
+'gateway_token' => 'string',
 'accordion_bij6ke' => 'string',
 'g1' => 'string',
 'notification' => 'string',
@@ -149,6 +150,7 @@ class ItemsGateway implements ModelInterface, ArrayAccess
 'third_custom_field_title' => null,
 'third_custom_field_placeholder' => null,
 'commision_type' => null,
+'gateway_token' => 'uuid',
 'accordion_bij6ke' => null,
 'g1' => null,
 'notification' => null,
@@ -224,6 +226,7 @@ class ItemsGateway implements ModelInterface, ArrayAccess
 'third_custom_field_title' => 'ThirdCustomFieldTitle',
 'third_custom_field_placeholder' => 'ThirdCustomFieldPlaceholder',
 'commision_type' => 'CommisionType',
+'gateway_token' => 'GatewayToken',
 'accordion_bij6ke' => 'accordion-bij6ke',
 'g1' => 'G1',
 'notification' => 'Notification',
@@ -278,6 +281,7 @@ class ItemsGateway implements ModelInterface, ArrayAccess
 'third_custom_field_title' => 'setThirdCustomFieldTitle',
 'third_custom_field_placeholder' => 'setThirdCustomFieldPlaceholder',
 'commision_type' => 'setCommisionType',
+'gateway_token' => 'setGatewayToken',
 'accordion_bij6ke' => 'setAccordionBij6ke',
 'g1' => 'setG1',
 'notification' => 'setNotification',
@@ -332,6 +336,7 @@ class ItemsGateway implements ModelInterface, ArrayAccess
 'third_custom_field_title' => 'getThirdCustomFieldTitle',
 'third_custom_field_placeholder' => 'getThirdCustomFieldPlaceholder',
 'commision_type' => 'getCommisionType',
+'gateway_token' => 'getGatewayToken',
 'accordion_bij6ke' => 'getAccordionBij6ke',
 'g1' => 'getG1',
 'notification' => 'getNotification',
@@ -438,6 +443,7 @@ class ItemsGateway implements ModelInterface, ArrayAccess
         $this->container['third_custom_field_title'] = isset($data['third_custom_field_title']) ? $data['third_custom_field_title'] : null;
         $this->container['third_custom_field_placeholder'] = isset($data['third_custom_field_placeholder']) ? $data['third_custom_field_placeholder'] : null;
         $this->container['commision_type'] = isset($data['commision_type']) ? $data['commision_type'] : null;
+        $this->container['gateway_token'] = isset($data['gateway_token']) ? $data['gateway_token'] : null;
         $this->container['accordion_bij6ke'] = isset($data['accordion_bij6ke']) ? $data['accordion_bij6ke'] : null;
         $this->container['g1'] = isset($data['g1']) ? $data['g1'] : null;
         $this->container['notification'] = isset($data['notification']) ? $data['notification'] : null;
@@ -1404,6 +1410,30 @@ class ItemsGateway implements ModelInterface, ArrayAccess
     public function setCommisionType($commision_type)
     {
         $this->container['commision_type'] = $commision_type;
+
+        return $this;
+    }
+
+    /**
+     * Gets gateway_token
+     *
+     * @return string
+     */
+    public function getGatewayToken()
+    {
+        return $this->container['gateway_token'];
+    }
+
+    /**
+     * Sets gateway_token
+     *
+     * @param string $gateway_token gateway_token
+     *
+     * @return $this
+     */
+    public function setGatewayToken($gateway_token)
+    {
+        $this->container['gateway_token'] = $gateway_token;
 
         return $this;
     }

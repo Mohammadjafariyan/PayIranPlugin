@@ -125,4 +125,32 @@ class ItemsLedgerAccountTest extends TestCase
     public function testPropertyDateUpdated()
     {
     }
+
+    /**
+     * Test attribute "name"
+     */
+    public function testPropertyName()
+    {
+    }
+
+    /**
+     * Test attribute "code"
+     */
+    public function testPropertyCode()
+    {
+    }
+
+    /**
+     * Test attribute "account_type"
+     */
+    public function testPropertyAccountType()
+    {
+    }
+
+    /**
+     * Test attribute "general_ledger"
+     */
+    public function testPropertyGeneralLedger()
+    {
+    }
 }

@@ -96,7 +96,7 @@ class ItemsJournalEntryApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20032
+     * @return \Swagger\Client\Model\InlineResponse20035
      */
     public function createItemsJournalEntry($body = null, $meta = null)
     {
@@ -114,11 +114,11 @@ class ItemsJournalEntryApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20032, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20035, HTTP status code, HTTP response headers (array of strings)
      */
     public function createItemsJournalEntryWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20032';
+        $returnType = '\Swagger\Client\Model\InlineResponse20035';
         $request = $this->createItemsJournalEntryRequest($body, $meta);
 
         try {
@@ -170,7 +170,7 @@ class ItemsJournalEntryApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20032',
+                        '\Swagger\Client\Model\InlineResponse20035',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -222,7 +222,7 @@ class ItemsJournalEntryApi
      */
     public function createItemsJournalEntryAsyncWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20032';
+        $returnType = '\Swagger\Client\Model\InlineResponse20035';
         $request = $this->createItemsJournalEntryRequest($body, $meta);
 
         return $this->client
@@ -359,7 +359,7 @@ class ItemsJournalEntryApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id22 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id25 $id Index of the item. (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -375,7 +375,7 @@ class ItemsJournalEntryApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id22 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id25 $id Index of the item. (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -444,7 +444,7 @@ class ItemsJournalEntryApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id22 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id25 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -464,7 +464,7 @@ class ItemsJournalEntryApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id22 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id25 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,7 +500,7 @@ class ItemsJournalEntryApi
     /**
      * Create request for operation 'deleteSingleItemsJournalEntry'
      *
-     * @param  \Swagger\Client\Model\Id22 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id25 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -610,7 +610,7 @@ class ItemsJournalEntryApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20031
+     * @return \Swagger\Client\Model\InlineResponse20034
      */
     public function readItemsJournalEntry($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
@@ -633,11 +633,11 @@ class ItemsJournalEntryApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20031, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20034, HTTP status code, HTTP response headers (array of strings)
      */
     public function readItemsJournalEntryWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20031';
+        $returnType = '\Swagger\Client\Model\InlineResponse20034';
         $request = $this->readItemsJournalEntryRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         try {
@@ -689,7 +689,7 @@ class ItemsJournalEntryApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20031',
+                        '\Swagger\Client\Model\InlineResponse20034',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -751,7 +751,7 @@ class ItemsJournalEntryApi
      */
     public function readItemsJournalEntryAsyncWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20031';
+        $returnType = '\Swagger\Client\Model\InlineResponse20034';
         $request = $this->readItemsJournalEntryRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         return $this->client
@@ -928,13 +928,13 @@ class ItemsJournalEntryApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id21 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id24 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20033
+     * @return \Swagger\Client\Model\InlineResponse20036
      */
     public function readSingleItemsJournalEntry($id, $fields = null, $meta = null)
     {
@@ -947,17 +947,17 @@ class ItemsJournalEntryApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id21 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id24 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20033, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20036, HTTP status code, HTTP response headers (array of strings)
      */
     public function readSingleItemsJournalEntryWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20033';
+        $returnType = '\Swagger\Client\Model\InlineResponse20036';
         $request = $this->readSingleItemsJournalEntryRequest($id, $fields, $meta);
 
         try {
@@ -1009,7 +1009,7 @@ class ItemsJournalEntryApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20033',
+                        '\Swagger\Client\Model\InlineResponse20036',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1040,7 +1040,7 @@ class ItemsJournalEntryApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id21 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id24 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1062,7 +1062,7 @@ class ItemsJournalEntryApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id21 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id24 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1071,7 +1071,7 @@ class ItemsJournalEntryApi
      */
     public function readSingleItemsJournalEntryAsyncWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20033';
+        $returnType = '\Swagger\Client\Model\InlineResponse20036';
         $request = $this->readSingleItemsJournalEntryRequest($id, $fields, $meta);
 
         return $this->client
@@ -1114,7 +1114,7 @@ class ItemsJournalEntryApi
     /**
      * Create request for operation 'readSingleItemsJournalEntry'
      *
-     * @param  \Swagger\Client\Model\Id21 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id24 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1227,14 +1227,14 @@ class ItemsJournalEntryApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id23 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id26 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsJournalEntry $body body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20033
+     * @return \Swagger\Client\Model\InlineResponse20036
      */
     public function updateSingleItemsJournalEntry($id, $body = null, $fields = null, $meta = null)
     {
@@ -1247,18 +1247,18 @@ class ItemsJournalEntryApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id23 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id26 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsJournalEntry $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20033, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20036, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateSingleItemsJournalEntryWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20033';
+        $returnType = '\Swagger\Client\Model\InlineResponse20036';
         $request = $this->updateSingleItemsJournalEntryRequest($id, $body, $fields, $meta);
 
         try {
@@ -1310,7 +1310,7 @@ class ItemsJournalEntryApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20033',
+                        '\Swagger\Client\Model\InlineResponse20036',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1341,7 +1341,7 @@ class ItemsJournalEntryApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id23 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id26 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsJournalEntry $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
@@ -1364,7 +1364,7 @@ class ItemsJournalEntryApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id23 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id26 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsJournalEntry $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
@@ -1374,7 +1374,7 @@ class ItemsJournalEntryApi
      */
     public function updateSingleItemsJournalEntryAsyncWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20033';
+        $returnType = '\Swagger\Client\Model\InlineResponse20036';
         $request = $this->updateSingleItemsJournalEntryRequest($id, $body, $fields, $meta);
 
         return $this->client
@@ -1417,7 +1417,7 @@ class ItemsJournalEntryApi
     /**
      * Create request for operation 'updateSingleItemsJournalEntry'
      *
-     * @param  \Swagger\Client\Model\Id23 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id26 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsJournalEntry $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)

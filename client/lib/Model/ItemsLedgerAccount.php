@@ -62,7 +62,11 @@ class ItemsLedgerAccount implements ModelInterface, ArrayAccess
 'user_created' => 'OneOfItemsLedgerAccountUserCreated',
 'date_created' => 'string',
 'user_updated' => 'OneOfItemsLedgerAccountUserUpdated',
-'date_updated' => 'string'    ];
+'date_updated' => 'string',
+'name' => 'string',
+'code' => 'string',
+'account_type' => 'OneOfItemsLedgerAccountAccountType',
+'general_ledger' => 'OneOfItemsLedgerAccountGeneralLedger'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -76,7 +80,11 @@ class ItemsLedgerAccount implements ModelInterface, ArrayAccess
 'user_created' => null,
 'date_created' => 'timestamp',
 'user_updated' => null,
-'date_updated' => 'timestamp'    ];
+'date_updated' => 'timestamp',
+'name' => null,
+'code' => null,
+'account_type' => null,
+'general_ledger' => null    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization
@@ -111,7 +119,11 @@ class ItemsLedgerAccount implements ModelInterface, ArrayAccess
 'user_created' => 'user_created',
 'date_created' => 'date_created',
 'user_updated' => 'user_updated',
-'date_updated' => 'date_updated'    ];
+'date_updated' => 'date_updated',
+'name' => 'Name',
+'code' => 'Code',
+'account_type' => 'AccountType',
+'general_ledger' => 'GeneralLedger'    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses)
@@ -125,7 +137,11 @@ class ItemsLedgerAccount implements ModelInterface, ArrayAccess
 'user_created' => 'setUserCreated',
 'date_created' => 'setDateCreated',
 'user_updated' => 'setUserUpdated',
-'date_updated' => 'setDateUpdated'    ];
+'date_updated' => 'setDateUpdated',
+'name' => 'setName',
+'code' => 'setCode',
+'account_type' => 'setAccountType',
+'general_ledger' => 'setGeneralLedger'    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests)
@@ -139,7 +155,11 @@ class ItemsLedgerAccount implements ModelInterface, ArrayAccess
 'user_created' => 'getUserCreated',
 'date_created' => 'getDateCreated',
 'user_updated' => 'getUserUpdated',
-'date_updated' => 'getDateUpdated'    ];
+'date_updated' => 'getDateUpdated',
+'name' => 'getName',
+'code' => 'getCode',
+'account_type' => 'getAccountType',
+'general_ledger' => 'getGeneralLedger'    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -206,6 +226,10 @@ class ItemsLedgerAccount implements ModelInterface, ArrayAccess
         $this->container['date_created'] = isset($data['date_created']) ? $data['date_created'] : null;
         $this->container['user_updated'] = isset($data['user_updated']) ? $data['user_updated'] : null;
         $this->container['date_updated'] = isset($data['date_updated']) ? $data['date_updated'] : null;
+        $this->container['name'] = isset($data['name']) ? $data['name'] : null;
+        $this->container['code'] = isset($data['code']) ? $data['code'] : null;
+        $this->container['account_type'] = isset($data['account_type']) ? $data['account_type'] : null;
+        $this->container['general_ledger'] = isset($data['general_ledger']) ? $data['general_ledger'] : null;
     }
 
     /**
@@ -396,6 +420,102 @@ class ItemsLedgerAccount implements ModelInterface, ArrayAccess
     public function setDateUpdated($date_updated)
     {
         $this->container['date_updated'] = $date_updated;
+
+        return $this;
+    }
+
+    /**
+     * Gets name
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->container['name'];
+    }
+
+    /**
+     * Sets name
+     *
+     * @param string $name name
+     *
+     * @return $this
+     */
+    public function setName($name)
+    {
+        $this->container['name'] = $name;
+
+        return $this;
+    }
+
+    /**
+     * Gets code
+     *
+     * @return string
+     */
+    public function getCode()
+    {
+        return $this->container['code'];
+    }
+
+    /**
+     * Sets code
+     *
+     * @param string $code code
+     *
+     * @return $this
+     */
+    public function setCode($code)
+    {
+        $this->container['code'] = $code;
+
+        return $this;
+    }
+
+    /**
+     * Gets account_type
+     *
+     * @return OneOfItemsLedgerAccountAccountType
+     */
+    public function getAccountType()
+    {
+        return $this->container['account_type'];
+    }
+
+    /**
+     * Sets account_type
+     *
+     * @param OneOfItemsLedgerAccountAccountType $account_type account_type
+     *
+     * @return $this
+     */
+    public function setAccountType($account_type)
+    {
+        $this->container['account_type'] = $account_type;
+
+        return $this;
+    }
+
+    /**
+     * Gets general_ledger
+     *
+     * @return OneOfItemsLedgerAccountGeneralLedger
+     */
+    public function getGeneralLedger()
+    {
+        return $this->container['general_ledger'];
+    }
+
+    /**
+     * Sets general_ledger
+     *
+     * @param OneOfItemsLedgerAccountGeneralLedger $general_ledger general_ledger
+     *
+     * @return $this
+     */
+    public function setGeneralLedger($general_ledger)
+    {
+        $this->container['general_ledger'] = $general_ledger;
 
         return $this;
     }

@@ -97,7 +97,7 @@ class FoldersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20061
+     * @return \Swagger\Client\Model\InlineResponse20067
      */
     public function createFolder($body = null, $fields = null, $meta = null)
     {
@@ -116,11 +116,11 @@ class FoldersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20061, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20067, HTTP status code, HTTP response headers (array of strings)
      */
     public function createFolderWithHttpInfo($body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20061';
+        $returnType = '\Swagger\Client\Model\InlineResponse20067';
         $request = $this->createFolderRequest($body, $fields, $meta);
 
         try {
@@ -172,7 +172,7 @@ class FoldersApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20061',
+                        '\Swagger\Client\Model\InlineResponse20067',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -234,7 +234,7 @@ class FoldersApi
      */
     public function createFolderAsyncWithHttpInfo($body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20061';
+        $returnType = '\Swagger\Client\Model\InlineResponse20067';
         $request = $this->createFolderRequest($body, $fields, $meta);
 
         return $this->client
@@ -626,7 +626,7 @@ class FoldersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20061
+     * @return \Swagger\Client\Model\InlineResponse20067
      */
     public function getFolder($id, $fields = null, $meta = null)
     {
@@ -645,11 +645,11 @@ class FoldersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20061, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20067, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFolderWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20061';
+        $returnType = '\Swagger\Client\Model\InlineResponse20067';
         $request = $this->getFolderRequest($id, $fields, $meta);
 
         try {
@@ -701,7 +701,7 @@ class FoldersApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20061',
+                        '\Swagger\Client\Model\InlineResponse20067',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -763,7 +763,7 @@ class FoldersApi
      */
     public function getFolderAsyncWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20061';
+        $returnType = '\Swagger\Client\Model\InlineResponse20067';
         $request = $this->getFolderRequest($id, $fields, $meta);
 
         return $this->client
@@ -929,7 +929,7 @@ class FoldersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20060
+     * @return \Swagger\Client\Model\InlineResponse20066
      */
     public function getFolders($fields = null, $limit = null, $offset = null, $sort = null, $filter = null, $search = null, $meta = null)
     {
@@ -952,11 +952,11 @@ class FoldersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20060, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20066, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFoldersWithHttpInfo($fields = null, $limit = null, $offset = null, $sort = null, $filter = null, $search = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20060';
+        $returnType = '\Swagger\Client\Model\InlineResponse20066';
         $request = $this->getFoldersRequest($fields, $limit, $offset, $sort, $filter, $search, $meta);
 
         try {
@@ -1008,7 +1008,7 @@ class FoldersApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20060',
+                        '\Swagger\Client\Model\InlineResponse20066',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1078,7 +1078,7 @@ class FoldersApi
      */
     public function getFoldersAsyncWithHttpInfo($fields = null, $limit = null, $offset = null, $sort = null, $filter = null, $search = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20060';
+        $returnType = '\Swagger\Client\Model\InlineResponse20066';
         $request = $this->getFoldersRequest($fields, $limit, $offset, $sort, $filter, $search, $meta);
 
         return $this->client
@@ -1257,7 +1257,7 @@ class FoldersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20061
+     * @return \Swagger\Client\Model\InlineResponse20067
      */
     public function updateFolder($id, $body = null, $fields = null, $meta = null)
     {
@@ -1277,11 +1277,11 @@ class FoldersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20061, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20067, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateFolderWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20061';
+        $returnType = '\Swagger\Client\Model\InlineResponse20067';
         $request = $this->updateFolderRequest($id, $body, $fields, $meta);
 
         try {
@@ -1333,7 +1333,7 @@ class FoldersApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20061',
+                        '\Swagger\Client\Model\InlineResponse20067',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1397,7 +1397,7 @@ class FoldersApi
      */
     public function updateFolderAsyncWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20061';
+        $returnType = '\Swagger\Client\Model\InlineResponse20067';
         $request = $this->updateFolderRequest($id, $body, $fields, $meta);
 
         return $this->client

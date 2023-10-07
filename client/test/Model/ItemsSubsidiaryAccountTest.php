@@ -153,4 +153,11 @@ class ItemsSubsidiaryAccountTest extends TestCase
     public function testPropertyBank()
     {
     }
+
+    /**
+     * Test attribute "subsidiary_ledger"
+     */
+    public function testPropertySubsidiaryLedger()
+    {
+    }
 }

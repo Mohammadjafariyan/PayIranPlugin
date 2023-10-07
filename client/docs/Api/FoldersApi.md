@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateFolder**](FoldersApi.md#updatefolder) | **PATCH** /folders/{id} | Update a Folder
 
 # **createFolder**
-> \Swagger\Client\Model\InlineResponse20061 createFolder($body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20067 createFolder($body, $fields, $meta)
 
 Create a Folder
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20061**](../Model/InlineResponse20061.md)
+[**\Swagger\Client\Model\InlineResponse20067**](../Model/InlineResponse20067.md)
 
 ### Authorization
 
@@ -112,7 +112,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFolder**
-> \Swagger\Client\Model\InlineResponse20061 getFolder($id, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20067 getFolder($id, $fields, $meta)
 
 Retrieve a Folder
 
@@ -151,7 +151,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20061**](../Model/InlineResponse20061.md)
+[**\Swagger\Client\Model\InlineResponse20067**](../Model/InlineResponse20067.md)
 
 ### Authorization
 
@@ -165,7 +165,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFolders**
-> \Swagger\Client\Model\InlineResponse20060 getFolders($fields, $limit, $offset, $sort, $filter, $search, $meta)
+> \Swagger\Client\Model\InlineResponse20066 getFolders($fields, $limit, $offset, $sort, $filter, $search, $meta)
 
 List Folders
 
@@ -212,7 +212,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20060**](../Model/InlineResponse20060.md)
+[**\Swagger\Client\Model\InlineResponse20066**](../Model/InlineResponse20066.md)
 
 ### Authorization
 
@@ -226,7 +226,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateFolder**
-> \Swagger\Client\Model\InlineResponse20061 updateFolder($id, $body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20067 updateFolder($id, $body, $fields, $meta)
 
 Update a Folder
 
@@ -267,7 +267,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20061**](../Model/InlineResponse20061.md)
+[**\Swagger\Client\Model\InlineResponse20067**](../Model/InlineResponse20067.md)
 
 ### Authorization
 

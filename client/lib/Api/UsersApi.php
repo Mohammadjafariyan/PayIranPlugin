@@ -95,7 +95,7 @@ class UsersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20075
+     * @return \Swagger\Client\Model\InlineResponse20081
      */
     public function acceptInvite($body)
     {
@@ -112,11 +112,11 @@ class UsersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20075, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20081, HTTP status code, HTTP response headers (array of strings)
      */
     public function acceptInviteWithHttpInfo($body)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20075';
+        $returnType = '\Swagger\Client\Model\InlineResponse20081';
         $request = $this->acceptInviteRequest($body);
 
         try {
@@ -168,7 +168,7 @@ class UsersApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20075',
+                        '\Swagger\Client\Model\InlineResponse20081',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -226,7 +226,7 @@ class UsersApi
      */
     public function acceptInviteAsyncWithHttpInfo($body)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20075';
+        $returnType = '\Swagger\Client\Model\InlineResponse20081';
         $request = $this->acceptInviteRequest($body);
 
         return $this->client
@@ -369,7 +369,7 @@ class UsersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20075
+     * @return \Swagger\Client\Model\InlineResponse20081
      */
     public function createUser($body = null, $meta = null)
     {
@@ -387,11 +387,11 @@ class UsersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20075, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20081, HTTP status code, HTTP response headers (array of strings)
      */
     public function createUserWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20075';
+        $returnType = '\Swagger\Client\Model\InlineResponse20081';
         $request = $this->createUserRequest($body, $meta);
 
         try {
@@ -443,7 +443,7 @@ class UsersApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20075',
+                        '\Swagger\Client\Model\InlineResponse20081',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -503,7 +503,7 @@ class UsersApi
      */
     public function createUserAsyncWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20075';
+        $returnType = '\Swagger\Client\Model\InlineResponse20081';
         $request = $this->createUserRequest($body, $meta);
 
         return $this->client
@@ -886,7 +886,7 @@ class UsersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20075
+     * @return \Swagger\Client\Model\InlineResponse20081
      */
     public function getMe($fields = null, $meta = null)
     {
@@ -904,11 +904,11 @@ class UsersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20075, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20081, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMeWithHttpInfo($fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20075';
+        $returnType = '\Swagger\Client\Model\InlineResponse20081';
         $request = $this->getMeRequest($fields, $meta);
 
         try {
@@ -960,7 +960,7 @@ class UsersApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20075',
+                        '\Swagger\Client\Model\InlineResponse20081',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1020,7 +1020,7 @@ class UsersApi
      */
     public function getMeAsyncWithHttpInfo($fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20075';
+        $returnType = '\Swagger\Client\Model\InlineResponse20081';
         $request = $this->getMeRequest($fields, $meta);
 
         return $this->client
@@ -1167,7 +1167,7 @@ class UsersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20075
+     * @return \Swagger\Client\Model\InlineResponse20081
      */
     public function getUser($id, $fields = null, $meta = null)
     {
@@ -1186,11 +1186,11 @@ class UsersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20075, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20081, HTTP status code, HTTP response headers (array of strings)
      */
     public function getUserWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20075';
+        $returnType = '\Swagger\Client\Model\InlineResponse20081';
         $request = $this->getUserRequest($id, $fields, $meta);
 
         try {
@@ -1242,7 +1242,7 @@ class UsersApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20075',
+                        '\Swagger\Client\Model\InlineResponse20081',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1304,7 +1304,7 @@ class UsersApi
      */
     public function getUserAsyncWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20075';
+        $returnType = '\Swagger\Client\Model\InlineResponse20081';
         $request = $this->getUserRequest($id, $fields, $meta);
 
         return $this->client
@@ -1470,7 +1470,7 @@ class UsersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20074
+     * @return \Swagger\Client\Model\InlineResponse20080
      */
     public function getUsers($fields = null, $limit = null, $offset = null, $meta = null, $sort = null, $filter = null, $search = null)
     {
@@ -1493,11 +1493,11 @@ class UsersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20074, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20080, HTTP status code, HTTP response headers (array of strings)
      */
     public function getUsersWithHttpInfo($fields = null, $limit = null, $offset = null, $meta = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20074';
+        $returnType = '\Swagger\Client\Model\InlineResponse20080';
         $request = $this->getUsersRequest($fields, $limit, $offset, $meta, $sort, $filter, $search);
 
         try {
@@ -1549,7 +1549,7 @@ class UsersApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20074',
+                        '\Swagger\Client\Model\InlineResponse20080',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1619,7 +1619,7 @@ class UsersApi
      */
     public function getUsersAsyncWithHttpInfo($fields = null, $limit = null, $offset = null, $meta = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20074';
+        $returnType = '\Swagger\Client\Model\InlineResponse20080';
         $request = $this->getUsersRequest($fields, $limit, $offset, $meta, $sort, $filter, $search);
 
         return $this->client
@@ -1795,7 +1795,7 @@ class UsersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20075
+     * @return \Swagger\Client\Model\InlineResponse20081
      */
     public function invite($body = null)
     {
@@ -1812,11 +1812,11 @@ class UsersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20075, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20081, HTTP status code, HTTP response headers (array of strings)
      */
     public function inviteWithHttpInfo($body = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20075';
+        $returnType = '\Swagger\Client\Model\InlineResponse20081';
         $request = $this->inviteRequest($body);
 
         try {
@@ -1868,7 +1868,7 @@ class UsersApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20075',
+                        '\Swagger\Client\Model\InlineResponse20081',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1926,7 +1926,7 @@ class UsersApi
      */
     public function inviteAsyncWithHttpInfo($body = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20075';
+        $returnType = '\Swagger\Client\Model\InlineResponse20081';
         $request = $this->inviteRequest($body);
 
         return $this->client
@@ -2735,7 +2735,7 @@ class UsersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20075
+     * @return \Swagger\Client\Model\InlineResponse20081
      */
     public function updateMe()
     {
@@ -2751,11 +2751,11 @@ class UsersApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20075, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20081, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateMeWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20075';
+        $returnType = '\Swagger\Client\Model\InlineResponse20081';
         $request = $this->updateMeRequest();
 
         try {
@@ -2807,7 +2807,7 @@ class UsersApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20075',
+                        '\Swagger\Client\Model\InlineResponse20081',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2863,7 +2863,7 @@ class UsersApi
      */
     public function updateMeAsyncWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20075';
+        $returnType = '\Swagger\Client\Model\InlineResponse20081';
         $request = $this->updateMeRequest();
 
         return $this->client

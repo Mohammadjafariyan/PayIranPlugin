@@ -102,6 +102,16 @@ class ItemsApiTest extends TestCase
     }
 
     /**
+     * Test case for createItemsCityTranslations
+     *
+     * Create an Item.
+     *
+     */
+    public function testCreateItemsCityTranslations()
+    {
+    }
+
+    /**
      * Test case for createItemsGateway
      *
      * Create an Item.
@@ -148,6 +158,16 @@ class ItemsApiTest extends TestCase
      *
      */
     public function testCreateItemsJournalEntry()
+    {
+    }
+
+    /**
+     * Test case for createItemsLanguages
+     *
+     * Create an Item.
+     *
+     */
+    public function testCreateItemsLanguages()
     {
     }
 
@@ -242,6 +262,16 @@ class ItemsApiTest extends TestCase
     }
 
     /**
+     * Test case for deleteSingleItemsCityTranslations
+     *
+     * Delete an Item.
+     *
+     */
+    public function testDeleteSingleItemsCityTranslations()
+    {
+    }
+
+    /**
      * Test case for deleteSingleItemsGateway
      *
      * Delete an Item.
@@ -288,6 +318,16 @@ class ItemsApiTest extends TestCase
      *
      */
     public function testDeleteSingleItemsJournalEntry()
+    {
+    }
+
+    /**
+     * Test case for deleteSingleItemsLanguages
+     *
+     * Delete an Item.
+     *
+     */
+    public function testDeleteSingleItemsLanguages()
     {
     }
 
@@ -382,6 +422,16 @@ class ItemsApiTest extends TestCase
     }
 
     /**
+     * Test case for readItemsCityTranslations
+     *
+     * List Items.
+     *
+     */
+    public function testReadItemsCityTranslations()
+    {
+    }
+
+    /**
      * Test case for readItemsGateway
      *
      * List Items.
@@ -428,6 +478,16 @@ class ItemsApiTest extends TestCase
      *
      */
     public function testReadItemsJournalEntry()
+    {
+    }
+
+    /**
+     * Test case for readItemsLanguages
+     *
+     * List Items.
+     *
+     */
+    public function testReadItemsLanguages()
     {
     }
 
@@ -522,6 +582,16 @@ class ItemsApiTest extends TestCase
     }
 
     /**
+     * Test case for readSingleItemsCityTranslations
+     *
+     * Retrieve an Item.
+     *
+     */
+    public function testReadSingleItemsCityTranslations()
+    {
+    }
+
+    /**
      * Test case for readSingleItemsGateway
      *
      * Retrieve an Item.
@@ -568,6 +638,16 @@ class ItemsApiTest extends TestCase
      *
      */
     public function testReadSingleItemsJournalEntry()
+    {
+    }
+
+    /**
+     * Test case for readSingleItemsLanguages
+     *
+     * Retrieve an Item.
+     *
+     */
+    public function testReadSingleItemsLanguages()
     {
     }
 
@@ -662,6 +742,16 @@ class ItemsApiTest extends TestCase
     }
 
     /**
+     * Test case for updateSingleItemsCityTranslations
+     *
+     * Update an Item.
+     *
+     */
+    public function testUpdateSingleItemsCityTranslations()
+    {
+    }
+
+    /**
      * Test case for updateSingleItemsGateway
      *
      * Update an Item.
@@ -708,6 +798,16 @@ class ItemsApiTest extends TestCase
      *
      */
     public function testUpdateSingleItemsJournalEntry()
+    {
+    }
+
+    /**
+     * Test case for updateSingleItemsLanguages
+     *
+     * Update an Item.
+     *
+     */
+    public function testUpdateSingleItemsLanguages()
     {
     }
 

@@ -11,7 +11,7 @@ Method | HTTP request | Description
 [**updateWebhook**](WebhooksApi.md#updatewebhook) | **PATCH** /webhooks/{id} | Update a Webhook
 
 # **createWebhook**
-> \Swagger\Client\Model\InlineResponse20072 createWebhook($body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20078 createWebhook($body, $fields, $meta)
 
 Create a Webhook
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
+[**\Swagger\Client\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
 
 ### Authorization
 
@@ -112,7 +112,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getWebhook**
-> \Swagger\Client\Model\InlineResponse20076 getWebhook($id)
+> \Swagger\Client\Model\InlineResponse20082 getWebhook($id)
 
 Retrieve a Webhook
 
@@ -147,7 +147,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20076**](../Model/InlineResponse20076.md)
+[**\Swagger\Client\Model\InlineResponse20082**](../Model/InlineResponse20082.md)
 
 ### Authorization
 
@@ -161,7 +161,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getWebhooks**
-> \Swagger\Client\Model\InlineResponse20076 getWebhooks()
+> \Swagger\Client\Model\InlineResponse20082 getWebhooks()
 
 List Webhooks
 
@@ -192,7 +192,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20076**](../Model/InlineResponse20076.md)
+[**\Swagger\Client\Model\InlineResponse20082**](../Model/InlineResponse20082.md)
 
 ### Authorization
 
@@ -206,7 +206,7 @@ No authorization required
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **updateWebhook**
-> \Swagger\Client\Model\InlineResponse20072 updateWebhook($id, $body, $fields, $meta)
+> \Swagger\Client\Model\InlineResponse20078 updateWebhook($id, $body, $fields, $meta)
 
 Update a Webhook
 
@@ -247,7 +247,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InlineResponse20072**](../Model/InlineResponse20072.md)
+[**\Swagger\Client\Model\InlineResponse20078**](../Model/InlineResponse20078.md)
 
 ### Authorization
 

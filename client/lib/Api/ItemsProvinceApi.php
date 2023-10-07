@@ -96,7 +96,7 @@ class ItemsProvinceApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20041
+     * @return \Swagger\Client\Model\InlineResponse20047
      */
     public function createItemsProvince($body = null, $meta = null)
     {
@@ -114,11 +114,11 @@ class ItemsProvinceApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20041, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20047, HTTP status code, HTTP response headers (array of strings)
      */
     public function createItemsProvinceWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20041';
+        $returnType = '\Swagger\Client\Model\InlineResponse20047';
         $request = $this->createItemsProvinceRequest($body, $meta);
 
         try {
@@ -170,7 +170,7 @@ class ItemsProvinceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20041',
+                        '\Swagger\Client\Model\InlineResponse20047',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -222,7 +222,7 @@ class ItemsProvinceApi
      */
     public function createItemsProvinceAsyncWithHttpInfo($body = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20041';
+        $returnType = '\Swagger\Client\Model\InlineResponse20047';
         $request = $this->createItemsProvinceRequest($body, $meta);
 
         return $this->client
@@ -359,7 +359,7 @@ class ItemsProvinceApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id31 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id37 $id Index of the item. (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -375,7 +375,7 @@ class ItemsProvinceApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id31 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id37 $id Index of the item. (required)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
@@ -444,7 +444,7 @@ class ItemsProvinceApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id31 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id37 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -464,7 +464,7 @@ class ItemsProvinceApi
      *
      * Delete an Item
      *
-     * @param  \Swagger\Client\Model\Id31 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id37 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -500,7 +500,7 @@ class ItemsProvinceApi
     /**
      * Create request for operation 'deleteSingleItemsProvince'
      *
-     * @param  \Swagger\Client\Model\Id31 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id37 $id Index of the item. (required)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -610,7 +610,7 @@ class ItemsProvinceApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20040
+     * @return \Swagger\Client\Model\InlineResponse20046
      */
     public function readItemsProvince($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
@@ -633,11 +633,11 @@ class ItemsProvinceApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20040, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20046, HTTP status code, HTTP response headers (array of strings)
      */
     public function readItemsProvinceWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20040';
+        $returnType = '\Swagger\Client\Model\InlineResponse20046';
         $request = $this->readItemsProvinceRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         try {
@@ -689,7 +689,7 @@ class ItemsProvinceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20040',
+                        '\Swagger\Client\Model\InlineResponse20046',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -751,7 +751,7 @@ class ItemsProvinceApi
      */
     public function readItemsProvinceAsyncWithHttpInfo($fields = null, $limit = null, $meta = null, $offset = null, $sort = null, $filter = null, $search = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20040';
+        $returnType = '\Swagger\Client\Model\InlineResponse20046';
         $request = $this->readItemsProvinceRequest($fields, $limit, $meta, $offset, $sort, $filter, $search);
 
         return $this->client
@@ -928,13 +928,13 @@ class ItemsProvinceApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id30 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id36 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20042
+     * @return \Swagger\Client\Model\InlineResponse20048
      */
     public function readSingleItemsProvince($id, $fields = null, $meta = null)
     {
@@ -947,17 +947,17 @@ class ItemsProvinceApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id30 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id36 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20042, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20048, HTTP status code, HTTP response headers (array of strings)
      */
     public function readSingleItemsProvinceWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20042';
+        $returnType = '\Swagger\Client\Model\InlineResponse20048';
         $request = $this->readSingleItemsProvinceRequest($id, $fields, $meta);
 
         try {
@@ -1009,7 +1009,7 @@ class ItemsProvinceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20042',
+                        '\Swagger\Client\Model\InlineResponse20048',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1040,7 +1040,7 @@ class ItemsProvinceApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id30 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id36 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1062,7 +1062,7 @@ class ItemsProvinceApi
      *
      * Retrieve an Item
      *
-     * @param  \Swagger\Client\Model\Id30 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id36 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1071,7 +1071,7 @@ class ItemsProvinceApi
      */
     public function readSingleItemsProvinceAsyncWithHttpInfo($id, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20042';
+        $returnType = '\Swagger\Client\Model\InlineResponse20048';
         $request = $this->readSingleItemsProvinceRequest($id, $fields, $meta);
 
         return $this->client
@@ -1114,7 +1114,7 @@ class ItemsProvinceApi
     /**
      * Create request for operation 'readSingleItemsProvince'
      *
-     * @param  \Swagger\Client\Model\Id30 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id36 $id Index of the item. (required)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
@@ -1227,14 +1227,14 @@ class ItemsProvinceApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id32 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id38 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsProvince $body body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20042
+     * @return \Swagger\Client\Model\InlineResponse20048
      */
     public function updateSingleItemsProvince($id, $body = null, $fields = null, $meta = null)
     {
@@ -1247,18 +1247,18 @@ class ItemsProvinceApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id32 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id38 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsProvince $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20042, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20048, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateSingleItemsProvinceWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20042';
+        $returnType = '\Swagger\Client\Model\InlineResponse20048';
         $request = $this->updateSingleItemsProvinceRequest($id, $body, $fields, $meta);
 
         try {
@@ -1310,7 +1310,7 @@ class ItemsProvinceApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20042',
+                        '\Swagger\Client\Model\InlineResponse20048',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1341,7 +1341,7 @@ class ItemsProvinceApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id32 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id38 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsProvince $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
@@ -1364,7 +1364,7 @@ class ItemsProvinceApi
      *
      * Update an Item
      *
-     * @param  \Swagger\Client\Model\Id32 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id38 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsProvince $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)
@@ -1374,7 +1374,7 @@ class ItemsProvinceApi
      */
     public function updateSingleItemsProvinceAsyncWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20042';
+        $returnType = '\Swagger\Client\Model\InlineResponse20048';
         $request = $this->updateSingleItemsProvinceRequest($id, $body, $fields, $meta);
 
         return $this->client
@@ -1417,7 +1417,7 @@ class ItemsProvinceApi
     /**
      * Create request for operation 'updateSingleItemsProvince'
      *
-     * @param  \Swagger\Client\Model\Id32 $id Index of the item. (required)
+     * @param  \Swagger\Client\Model\Id38 $id Index of the item. (required)
      * @param  \Swagger\Client\Model\ItemsProvince $body (optional)
      * @param  string[] $fields Control what fields are being returned in the object. (optional)
      * @param  string $meta What metadata to return in the response. (optional)

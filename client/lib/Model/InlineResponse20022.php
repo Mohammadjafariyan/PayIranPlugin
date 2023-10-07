@@ -56,7 +56,7 @@ class InlineResponse20022 implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'data' => '\Swagger\Client\Model\ItemsGeneralLedger[]',
+        'data' => '\Swagger\Client\Model\ItemsGateway[]',
 'meta' => '\Swagger\Client\Model\XMetadata'    ];
 
     /**
@@ -205,7 +205,7 @@ class InlineResponse20022 implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \Swagger\Client\Model\ItemsGeneralLedger[]
+     * @return \Swagger\Client\Model\ItemsGateway[]
      */
     public function getData()
     {
@@ -215,7 +215,7 @@ class InlineResponse20022 implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \Swagger\Client\Model\ItemsGeneralLedger[] $data data
+     * @param \Swagger\Client\Model\ItemsGateway[] $data data
      *
      * @return $this
      */

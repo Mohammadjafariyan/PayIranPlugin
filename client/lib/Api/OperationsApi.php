@@ -97,7 +97,7 @@ class OperationsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20080
+     * @return \Swagger\Client\Model\InlineResponse20086
      */
     public function createOperation($body = null, $fields = null, $meta = null)
     {
@@ -116,11 +116,11 @@ class OperationsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20080, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20086, HTTP status code, HTTP response headers (array of strings)
      */
     public function createOperationWithHttpInfo($body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20080';
+        $returnType = '\Swagger\Client\Model\InlineResponse20086';
         $request = $this->createOperationRequest($body, $fields, $meta);
 
         try {
@@ -172,7 +172,7 @@ class OperationsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20080',
+                        '\Swagger\Client\Model\InlineResponse20086',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -234,7 +234,7 @@ class OperationsApi
      */
     public function createOperationAsyncWithHttpInfo($body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20080';
+        $returnType = '\Swagger\Client\Model\InlineResponse20086';
         $request = $this->createOperationRequest($body, $fields, $meta);
 
         return $this->client
@@ -624,7 +624,7 @@ class OperationsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20080
+     * @return \Swagger\Client\Model\InlineResponse20086
      */
     public function getOperation($id)
     {
@@ -641,11 +641,11 @@ class OperationsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20080, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20086, HTTP status code, HTTP response headers (array of strings)
      */
     public function getOperationWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20080';
+        $returnType = '\Swagger\Client\Model\InlineResponse20086';
         $request = $this->getOperationRequest($id);
 
         try {
@@ -697,7 +697,7 @@ class OperationsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20080',
+                        '\Swagger\Client\Model\InlineResponse20086',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -755,7 +755,7 @@ class OperationsApi
      */
     public function getOperationAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20080';
+        $returnType = '\Swagger\Client\Model\InlineResponse20086';
         $request = $this->getOperationRequest($id);
 
         return $this->client
@@ -901,7 +901,7 @@ class OperationsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20079
+     * @return \Swagger\Client\Model\InlineResponse20085
      */
     public function getOperations()
     {
@@ -917,11 +917,11 @@ class OperationsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20079, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20085, HTTP status code, HTTP response headers (array of strings)
      */
     public function getOperationsWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20079';
+        $returnType = '\Swagger\Client\Model\InlineResponse20085';
         $request = $this->getOperationsRequest();
 
         try {
@@ -973,7 +973,7 @@ class OperationsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20079',
+                        '\Swagger\Client\Model\InlineResponse20085',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1029,7 +1029,7 @@ class OperationsApi
      */
     public function getOperationsAsyncWithHttpInfo()
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20079';
+        $returnType = '\Swagger\Client\Model\InlineResponse20085';
         $request = $this->getOperationsRequest();
 
         return $this->client
@@ -1164,7 +1164,7 @@ class OperationsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\InlineResponse20080
+     * @return \Swagger\Client\Model\InlineResponse20086
      */
     public function updateOperation($id, $body = null, $fields = null, $meta = null)
     {
@@ -1184,11 +1184,11 @@ class OperationsApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\InlineResponse20080, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\InlineResponse20086, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateOperationWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20080';
+        $returnType = '\Swagger\Client\Model\InlineResponse20086';
         $request = $this->updateOperationRequest($id, $body, $fields, $meta);
 
         try {
@@ -1240,7 +1240,7 @@ class OperationsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\InlineResponse20080',
+                        '\Swagger\Client\Model\InlineResponse20086',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1304,7 +1304,7 @@ class OperationsApi
      */
     public function updateOperationAsyncWithHttpInfo($id, $body = null, $fields = null, $meta = null)
     {
-        $returnType = '\Swagger\Client\Model\InlineResponse20080';
+        $returnType = '\Swagger\Client\Model\InlineResponse20086';
         $request = $this->updateOperationRequest($id, $body, $fields, $meta);
 
         return $this->client
