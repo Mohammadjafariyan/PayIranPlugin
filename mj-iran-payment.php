@@ -34,6 +34,9 @@ function mj_page_payment( $page_template )
 	if ( is_page( 'payment-callback' ) ) {
         $page_template = dirname( __FILE__ ) . '/page-templates/payment-callback.php';
     }
+	if ( is_page( 'register' ) ) {
+        $page_template = dirname( __FILE__ ) . '/page-templates/register.php';
+    }
     return $page_template;
 }
 
@@ -67,3 +70,8 @@ function mj_send_email_to_admin() {
 }
 add_action( 'admin_post_nopriv_Payment_form', 'mj_send_email_to_admin' );
 add_action( 'admin_post_Payment_form', 'mj_send_email_to_admin');
+
+
+
+//=================================================================
+
