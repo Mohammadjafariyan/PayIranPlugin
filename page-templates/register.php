@@ -14,11 +14,10 @@ require_once(MJ_PAYMENT_ROOT_PATH . '/client/vendor/autoload.php');
 ?>
 
 
-<hr />
-<?php 
+<?php
 
 if($_SERVER['REQUEST_METHOD']==='POST') {
-  
+
 
 if($_POST["password"]===$_POST["confirmpassword"]){
 
@@ -27,7 +26,7 @@ $apiInstance = new Swagger\Client\Api\UsersApi(
   // This is optional, `GuzzleHttp\Client` will be used as default.
   new GuzzleHttp\Client()
 );
-$body = 
+$body =
 ' {
 "first_name":"'.$_POST["first_name"].'",
 "last_name":"'.$_POST["last_name"].'",
@@ -38,7 +37,7 @@ $body =
 
 
 echo $body;
-//new \Swagger\Client\Model\Users(); // \Swagger\Client\Model\Users | 
+//new \Swagger\Client\Model\Users(); // \Swagger\Client\Model\Users |
 $meta = ""; // string | What metadata to return in the response.
 
 try {
@@ -47,7 +46,7 @@ try {
   print_r($result);
 
   ?>  <div class="alert alert-success" role="alert">
-  <strong>پیغام موفق</strong> ثبت نام با موفقیت انجام شد 
+  <strong>پیغام موفق</strong> ثبت نام با موفقیت انجام شد
   می توانید از <a target="_blank" href="http://37.120.222.28:8055/admin/login">لینک ورود</a> به سیستم اقدام فرمایید
 
 </div>
@@ -64,7 +63,7 @@ try {
 
     </div>
       <?php
-  
+
 }
 }
 
@@ -145,8 +144,8 @@ try {
 
 
                                         <div class="col-2"><input required="required"
-                                        oninvalid="validate(this,'پذیرفتن قوانین جهت ثبت نام ضروری است لطفا جهت ادامه این چک باکس را تیک بزنید')" 
-                                        
+                                        oninvalid="validate(this,'پذیرفتن قوانین جهت ثبت نام ضروری است لطفا جهت ادامه این چک باکس را تیک بزنید')"
+
                                         class="form-check-input " type="checkbox" value=""
                                                 id="form2Example3c" />
                                         </div>
@@ -163,10 +162,10 @@ try {
                                         <div class="col-2">
                                         </div>
                                         <label class="col-10 form-check-label " for="form2Example3">
-                                          اکانت دارید ؟ 
-                                           
+                                          اکانت دارید ؟
+
                                            <a href="http://37.120.222.28:8055/admin/login">ورود به سیستم</a>
-                                           
+
                                         </label>
 
                                     </div>
