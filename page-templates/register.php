@@ -188,13 +188,18 @@ try {
                                 </form>
 
                             </div>
-                            <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+                            <div class="col-md-10 col-lg-6 col-xl-7 d-flex flex-column-reverse align-items-center order-1 order-lg-2">
 
 
-								<?php get_custom_logo() ?>
-                                <img src="<?php echo plugin_dir_url( __DIR__  ) . 'assets/draw1.webp'; ?>"
+
+								<div class="column">
+								<img src="<?php echo plugin_dir_url( __DIR__  ) . 'assets/draw1.webp'; ?>"
                                     class="img-fluid" alt="Sample image">
+								</div>
 
+								<div class="column">
+									<?php get_template_part( 'global-templates/navbar-branding' ); ?>
+								</div>
                             </div>
                         </div>
                     </div>
