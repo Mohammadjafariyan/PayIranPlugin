@@ -52,6 +52,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 				اقدام فرمایید
 
 			</div>
+
+			<script>
+				window.location="http://bulupay.com:8055/"
+			</script>
+
 			<?php
 		} catch (Exception $e) {
 
