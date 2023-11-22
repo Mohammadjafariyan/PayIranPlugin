@@ -207,10 +207,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 											</button>
 
 											<a style="text-align:center" class="btn btn-outline-dark mt-2"
-											   href="/users/googleauth" role="button" style="text-transform:none">
+											   href="https://dash.bulupay.com/admin/login" role="button" style="text-transform:none">
 												<img width="20px" style="margin-bottom:3px; margin-right:5px"
 													 alt="Google sign-in"
-													 src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"/>
+													 src="<?php echo plugin_dir_url(__DIR__) . 'assets/google.png'; ?>"/>
 												ثبت نام با Google
 											</a>
 										</div>
