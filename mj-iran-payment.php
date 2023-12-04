@@ -168,10 +168,10 @@ function bulupay_gen_token_func( WP_REST_Request $request )
 // Set the encrypted datetime in the cache for a specified duration (e.g., 1 hour)
 	$cacheKey = hash('sha256', $randomString);
 	$cacheGroup = 'bulupay_cache_group';
-	$expiration = 60; // 3600 seconds = 1 hour
+	$expiration = 90; // 3600 seconds = 1 hour
 
-	wp_cache_set($cacheKey, $signature, $cacheGroup, $expiration);
-
+	//wp_cache_set($cacheKey, $signature, $cacheGroup, $expiration);
+	set_transient($cacheKey,$signature,$expiration);
 
 	$data = array( 'temp_api_key'=> $cacheKey );
 
@@ -196,3 +196,15 @@ function bulupay_gen_token_func( WP_REST_Request $request )
 
 //=================================================================
 
+// Log cache set events
+add_action('wp_cache_set', function ($key, $data, $group = '', $expire = 0) {
+	error_log("Cache Set: Key - $key, Group - $group, Expire - $expire");
+}, 10, 4);
+
+// Log cache get events
+add_action('wp_cache_get', function ($result, $key, $group = '') {
+	if ($result !== false) {
+		error_log("Cache Get: Key - $key, Group - $group");
+	}
+	return $result;
+}, 10, 3);

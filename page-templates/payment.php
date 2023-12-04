@@ -19,6 +19,24 @@ $access_token = $_POST["access_token"];
 $gateway_token = $_POST["gateway_token"];
 
 
+
+if(isset($_POST["temporary"])){
+
+	$cacheKey = $_POST["access_token"];
+
+	$cache_data = get_transient($cacheKey);
+
+
+	if ($cache_data === false) {
+		// Cache miss, handle accordingly
+		echo 'your token is expired please try again ';
+		die();
+	}
+
+	$access_token = $cache_data;
+
+}
+
 ?>
 
 <ul>
